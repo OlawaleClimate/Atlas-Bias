@@ -1,0 +1,12 @@
+{
+  "id": "ne-pacific-warm-sst",
+  "source": "pipeline/outputs/validated/ne-pacific-warm-sst.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

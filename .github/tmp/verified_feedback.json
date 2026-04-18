@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "errors": [],
+  "verified_feedback": {
+    "issue_number": 101,
+    "title": "Feedback: double-itcz citation update",
+    "submitted_by": "atlas-contrib",
+    "date": "2026-04-17",
+    "bias_id": "double-itcz",
+    "verdict": "CONFIRMED",
+    "confidence": "high",
+    "doi": "10.1234/example.double-itcz",
+    "summary": "Added reference supporting mechanism and severity.",
+    "pr_number": 202,
+    "raw_fields": {
+      "bias_id": "double-itcz",
+      "verdict": "CONFIRMED",
+      "confidence": "high",
+      "doi": "10.1234/example.double-itcz",
+      "summary": "Added reference supporting mechanism and severity.",
+      "pr_number": "202"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "itcz-width-bias",
+  "source": "pipeline/outputs/validated/itcz-width-bias.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

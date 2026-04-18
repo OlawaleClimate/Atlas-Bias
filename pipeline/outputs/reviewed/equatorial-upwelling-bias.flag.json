@@ -1,0 +1,12 @@
+{
+  "id": "equatorial-upwelling-bias",
+  "source": "pipeline/outputs/validated/equatorial-upwelling-bias.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

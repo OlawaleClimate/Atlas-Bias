@@ -1,0 +1,12 @@
+{
+  "id": "nw-pacific-cold-sst",
+  "source": "pipeline/outputs/validated/nw-pacific-cold-sst.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "jet-equatorward-bias",
+  "name": "Jet Stream Equatorward Bias",
+  "version": "1.0",
+  "last_updated": "2026-04-16",
+  "category": "circulation",
+  "region": "midlatitudes",
+  "season": "annual",
+  "affected_variables": [],
+  "description": "Draft description placeholder for Jet Stream Equatorward Bias.",
+  "persistence": "longstanding",
+  "cmip_history": [],
+  "severity_by_model": {},
+  "implicated_params": [],
+  "fix_attempts": [],
+  "cascade_links": [],
+  "disputed_mechanisms": [],
+  "citations": [
+    {
+      "authors": "Bias Atlas Working Group",
+      "year": 2026,
+      "journal": "Bias Atlas Placeholder Bibliography",
+      "doi": "10.0000/atlas-bias.jet-equatorward-bias",
+      "relevance": "Placeholder citation for scaffold stage; replace with peer-reviewed source."
+    }
+  ],
+  "feedback_history": [],
+  "changelog": []
+}

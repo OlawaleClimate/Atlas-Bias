@@ -1,0 +1,12 @@
+{
+  "id": "tropical-diurnal-timing",
+  "source": "pipeline/outputs/validated/tropical-diurnal-timing.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "antarctic-sea-ice-trend",
+  "source": "pipeline/outputs/validated/antarctic-sea-ice-trend.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

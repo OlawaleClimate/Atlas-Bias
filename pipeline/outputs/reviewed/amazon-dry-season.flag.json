@@ -1,0 +1,12 @@
+{
+  "id": "amazon-dry-season",
+  "source": "pipeline/outputs/validated/amazon-dry-season.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

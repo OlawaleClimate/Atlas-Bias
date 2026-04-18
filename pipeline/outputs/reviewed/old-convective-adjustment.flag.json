@@ -1,0 +1,12 @@
+{
+  "id": "old-convective-adjustment",
+  "source": "pipeline/outputs/validated/old-convective-adjustment.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

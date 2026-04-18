@@ -1,0 +1,36 @@
+name: Rebuild On Data Merge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - src/data/**
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Schema validation
+        run: python agents/run_schema_validation.py
+
+      - name: QC review
+        run: python agents/run_qc_review.py --fail-on-warning
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npm run build

@@ -1,0 +1,26 @@
+name: Verify Feedback
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  verify:
+    if: contains(github.event.issue.labels.*.name, 'needs-verification')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Verify structured feedback
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+        run: python agents/verify_feedback.py
+
+      - name: Apply verified feedback to record
+        run: python agents/update_record.py --verified-payload .github/tmp/verified_feedback.json

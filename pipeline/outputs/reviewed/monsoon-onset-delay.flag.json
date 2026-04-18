@@ -1,0 +1,12 @@
+{
+  "id": "monsoon-onset-delay",
+  "source": "pipeline/outputs/validated/monsoon-onset-delay.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sea-ice-thickness-bias",
+  "source": "pipeline/outputs/validated/sea-ice-thickness-bias.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

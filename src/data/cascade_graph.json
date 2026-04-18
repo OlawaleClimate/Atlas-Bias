@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    { "id": "double-itcz", "label": "Double ITCZ" },
+    { "id": "cold-tongue", "label": "Cold Tongue Bias" },
+    { "id": "mjo-propagation", "label": "Weak MJO Propagation" }
+  ],
+  "edges": [
+    {
+      "source": "cold-tongue",
+      "target": "double-itcz",
+      "relationship": "amplifies",
+      "confidence": "medium"
+    },
+    {
+      "source": "double-itcz",
+      "target": "mjo-propagation",
+      "relationship": "masks",
+      "confidence": "low"
+    }
+  ]
+}

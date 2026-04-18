@@ -1,0 +1,12 @@
+{
+  "id": "enso-amplitude-bias",
+  "source": "pipeline/outputs/validated/enso-amplitude-bias.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

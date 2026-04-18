@@ -1,0 +1,69 @@
+name: Bias Feedback
+description: Submit evidence-backed feedback for a bias record.
+title: "Feedback: <bias-id>"
+labels:
+  - needs-verification
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit structured feedback for automated verification and record update.
+        Use valid DOI and an existing bias ID from src/data/entries.
+
+  - type: input
+    id: bias_id
+    attributes:
+      label: bias_id
+      description: Bias record identifier, for example double-itcz.
+      placeholder: double-itcz
+    validations:
+      required: true
+
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: verdict
+      options:
+        - CONFIRMED
+        - DISPUTED
+        - REJECTED
+    validations:
+      required: true
+
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: confidence
+      options:
+        - high
+        - medium
+        - low
+    validations:
+      required: true
+
+  - type: input
+    id: doi
+    attributes:
+      label: doi
+      description: Evidence DOI in format 10.xxxx/xxxx.
+      placeholder: 10.1029/2020GL087232
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: summary
+      description: Short evidence summary and impact on record.
+      placeholder: This paper confirms mechanism X and revises severity for model Y.
+    validations:
+      required: true
+
+  - type: input
+    id: pr_number
+    attributes:
+      label: pr_number
+      description: Pull request number if already opened.
+      placeholder: "202"
+    validations:
+      required: false

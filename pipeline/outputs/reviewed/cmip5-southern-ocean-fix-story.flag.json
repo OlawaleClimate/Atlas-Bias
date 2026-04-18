@@ -1,0 +1,12 @@
+{
+  "id": "cmip5-southern-ocean-fix-story",
+  "source": "pipeline/outputs/validated/cmip5-southern-ocean-fix-story.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

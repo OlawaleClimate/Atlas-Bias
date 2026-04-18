@@ -1,0 +1,12 @@
+{
+  "id": "early-runaway-sea-ice",
+  "source": "pipeline/outputs/validated/early-runaway-sea-ice.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

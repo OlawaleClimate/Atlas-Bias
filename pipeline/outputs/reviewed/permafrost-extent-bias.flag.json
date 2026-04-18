@@ -1,0 +1,12 @@
+{
+  "id": "permafrost-extent-bias",
+  "source": "pipeline/outputs/validated/permafrost-extent-bias.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

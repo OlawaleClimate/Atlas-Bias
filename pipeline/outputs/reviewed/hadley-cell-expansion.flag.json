@@ -1,0 +1,12 @@
+{
+  "id": "hadley-cell-expansion",
+  "source": "pipeline/outputs/validated/hadley-cell-expansion.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

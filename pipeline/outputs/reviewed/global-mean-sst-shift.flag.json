@@ -1,0 +1,12 @@
+{
+  "id": "global-mean-sst-shift",
+  "source": "pipeline/outputs/validated/global-mean-sst-shift.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

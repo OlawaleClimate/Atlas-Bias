@@ -1,0 +1,12 @@
+{
+  "id": "soil-moisture-coupling",
+  "source": "pipeline/outputs/validated/soil-moisture-coupling.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

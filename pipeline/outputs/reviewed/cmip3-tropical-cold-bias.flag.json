@@ -1,0 +1,12 @@
+{
+  "id": "cmip3-tropical-cold-bias",
+  "source": "pipeline/outputs/validated/cmip3-tropical-cold-bias.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "cold-tongue-bias",
+  "source": "pipeline/outputs/validated/cold-tongue-bias.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+:root {
+  --bg: #0f1520;
+  --panel: #1a2434;
+  --ink: #e9f1ff;
+  --muted: #9cb2cf;
+  --line: #2f3f58;
+  --accent: #5cc8ff;
+  --warn: #f3b34c;
+  --ok: #3ccf8e;
+  --bad: #ff6a6a;
+  --mono: "JetBrains Mono", "Menlo", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 80% -20%, #1e3558 0%, transparent 35%), var(--bg);
+  color: var(--ink);
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.topbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.config-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+  border-color: #8f6a20;
+}
+
+.config-banner a {
+  color: var(--warn);
+  text-decoration: none;
+  border: 1px solid #8f6a20;
+  border-radius: 8px;
+  padding: 8px 10px;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  gap: 8px;
+}
+
+.nav a {
+  border: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.grid {
+  display: grid;
+  gap: 12px;
+}
+
+.grid-2 {
+  grid-template-columns: 320px 1fr;
+}
+
+.small {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.badge {
+  font-family: var(--mono);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+.badge.warn { border-color: #8f6a20; color: var(--warn); }
+.badge.ok { border-color: #1f7a56; color: var(--ok); }
+.badge.bad { border-color: #8e2f2f; color: var(--bad); }
+
+.list {
+  display: grid;
+  gap: 10px;
+  max-height: 70vh;
+  overflow: auto;
+}
+
+button,
+select,
+input,
+textarea {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: #121a27;
+  color: var(--ink);
+}
+
+.feedback-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 900px) {
+  .config-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}

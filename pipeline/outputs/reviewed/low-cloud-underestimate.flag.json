@@ -1,0 +1,12 @@
+{
+  "id": "low-cloud-underestimate",
+  "source": "pipeline/outputs/validated/low-cloud-underestimate.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}

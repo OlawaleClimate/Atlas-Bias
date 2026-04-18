@@ -1,0 +1,43 @@
+{
+  "id": "mjo-propagation",
+  "name": "MJO Propagation Speed Bias",
+  "version": "1.0",
+  "last_updated": "2026-04-16",
+  "category": "circulation",
+  "region": "indo_pacific",
+  "season": "DJF",
+  "affected_variables": ["olr", "u850", "q"],
+  "description": "Eastward MJO propagation is too weak or too slow in many GCMs.",
+  "persistence": "longstanding",
+  "cmip_history": [
+    { "generation": "CMIP5", "severity": "moderate", "notes": "Common phase speed error" },
+    { "generation": "CMIP6", "severity": "moderate", "notes": "Model spread remains large" }
+  ],
+  "severity_by_model": {
+    "E3SMv2": { "severity": "moderate", "direction": "slow", "source": "10.1000/atlas022" },
+    "MPI-ESM1-2": { "severity": "moderate", "direction": "slow", "source": "10.1000/atlas022" }
+  },
+  "implicated_params": [
+    {
+      "subsystem": "convection",
+      "parameter": "entrainment_rate",
+      "role": "Controls moisture-convection coupling strength",
+      "type": "primary",
+      "evidence": "10.1000/atlas022"
+    }
+  ],
+  "fix_attempts": [],
+  "cascade_links": [],
+  "disputed_mechanisms": [],
+  "citations": [
+    {
+      "authors": "Author Team",
+      "year": 2024,
+      "journal": "Journal of Climate",
+      "doi": "10.1000/atlas022",
+      "relevance": "MJO speed diagnostics"
+    }
+  ],
+  "feedback_history": [],
+  "changelog": []
+}

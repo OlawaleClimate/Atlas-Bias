@@ -1,0 +1,12 @@
+{
+  "id": "deep-ocean-ventilation",
+  "source": "pipeline/outputs/validated/deep-ocean-ventilation.json",
+  "status": "flagged",
+  "findings": [
+    {
+      "severity": "warning",
+      "check": "citations",
+      "message": "No citations provided for this record."
+    }
+  ]
+}
