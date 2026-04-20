@@ -247,67 +247,124 @@ def build_description(
     papers: list[dict[str, Any]],
     bias_name: str,
     keywords: list[str],
+    catalogue_entry: dict[str, Any] | None = None,
 ) -> str:
-    """Build a 3-paragraph description from the verified paper abstracts.
+    """Build a 3-paragraph description.
 
-    Sentences that come directly from an abstract are tagged with [N] where N
-    is the 1-based index into the citations list, so the UI can render them as
-    superscript inline citations.
+    Para 1 — Definition: What is this bias? (anchored by catalogue definition)
+    Para 2 — CMIP History: How has it evolved across CMIP generations?
+    Para 3 — Causes: What drives the bias? (anchored by catalogue cause_hint)
+
+    Sentences pulled from abstracts are tagged [N] (1-based citation index).
+    A global seen-set prevents any sentence appearing in more than one paragraph.
     """
-
-    # Build (hits, sentence, paper_1based_index) for every sentence in every abstract
-    all_sents: list[tuple[int, str, int]] = []
-    for idx, p in enumerate(papers, start=1):
-        abstract = p.get("abstract", "")
-        for sent in split_sentences(abstract):
-            hits = sum(1 for kw in keywords if kw in sent.lower())
-            all_sents.append((hits, sent, idx))
-
-    all_sents.sort(key=lambda x: x[0], reverse=True)
+    cat = catalogue_entry or {}
+    definition  = cat.get("definition",  "")
+    cause_hint  = cat.get("cause_hint",  "")
 
     def tag(sent: str, idx: int) -> str:
-        """Append citation marker to sentence (before the final period if present)."""
         sent = sent.rstrip()
         if sent.endswith("."):
             return sent[:-1] + f" [{idx}]."
         return sent + f" [{idx}]"
 
-    # Para 1: What is the bias — highest-hit sentences
-    high_hit = [(h, s, i) for h, s, i in all_sents if h >= 2][:2]
-    if not high_hit:
-        high_hit = all_sents[:2]
-    intro = f"The {bias_name} is one of the most documented systematic errors in coupled climate models."
-    para1_body = " ".join(tag(s, i) for _, s, i in high_hit)
-    para1 = intro + " " + para1_body
+    # Build per-paper sentence pool: (hits, sentence, 1-based paper index)
+    all_sents: list[tuple[int, str, int]] = []
+    for idx, p in enumerate(papers, start=1):
+        for sent in split_sentences(p.get("abstract", "")):
+            hits = sum(1 for kw in keywords if kw in sent.lower())
+            all_sents.append((hits, sent, idx))
+    all_sents.sort(key=lambda x: x[0], reverse=True)
 
-    # Para 2: History — sentences mentioning CMIP generations
-    cmip_sents = [(h, s, i) for h, s, i in all_sents
-                  if any(m in s.lower()
-                         for gen_markers in CMIP_MARKERS.values()
-                         for m in gen_markers)][:2]
-    if cmip_sents:
-        intro2 = ("Across successive generations of the Coupled Model Intercomparison Project "
-                  "(CMIP), the bias has been tracked in multi-model assessments.")
-        para2 = intro2 + " " + " ".join(tag(s, i) for _, s, i in cmip_sents)
+    # Global dedup — a sentence key used across all 3 paragraphs
+    used: set[str] = set()
+
+    def pick_unseen(pool: list[tuple[int, str, int]], n: int) -> list[tuple[int, str, int]]:
+        out = []
+        for item in pool:
+            if len(out) >= n:
+                break
+            key = item[1][:70]
+            if key not in used:
+                used.add(key)
+                out.append(item)
+        return out
+
+    # ── Para 1: Definition ────────────────────────────────────────────────
+    # Use the catalogue definition as the fixed opening sentence.
+    # Follow with the 1 abstract sentence most relevant to describing the bias.
+    defn_sentence = definition if definition else (
+        f"The {bias_name} is a systematic error in coupled climate models "
+        f"that has been documented across multiple CMIP generations."
+    )
+    # Mark catalogue sentences as "used" so they never appear later
+    for s in split_sentences(defn_sentence):
+        used.add(s[:70])
+
+    best_abstract_sents = pick_unseen(all_sents, 1)
+    para1 = defn_sentence
+    if best_abstract_sents:
+        _, s, i = best_abstract_sents[0]
+        para1 += " " + tag(s, i)
+
+    # ── Para 2: CMIP History ──────────────────────────────────────────────
+    # Pick up to 2 unseen abstract sentences that mention a CMIP generation.
+    cmip_pool = [(h, s, i) for h, s, i in all_sents
+                 if any(m in s.lower()
+                        for gen_markers in CMIP_MARKERS.values()
+                        for m in gen_markers)]
+    cmip_picks = pick_unseen(cmip_pool, 2)
+
+    if cmip_picks:
+        intro2 = (
+            "The bias has been tracked across successive generations of the "
+            "Coupled Model Intercomparison Project (CMIP), with multi-model "
+            "assessments showing it is present in CMIP3, CMIP5, and CMIP6."
+        )
+        used.add(intro2[:70])
+        para2 = intro2 + " " + " ".join(tag(s, i) for _, s, i in cmip_picks)
     else:
-        para2 = ("The bias has persisted across multiple generations of the Coupled Model "
-                 "Intercomparison Project (CMIP), from CMIP3 through CMIP6.")
+        para2 = (
+            "The bias has persisted across multiple generations of the Coupled "
+            "Model Intercomparison Project (CMIP), from CMIP3 through CMIP6, "
+            "and has been assessed in numerous multi-model studies."
+        )
 
-    # Para 3: Causes and solutions — sentences with mechanism or fix keywords
-    mechanism_keywords = [
-        "parameteris", "convect", "wind", "upwelling", "radiation",
-        "cloud", "albedo", "feedback", "tuning", "correction",
-        "reduces", "improved", "mitigated", "attributed",
+    # ── Para 3: Causes ────────────────────────────────────────────────────
+    # Lead with the catalogue cause_hint, then append the best unseen abstract
+    # sentence about mechanisms, attribution, or feedback.
+    cause_kws = [
+        "caused by", "attributed", "due to", "driven by", "feedback",
+        "parameteris", "interaction", "upwelling", "convect",
+        "microphysic", "boundary layer", "entrainment", "inversion",
+        "trade wind", "shortwave", "longwave", "albedo", "bjerknes",
     ]
-    mech_sents = [(h, s, i) for h, s, i in all_sents
-                  if any(m in s.lower() for m in mechanism_keywords)][:2]
-    if mech_sents:
-        intro3 = ("The physical mechanisms underlying this bias and potential pathways "
-                  "to its reduction have been investigated in several studies.")
-        para3 = intro3 + " " + " ".join(tag(s, i) for _, s, i in mech_sents)
+    cause_pool = [(h, s, i) for h, s, i in all_sents
+                  if any(k in s.lower() for k in cause_kws)]
+    # Fall back to any high-keyword sentences if no cause-specific ones found
+    if not cause_pool:
+        cause_pool = all_sents
+    cause_picks = pick_unseen(cause_pool, 1)
+
+    if cause_hint:
+        for s in split_sentences(cause_hint):
+            used.add(s[:70])
+        para3 = cause_hint
+        if cause_picks:
+            _, s, i = cause_picks[0]
+            para3 += " " + tag(s, i)
+    elif cause_picks:
+        intro3 = (
+            "The physical mechanisms underlying this bias and pathways to "
+            "its reduction have been investigated in several modelling studies."
+        )
+        used.add(intro3[:70])
+        para3 = intro3 + " " + " ".join(tag(s, i) for _, s, i in cause_picks)
     else:
-        para3 = ("The mechanisms driving this bias and candidate solutions remain the "
-                 "subject of ongoing research in the modelling community.")
+        para3 = (
+            "The mechanisms driving this bias and candidate solutions remain "
+            "an active area of research in the climate modelling community."
+        )
 
     return "\n\n".join([para1, para2, para3])
 
@@ -394,7 +451,7 @@ def build_draft(data: dict[str, Any]) -> dict[str, Any]:
     category = catalogue_entry.get("category", "")
     region   = catalogue_entry.get("region", "")
 
-    description  = build_description(papers, bias_name, keywords)
+    description  = build_description(papers, bias_name, keywords, catalogue_entry)
     cmip_history = build_cmip_history(papers)
 
     citations = []

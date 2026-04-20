@@ -39,6 +39,18 @@ BIAS_CATALOGUE: dict[str, dict[str, Any]] = {
         "name": "Cold Tongue Bias",
         "category": "temperature",
         "region": "equatorial_pacific",
+        "definition": (
+            "The Cold Tongue Bias is a systematic warm-to-cold sea surface temperature (SST) "
+            "error in which coupled climate models produce an excessively cold and eastward-extended "
+            "equatorial Pacific cold tongue, causing the simulated SST to be too cold by 1–3 K "
+            "across the eastern and central Pacific relative to observations."
+        ),
+        "cause_hint": (
+            "The bias is primarily driven by overly strong easterly trade winds and excessive "
+            "coastal upwelling in the eastern Pacific, reinforced by the Bjerknes ocean–atmosphere "
+            "feedback loop. Atmosphere-only (AMIP) models do not exhibit this error, confirming "
+            "that it originates from the coupled ocean–atmosphere interaction."
+        ),
         "primary_query": '"cold tongue bias" equatorial Pacific CMIP climate model SST',
         "secondary_query": "equatorial Pacific SST cold bias trade wind upwelling CMIP coupled model",
         "keywords": ["cold tongue", "equatorial pacific", "sst bias", "trade wind",
@@ -48,6 +60,19 @@ BIAS_CATALOGUE: dict[str, dict[str, Any]] = {
         "name": "Double ITCZ",
         "category": "precipitation",
         "region": "tropical_pacific",
+        "definition": (
+            "The Double ITCZ bias is a persistent error in which coupled climate models produce "
+            "a spurious band of precipitation symmetrically south of the equator in the eastern "
+            "tropical Pacific, creating a false mirror image of the observed single intertropical "
+            "convergence zone (ITCZ) that lies north of the equator."
+        ),
+        "cause_hint": (
+            "The bias is linked to excessive downward solar radiation over the Southern Hemisphere "
+            "midlatitudes caused by insufficient low cloud cover during austral spring and summer. "
+            "This drives anomalous surface warming south of the equator, shifting the atmospheric "
+            "convergence and precipitation southward. The error is partly traceable to atmospheric "
+            "model formulations of marine boundary-layer clouds."
+        ),
         "primary_query": '"double ITCZ" bias CMIP climate model precipitation tropical Pacific',
         "secondary_query": "double intertropical convergence zone bias Southern Hemisphere precipitation CMIP model",
         "keywords": ["double itcz", "intertropical convergence zone", "southern hemisphere",
@@ -57,6 +82,19 @@ BIAS_CATALOGUE: dict[str, dict[str, Any]] = {
         "name": "Southern Ocean Warm SST Bias",
         "category": "temperature",
         "region": "southern_ocean",
+        "definition": (
+            "The Southern Ocean Warm SST Bias is a systematic overestimate of sea surface "
+            "temperatures across the Southern Ocean (40°S–65°S) in coupled climate models, "
+            "typically ranging from +0.5 K to +2 K relative to observations, and is one of "
+            "the most persistent errors across successive CMIP generations."
+        ),
+        "cause_hint": (
+            "The warm bias arises primarily from insufficient reflected shortwave radiation — "
+            "models underestimate Southern Ocean cloud cover and cloud optical depth, particularly "
+            "low-level stratocumulus and mixed-phase clouds. This excess of absorbed solar radiation "
+            "at the surface elevates SSTs. The bias feeds back into the Atlantic meridional "
+            "overturning circulation and global heat transport."
+        ),
         "primary_query": '"Southern Ocean" SST warm bias CMIP climate model sea surface temperature',
         "secondary_query": "Southern Ocean warm bias shortwave cloud radiation coupled model CMIP",
         "keywords": ["southern ocean", "sst bias", "warm bias", "sea surface temperature",
@@ -66,6 +104,20 @@ BIAS_CATALOGUE: dict[str, dict[str, Any]] = {
         "name": "Southern Ocean Shortwave Bias",
         "category": "clouds",
         "region": "southern_ocean",
+        "definition": (
+            "The Southern Ocean Shortwave Bias is a systematic underestimate of reflected "
+            "shortwave radiation over the Southern Ocean in coupled and atmosphere-only climate "
+            "models. Models reflect too little solar radiation — typically 4–10 W m⁻² less than "
+            "observed — because they underestimate cloud optical depth and cloud cover, "
+            "particularly during austral summer."
+        ),
+        "cause_hint": (
+            "The bias is attributed to poor representation of supercooled liquid water in "
+            "Southern Ocean mixed-phase clouds. Models convert cloud liquid to ice too readily, "
+            "producing optically thin clouds that transmit rather than reflect solar radiation. "
+            "Parameterization of boundary-layer turbulence and ice microphysics are the principal "
+            "implicated processes."
+        ),
         "primary_query": '"Southern Ocean" shortwave bias cloud radiation CMIP climate model',
         "secondary_query": "Southern Ocean absorbed shortwave radiation cloud bias CMIP model Southern Hemisphere",
         "keywords": ["southern ocean", "shortwave", "cloud bias", "radiation",
@@ -75,6 +127,21 @@ BIAS_CATALOGUE: dict[str, dict[str, Any]] = {
         "name": "Low Cloud Underestimate",
         "category": "clouds",
         "region": "eastern_subtropical_oceans",
+        "definition": (
+            "The Low Cloud Underestimate is a systematic deficit in low-level cloud cover — "
+            "primarily marine stratocumulus and stratocumulus-to-cumulus transition clouds — "
+            "over eastern subtropical ocean basins in climate models. Models produce cloud "
+            "fractions 10–20% below observations, leading to excess absorbed shortwave "
+            "radiation and a positive SST bias in those regions."
+        ),
+        "cause_hint": (
+            "The bias stems from deficient representation of the marine atmospheric boundary "
+            "layer, particularly the sharp temperature inversion that maintains stratocumulus "
+            "decks. Convective parameterizations entrain the inversion layer too aggressively "
+            "and do not correctly capture the transition from stratocumulus to trade cumulus "
+            "as air flows equatorward. Cloud microphysics and turbulence schemes are the "
+            "primary implicated parameters."
+        ),
         "primary_query": "stratocumulus cloud bias CMIP climate model shortwave radiation boundary layer",
         "secondary_query": "low-level cloud underestimate climate model subtropical eastern Pacific Atlantic",
         "keywords": ["stratocumulus", "low cloud", "cloud fraction", "cloud bias",
