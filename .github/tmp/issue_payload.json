@@ -1,9 +1,0 @@
-{
-  "issue": {
-    "number": 101,
-    "title": "Feedback: double-itcz citation update",
-    "body": "bias_id: double-itcz\nverdict: CONFIRMED\nconfidence: high\ndoi: 10.1234/example.double-itcz\nsummary: Added reference supporting mechanism and severity.\npr_number: 202",
-    "user": { "login": "atlas-contrib" },
-    "labels": [{"name": "needs-verification"}]
-  }
-}
