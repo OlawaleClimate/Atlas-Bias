@@ -51,36 +51,42 @@
       "drop_reasons": []
     },
     {
-      "doi": "10.1007/s00382-011-1259-y",
-      "title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
-      "authors": "Voldoire, S\u00e1nchez-G\u00f3mez, M\u00e9lia and Decharme et al.",
+      "doi": "10.1029/2012gl053777",
+      "title": "Origins of tropical\u2010wide SST biases in CMIP multi\u2010model ensembles",
+      "authors": "Li and Xie",
       "year": 2012,
-      "journal": "Climate Dynamics",
+      "journal": "Geophysical Research Letters",
       "journal_ok": true,
-      "cited_by": 1386,
-      "abstract": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The purpose of the study is to describe its main features and to provide a preliminary assessment of its mean climatology. CNRM-CM5.1 includes the atmospheric model ARPEGE-Climat (v5.2), the ocean model NEMO (v3.2), the land surface scheme ISBA and the sea ice model GELATO (v5) coupled through the OASIS (v3) system. The main improvements since CMIP3 are the following. Horizontal resolution has been increased both in the atmosphere (from 2.8\u00b0 to 1.4\u00b0) and in the ocean (from 2\u00b0 to 1\u00b0). The dynamical core of the atmospheric component has been revised. A new radiation scheme has been introduced and the treatments of tropospheric and stratospheric aerosols have been improved. Particular care has been devoted to ensure mass/water conservation in the atmospheric component. The land surface scheme ISBA has been externalised from the atmospheric model through the SURFEX platform and includes new developments such as a parameterization of sub-grid hydrology, a new freezing scheme and a new bulk parameterisation for ocean surface fluxes. The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM. Finally, the coupling between the different components through OASIS has also received a particular attention to avoid energy loss and spurious drifts. These developments generally lead to a more realistic representation of the mean recent climate and to a reduction of drifts in a preindustrial integration. The large-scale dynamics is generally improved both in the atmosphere and in the ocean, and the bias in mean surface temperature is clearly reduced. However, some flaws remain such as significant precipitation and radiative biases in many regions, or a pronounced drift in three dimensional salinity.",
+      "cited_by": 241,
+      "abstract": "Long\u2010standing simulation errors limit the utility of climate models. Overlooked are tropical\u2010wide errors, with sea surface temperature (SST) biasing high or low across all the tropical ocean basins. Our analysis based on Coupled Model Intercomparison Project (CMIP) multi\u2010model ensembles shows that such SST biases can be classified into two types: one with a broad meridional structure and of the same sign across all basins that is highly correlated with the tropical mean; and one with large inter\u2010model variability in the cold tongues of the equatorial Pacific and Atlantic. The first type can be traced back to biases in atmospheric simulations of cloud cover, with cloudy models biasing low in tropical\u2010wide SST. The second type originates from the diversity among models in representing the thermocline depth; models with a deep thermocline feature a warm cold tongue on the equator. Implications for inter\u2010model variability in precipitation climatology and SST threshold for convection are discussed.",
       "keyword_hits": [
+        "cold tongue",
+        "equatorial pacific",
+        "sst bias",
         "cmip",
         "coupled model"
       ],
-      "score": 2772,
+      "score": 1205,
       "verified": {
         "doi_resolves": true,
-        "http_status": 200,
-        "landing_url": "https://link.springer.com/article/10.1007/s00382-011-1259-y",
-        "crossref_title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1029/2012gl053777",
+        "crossref_title": "Origins of tropical\u2010wide SST biases in CMIP multi\u2010model ensembles",
         "title_match_score": 1.0,
         "title_match_ok": true,
-        "crossref_journal": "Climate Dynamics",
+        "crossref_journal": "Geophysical Research Letters",
         "journal_match_ok": true,
-        "abstract_hits": [],
-        "abstract_snippet": "(title-only check \u2014 no Crossref abstract)",
-        "abstract_ok": false,
-        "verdict": "FLAGGED",
-        "fail_reasons": [
-          "SOFT FLAGS ONLY \u2014 passed with warnings",
-          "Abstract has only 0 keyword hit(s): []"
-        ]
+        "abstract_hits": [
+          "cold tongue",
+          "equatorial pacific",
+          "sst bias",
+          "cmip",
+          "coupled model"
+        ],
+        "abstract_snippet": " long\u2010standing simulation errors limit the utility of climate models. overlooked are tropical\u2010wide errors, with sea surface temperature (sst) biasing high or low across all the tropical ocean basins. our analysis based on coupled model intercomparison project (cmip) multi\u2010model ensembles shows that ",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
       },
       "drop_reasons": []
     },
@@ -197,269 +203,42 @@
       "drop_reasons": []
     }
   ],
-  "dropped": [
+  "dropped": [],
+  "rejected": [
     {
-      "doi": "10.1002/2017rg000568",
-      "title": "ENSO Atmospheric Teleconnections and Their Response to Greenhouse Gas Forcing",
-      "authors": "Yeh, Cai, Min and McPhaden et al.",
-      "year": 2018,
-      "journal": "Reviews of Geophysics",
-      "journal_ok": false,
-      "cited_by": 546,
-      "abstract": "Abstract El Ni\u00f1o and Southern Oscillation (ENSO) is the most prominent year\u2010to\u2010year climate fluctuation on Earth, alternating between anomalously warm (El Ni\u00f1o) and cold (La Ni\u00f1a) sea surface temperature (SST) conditions in the tropical Pacific. ENSO exerts its impacts on remote regions of the globe through atmospheric teleconnections, affecting extreme weather events worldwide. However, these teleconnections are inherently nonlinear and sensitive to ENSO SST anomaly patterns and amplitudes. In addition, teleconnections are modulated by variability in the oceanic and atmopsheric mean state outside the tropics and by land and sea ice extent. The character of ENSO as well as the ocean mean state have changed since the 1990s, which might be due to either natural variability or anthropogenic forcing, or their combined influences. This has resulted in changes in ENSO atmospheric teleconnections in terms of precipitation and temperature in various parts of the globe. In addition, changes in ENSO teleconnection patterns have affected their predictability and the statistics of extreme events. However, the short observational record does not allow us to clearly distinguish which changes are robust and which are not. Climate models suggest that ENSO teleconnections will change because the mean atmospheric circulation will change due to anthropogenic forcing in the 21st century, which is independent of whether ENSO properties change or not. However, future ENSO teleconnection changes do not currently show strong intermodel agreement from region to region, highlighting the importance of identifying factors that affect uncertainty in future model projections.",
-      "keyword_hits": [
-        "tropical pacific"
-      ],
-      "score": 546,
-      "verified": null,
-      "drop_reasons": [
-        "journal not whitelisted (Reviews of Geophysics)",
-        "only 1 keyword hit(s): ['tropical pacific']"
-      ]
-    },
-    {
-      "doi": "10.5194/cp-16-1777-2020",
-      "title": "Comparison of past and future simulations of ENSO in CMIP5/PMIP3 and CMIP6/PMIP4 models",
-      "authors": "Brown, Brierley, An and Guarino et al.",
-      "year": 2020,
-      "journal": "Climate of the past",
-      "journal_ok": false,
-      "cited_by": 131,
-      "abstract": "Abstract. El Ni\u00f1o\u2013Southern Oscillation (ENSO) is the strongest mode of interannual climate variability in the current climate, influencing ecosystems, agriculture, and weather systems across the globe, but future projections of ENSO frequency and amplitude remain highly uncertain. A comparison of changes in ENSO in a range of past and future climate simulations can provide insights into the sensitivity of ENSO to changes in the mean state, including changes in the seasonality of incoming solar radiation, global average temperatures, and spatial patterns of sea surface temperatures. As a comprehensive set of coupled model simulations is now available for both palaeoclimate time slices (the Last Glacial Maximum, mid-Holocene, and last interglacial) and idealised future warming scenarios (1 % per year CO2 increase, abrupt four-time CO2 increase), this allows a detailed evaluation of ENSO changes in this wide range of climates. Such a comparison can assist in constraining uncertainty in future projections, providing insights into model agreement and the sensitivity of ENSO to a range of factors. The majority of models simulate a consistent weakening of ENSO activity in the last interglacial and mid-Holocene experiments, and there is an ensemble mean reduction of variability in the western equatorial Pacific in the Last Glacial Maximum experiments. Changes in global temperature produce a weaker precipitation response to ENSO in the cold Last Glacial Maximum experiments and an enhanced precipitation response to ENSO in the warm increased CO2 experiments. No consistent relationship between changes in ENSO amplitude and annual cycle was identified across experiments.",
-      "keyword_hits": [
-        "equatorial pacific",
-        "cmip",
-        "coupled model"
-      ],
-      "score": 393,
-      "verified": null,
-      "drop_reasons": [
-        "journal not whitelisted (Climate of the past)"
-      ]
-    },
-    {
-      "doi": "10.1007/s00382-012-1343-y",
-      "title": "LMDZ5B: the atmospheric component of the IPSL climate model with revisited parameterizations for clouds and convection",
-      "authors": "Hourdin, Grandpeix, Rio and Bony et al.",
+      "doi": "10.1007/s00382-011-1259-y",
+      "title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
+      "authors": "Voldoire, S\u00e1nchez-G\u00f3mez, M\u00e9lia and Decharme et al.",
       "year": 2012,
       "journal": "Climate Dynamics",
       "journal_ok": true,
-      "cited_by": 304,
-      "abstract": "Based on a decade of research on cloud processes, a new version of the LMDZ atmospheric general circulation model has been developed that corresponds to a complete recasting of the parameterization of turbulence, convection and clouds. This LMDZ5B version includes a mass-flux representation of the thermal plumes or rolls of the convective boundary layer, coupled to a bi-Gaussian statistical cloud scheme, as well as a parameterization of the cold pools generated below cumulonimbus by re-evaporation of convective precipitation. The triggering and closure of deep convection are now controlled by lifting processes in the sub-cloud layer. An available lifting energy and lifting power are provided both by the thermal plumes and by the spread of cold pools. The individual parameterizations were carefully validated against the results of explicit high resolution simulations. Here we present the work done to go from those new concepts and developments to a full 3D atmospheric model, used in particular for climate change projections with the IPSL-CM5B coupled model. Based on a series of sensitivity experiments, we document the differences with the previous LMDZ5A version distinguishing the role of parameterization changes from that of model tuning. Improvements found previously in single-column simulations of case studies are confirmed in the 3D model: (1) the convective boundary layer and cumulus clouds are better represented and (2) the diurnal cycle of convective rainfall over continents is delayed by several hours, solving a longstanding problem in climate modeling. The variability of tropical rainfall is also larger in LMDZ5B at intraseasonal time-scales. Significant biases of the LMDZ5A model however remain, or are even sometimes amplified. The paper emphasizes the importance of parameterization improvements and model tuning in the frame of climate change studies as well as the new paradigm that represents the improvement of 3D climate models under the control of single-column case studies simulations.",
+      "cited_by": 1386,
+      "abstract": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The purpose of the study is to describe its main features and to provide a preliminary assessment of its mean climatology. CNRM-CM5.1 includes the atmospheric model ARPEGE-Climat (v5.2), the ocean model NEMO (v3.2), the land surface scheme ISBA and the sea ice model GELATO (v5) coupled through the OASIS (v3) system. The main improvements since CMIP3 are the following. Horizontal resolution has been increased both in the atmosphere (from 2.8\u00b0 to 1.4\u00b0) and in the ocean (from 2\u00b0 to 1\u00b0). The dynamical core of the atmospheric component has been revised. A new radiation scheme has been introduced and the treatments of tropospheric and stratospheric aerosols have been improved. Particular care has been devoted to ensure mass/water conservation in the atmospheric component. The land surface scheme ISBA has been externalised from the atmospheric model through the SURFEX platform and includes new developments such as a parameterization of sub-grid hydrology, a new freezing scheme and a new bulk parameterisation for ocean surface fluxes. The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM. Finally, the coupling between the different components through OASIS has also received a particular attention to avoid energy loss and spurious drifts. These developments generally lead to a more realistic representation of the mean recent climate and to a reduction of drifts in a preindustrial integration. The large-scale dynamics is generally improved both in the atmosphere and in the ocean, and the bias in mean surface temperature is clearly reduced. However, some flaws remain such as significant precipitation and radiative biases in many regions, or a pronounced drift in three dimensional salinity.",
       "keyword_hits": [
+        "cmip",
         "coupled model"
       ],
-      "score": 304,
-      "verified": null,
-      "drop_reasons": [
-        "only 1 keyword hit(s): ['coupled model']"
-      ]
-    },
-    {
-      "doi": "10.1175/bams-d-19-0335.1",
-      "title": "Monsoons Climate Change Assessment",
-      "authors": "Wang, Biasutti, Byrne and Castro et al.",
-      "year": 2020,
-      "journal": "Bulletin of the American Meteorological Society",
-      "journal_ok": true,
-      "cited_by": 265,
-      "abstract": "Abstract Monsoon rainfall has profound economic and societal impacts for more than two-thirds of the global population. Here we provide a review on past monsoon changes and their primary drivers, the projected future changes, and key physical processes, and discuss challenges of the present and future modeling and outlooks. Continued global warming and urbanization over the past century has already caused a significant rise in the intensity and frequency of extreme rainfall events in all monsoon regions (high confidence). Observed changes in the mean monsoon rainfall vary by region with significant decadal variations. Northern Hemisphere land monsoon rainfall as a whole declined from 1950 to 1980 and rebounded after the 1980s, due to the competing influences of internal climate variability and radiative forcing from greenhouse gases and aerosol forcing (high confidence); however, it remains a challenge to quantify their relative contributions. The CMIP6 models simulate better global monsoon intensity and precipitation over CMIP5 models, but common biases and large intermodal spreads persist. Nevertheless, there is high confidence that the frequency and intensity of monsoon extreme rainfall events will increase, alongside an increasing risk of drought over some regions. Also, land monsoon rainfall will increase in South Asia and East Asia (high confidence) and northern Africa (medium confidence), decrease in North America, and be unchanged in the Southern Hemisphere. Over the Asian\u2013Australian monsoon region, the rainfall variability is projected to increase on daily to decadal scales. The rainy season will likely be lengthened in the Northern Hemisphere due to late retreat (especially over East Asia), but shortened in the Southern Hemisphere due to delayed onset.",
-      "keyword_hits": [
-        "cmip"
-      ],
-      "score": 265,
-      "verified": null,
-      "drop_reasons": [
-        "only 1 keyword hit(s): ['cmip']"
-      ]
-    },
-    {
-      "doi": "10.1126/science.aay9165",
-      "title": "Decadal climate variability in the tropical Pacific: Characteristics, causes, predictability, and prospects",
-      "authors": "Power, Lengaigne, Capotondi and Khodri et al.",
-      "year": 2021,
-      "journal": "Science",
-      "journal_ok": false,
-      "cited_by": 203,
-      "abstract": "Climate variability in the tropical Pacific affects global climate on a wide range of time scales. On interannual time scales, the tropical Pacific is home to the El Ni\u00f1o\u2013Southern Oscillation (ENSO). Decadal variations and changes in the tropical Pacific, referred to here collectively as tropical Pacific decadal variability (TPDV), also profoundly affect the climate system. Here, we use TPDV to refer to any form of decadal climate variability or change that occurs in the atmosphere, the ocean, and over land within the tropical Pacific. \u201cDecadal,\u201d which we use in a broad sense to encompass multiyear through multidecadal time scales, includes variability about the mean state on decadal time scales, externally forced mean-state changes that unfold on decadal time scales, and decadal variations in the behavior of higher-frequency modes like ENSO.",
-      "keyword_hits": [
-        "tropical pacific"
-      ],
-      "score": 203,
-      "verified": null,
-      "drop_reasons": [
-        "journal not whitelisted (Science)",
-        "only 1 keyword hit(s): ['tropical pacific']"
-      ]
-    },
-    {
-      "doi": "10.1038/s41467-020-16631-9",
-      "title": "Emergent constraints on future projections of the western North Pacific Subtropical High",
-      "authors": "Chen, Zhou, Wu and Guo et al.",
-      "year": 2020,
-      "journal": "Nature Communications",
-      "journal_ok": false,
-      "cited_by": 151,
-      "abstract": "The western North Pacific Subtropical High (WNPSH) is a key circulation system controlling the summer monsoon and typhoon activities over the western Pacific, but future projections of its changes remain hugely uncertain. Here we find two leading modes that account for nearly 80% intermodel spread in its future projection under a high emission scenario. They are linked to a cold-tongue-like bias in the central-eastern tropical Pacific and a warm bias beneath the marine stratocumulus, respectively. Observational constraints using sea surface temperature patterns reduce the uncertainties by 45% and indicate a robust intensification of the WNPSH due to suppressed warming in the western Pacific and enhanced land-sea thermal contrast, leading to 28% more rainfall projected in East China and 36% less rainfall in Southeast Asia than suggested by the multi-model mean. The intensification of the WNPSH implies more future monsoon rainfall and heatwaves but less typhoon landfalls over East Asia.",
-      "keyword_hits": [
-        "tropical pacific"
-      ],
-      "score": 151,
-      "verified": null,
-      "drop_reasons": [
-        "journal not whitelisted (Nature Communications)",
-        "only 1 keyword hit(s): ['tropical pacific']"
-      ]
-    },
-    {
-      "doi": "10.1007/s00382-017-3909-1",
-      "title": "Regional and seasonal variations of the double-ITCZ bias in CMIP5 models",
-      "authors": "Adam, Schneider and Brient",
-      "year": 2017,
-      "journal": "Climate Dynamics",
-      "journal_ok": true,
-      "cited_by": 104,
-      "abstract": "",
-      "keyword_hits": [
-        "cmip"
-      ],
-      "score": 104,
-      "verified": null,
-      "drop_reasons": [
-        "only 1 keyword hit(s): ['cmip']"
-      ]
-    },
-    {
-      "doi": "10.1002/2017rg000560",
-      "title": "The Defining Characteristics of ENSO Extremes and the Strong 2015/2016 El Ni\u00f1o",
-      "authors": "Santoso, McPhaden and Cai",
-      "year": 2017,
-      "journal": "Reviews of Geophysics",
-      "journal_ok": false,
-      "cited_by": 524,
-      "abstract": "Abstract The year 2015 was special for climate scientists, particularly for the El Ni\u00f1o Southern Oscillation (ENSO) research community, as a major El Ni\u00f1o finally materialized after a long pause since the 1997/1998 extreme El Ni\u00f1o. It was scientifically exciting since, due to the short observational record, our knowledge of an extreme El Ni\u00f1o has been based only on the 1982/1983 and 1997/1998 events. The 2015/2016 El Ni\u00f1o was marked by many environmental disasters that are consistent with what is expected for an extreme El Ni\u00f1o. Considering the dramatic impacts of extreme El Ni\u00f1o, and the risk of a potential increase in frequency of ENSO extremes under greenhouse warming, it is timely to evaluate how the recent event fits into our understanding of ENSO extremes. Here we provide a review of ENSO, its nature and dynamics, and through analysis of various observed key variables, we outline the processes that characterize its extremes. The 2015/2016 El Ni\u00f1o brings a useful perspective into the state of understanding of these events and highlights areas for future research. While the 2015/2016 El Ni\u00f1o is characteristically distinct from the 1982/1983 and 1997/1998 events, it still can be considered as the first extreme El Ni\u00f1o of the 21st century. Its extremity can be attributed in part to unusually warm condition in 2014 and to long\u2010term background warming. In effect, this study provides a list of physically meaningful indices that are straightforward to compute for identifying and tracking extreme ENSO events in observations and climate models.",
-      "keyword_hits": [],
-      "score": 0,
-      "verified": null,
-      "drop_reasons": [
-        "journal not whitelisted (Reviews of Geophysics)",
-        "only 0 keyword hit(s): []"
-      ]
-    },
-    {
-      "doi": "10.5194/gmd-11-2975-2018",
-      "title": "The NUIST Earth System Model\u00a0(NESM) version\u00a03: description and preliminary evaluation",
-      "authors": "Cao, Wang, Yang and Ma et al.",
-      "year": 2018,
-      "journal": "Geoscientific model development",
-      "journal_ok": true,
-      "cited_by": 235,
-      "abstract": "Abstract. The Nanjing University of Information Science and Technology Earth System Model version 3 (NESM v3) has been developed, aiming to provide a numerical modeling platform for cross-disciplinary Earth system studies, project future Earth climate and environment changes, and conduct subseasonal-to-seasonal prediction. While the previous model version NESM v1 simulates the internal modes of climate variability well, it has no vegetation dynamics and suffers considerable radiative energy imbalance at the top of the atmosphere and surface, resulting in large biases in the global mean surface air temperature, which limits its utility to simulate past and project future climate changes. The NESM v3 has upgraded atmospheric and land surface model components and improved physical parameterization and conservation of coupling variables. Here we describe the new version's basic features and how the major improvements were made. We demonstrate the v3 model's fidelity and suitability to address global climate variability and change issues. The 500-year preindustrial (PI) experiment shows negligible trends in the net heat flux at the top of atmosphere and the Earth surface. Consistently, the simulated global mean surface air temperature, land surface temperature, and sea surface temperature (SST) are all in a quasi-equilibrium state. The conservation of global water is demonstrated by the stable evolution of the global mean precipitation, sea surface salinity (SSS), and sea water salinity. The sea ice extents (SIEs), as a major indication of high-latitude climate, also maintain a balanced state. The simulated spatial patterns of the energy states, SST, precipitation, and SSS fields are realistic, but the model suffers from a cold bias in the North Atlantic, a warm bias in the Southern Ocean, and associated deficient Antarctic sea ice area, as well as a delicate sign of the double ITCZ syndrome. The estimated radiative forcing of quadrupling carbon dioxide is about 7.24 W m\u22122, yielding a climate sensitivity feedback parameter of \u22120.98 W m\u22122 K\u22121, and the equilibrium climate sensitivity is 3.69 K. The transient climate response from the 1 % yr\u22121 CO2 (1pctCO2) increase experiment is 2.16 K. The model's performance on internal modes and responses to external forcing during the historical period will be documented in an accompanying paper.",
-      "keyword_hits": [],
-      "score": 0,
-      "verified": null,
-      "drop_reasons": [
-        "only 0 keyword hit(s): []"
-      ]
-    },
-    {
-      "doi": "10.1038/s43017-020-0078-2",
-      "title": "South Pacific Convergence Zone dynamics, variability and impacts in a changing climate",
-      "authors": "Brown, Lengaigne, Lintner and Widlansky et al.",
-      "year": 2020,
-      "journal": "Nature Reviews Earth & Environment",
-      "journal_ok": false,
-      "cited_by": 133,
-      "abstract": "",
-      "keyword_hits": [],
-      "score": 0,
-      "verified": null,
-      "drop_reasons": [
-        "journal not whitelisted (Nature Reviews Earth & Environment)",
-        "only 0 keyword hit(s): []"
-      ]
-    },
-    {
-      "doi": "10.1175/2010jcli3679.1",
-      "title": "Improved Climate Simulation by MIROC5: Mean States, Variability, and Climate Sensitivity",
-      "authors": "Watanabe, Suzuki, O\u2019ishi and Komuro et al.",
-      "year": 2010,
-      "journal": "Journal of Climate",
-      "journal_ok": true,
-      "cited_by": 1388,
-      "abstract": "Abstract A new version of the atmosphere\u2013ocean general circulation model cooperatively produced by the Japanese research community, known as the Model for Interdisciplinary Research on Climate (MIROC), has recently been developed. A century-long control experiment was performed using the new version (MIROC5) with the standard resolution of the T85 atmosphere and 1\u00b0 ocean models. The climatological mean state and variability are then compared with observations and those in a previous version (MIROC3.2) with two different resolutions (medres, hires), coarser and finer than the resolution of MIROC5. A few aspects of the mean fields in MIROC5 are similar to or slightly worse than MIROC3.2, but otherwise the climatological features are considerably better. In particular, improvements are found in precipitation, zonal mean atmospheric fields, equatorial ocean subsurface fields, and the simulation of El Ni\u00f1o\u2013Southern Oscillation. The difference between MIROC5 and the previous model is larger than that between the two MIROC3.2 versions, indicating a greater effect of updating parameterization schemes on the model climate than increasing the model resolution. The mean cloud property obtained from the sophisticated prognostic schemes in MIROC5 shows good agreement with satellite measurements. MIROC5 reveals an equilibrium climate sensitivity of 2.6 K, which is lower than that in MIROC3.2 by 1 K. This is probably due to the negative feedback of low clouds to the increasing concentration of CO2, which is opposite to that in MIROC3.2.",
-      "keyword_hits": [],
-      "score": 0,
-      "verified": null,
-      "drop_reasons": [
-        "only 0 keyword hit(s): []"
-      ]
-    },
-    {
-      "doi": "10.5194/gmd-4-723-2011",
-      "title": "The HadGEM2 family of Met Office Unified Model climate configurations",
-      "authors": "Martin, Bellouin, Collins and Culverwell et al.",
-      "year": 2011,
-      "journal": "Geoscientific model development",
-      "journal_ok": true,
-      "cited_by": 967,
-      "abstract": "Abstract. We describe the HadGEM2 family of climate configurations of the Met Office Unified Model, MetUM. The concept of a model \"family\" comprises a range of specific model configurations incorporating different levels of complexity but with a common physical framework. The HadGEM2 family of configurations includes atmosphere and ocean components, with and without a vertical extension to include a well-resolved stratosphere, and an Earth-System (ES) component which includes dynamic vegetation, ocean biology and atmospheric chemistry. The HadGEM2 physical model includes improvements designed to address specific systematic errors encountered in the previous climate configuration, HadGEM1, namely Northern Hemisphere continental temperature biases and tropical sea surface temperature biases and poor variability. Targeting these biases was crucial in order that the ES configuration could represent important biogeochemical climate feedbacks. Detailed descriptions and evaluations of particular HadGEM2 family members are included in a number of other publications, and the discussion here is limited to a summary of the overall performance using a set of model metrics which compare the way in which the various configurations simulate present-day climate and its variability.",
-      "keyword_hits": [],
-      "score": 0,
-      "verified": null,
-      "drop_reasons": [
-        "only 0 keyword hit(s): []"
-      ]
-    },
-    {
-      "doi": "10.1175/2008bams2387.1",
-      "title": "Understanding El Ni\u00f1o in Ocean\u2013Atmosphere General Circulation Models: Progress and Challenges",
-      "authors": "Guilyardi, Wittenberg, Fedorov and Collins et al.",
-      "year": 2008,
-      "journal": "Bulletin of the American Meteorological Society",
-      "journal_ok": true,
-      "cited_by": 532,
-      "abstract": "Determining how El Ni\u00f1o and its impacts may change over the next 10 to 100 years remains a difficult scientific challenge. Ocean-atmosphere coupled general circulation models (CGCMs) are routinely used both to analyze El Ni\u00f1o mechanisms and teleconnections and to predict its evolution on a broad range of time scales, from seasonal to centennial. The ability to simulate El Ni\u00f1o as an emergent property of these models has largely improved over the last few years. Nevertheless, the diversity of model simulations of present-day El Ni\u00f1o indicates current limitations in our ability to model this climate phenomenon and to anticipate changes in its characteristics. A review of the several factors that contribute to this diversity, as well as potential means to improve the simulation of El Ni\u00f1o, is presented.",
-      "keyword_hits": [],
-      "score": 0,
-      "verified": null,
-      "drop_reasons": [
-        "only 0 keyword hit(s): []"
-      ]
-    },
-    {
-      "doi": "10.1175/2008jcli2200.1",
-      "title": "Response of the Zonal Mean Atmospheric Circulation to El Ni\u00f1o versus Global Warming",
-      "authors": "Lu, Chen and Frierson",
-      "year": 2008,
-      "journal": "Journal of Climate",
-      "journal_ok": true,
-      "cited_by": 491,
-      "abstract": "Abstract The change in the zonal mean atmospheric circulation under global warming is studied in comparison with the response to El Ni\u00f1o forcing, by examining the model simulations conducted for the Fourth Assessment Report of the Intergovernmental Panel on Climate Change. In contrast to the strengthening and contraction of the Hadley cell and the equatorward shift of the tropospheric zonal jets in response to El Ni\u00f1o, the Hadley cell weakens and expands poleward, and the jets move poleward in a warmed climate, despite the projected \u201cEl Ni\u00f1o\u2013like\u201d enhanced warming over the equatorial central and eastern Pacific. The hydrological impacts of global warming also exhibit distinct patterns over the subtropics and midlatitudes in comparison to the El Ni\u00f1o. Two feasible mechanisms are proposed for the zonal mean circulation response to global warming: 1) The increase in static stability of the subtropical and midlatitude troposphere, a robust result of the quasi-moist adiabatic adjustment to the surface warming, may stabilize the baroclinic eddy growth on the equatorward side of the storm tracks and push the eddy activity and the associated eddy-driven wind and subsidence poleward, leading to the poleward expansion of the Hadley cell and the shift of midlatitude jets; 2) the strengthening of the midlatitude wind at the upper troposphere and lower stratosphere, arguably a consequence of increases in the meridional temperature gradient near the tropopause level due to the tropospheric warming and tropopause slope, may increase the eastward propagation of the eddies emanating from the midlatitudes, and thus the subtropical region of wave breaking displaces poleward together with the eddy-driven circulation. Both mechanisms are somewhat, if not completely, distinct from those in response to the El Ni\u00f1o condition.",
-      "keyword_hits": [],
-      "score": 0,
-      "verified": null,
-      "drop_reasons": [
-        "only 0 keyword hit(s): []"
-      ]
-    },
-    {
-      "doi": "10.1038/ngeo2510",
-      "title": "Robust global ocean cooling trend for the pre-industrial Common Era",
-      "authors": "McGregor, Evans, Goosse and Leduc et al.",
-      "year": 2015,
-      "journal": "Nature Geoscience",
-      "journal_ok": true,
-      "cited_by": 240,
-      "abstract": "",
-      "keyword_hits": [],
-      "score": 0,
-      "verified": null,
-      "drop_reasons": [
-        "only 0 keyword hit(s): []"
-      ]
+      "score": 2772,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 200,
+        "landing_url": "https://link.springer.com/article/10.1007/s00382-011-1259-y",
+        "crossref_title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Climate Dynamics",
+        "journal_match_ok": true,
+        "abstract_hits": [],
+        "abstract_snippet": "(title-only check \u2014 no Crossref abstract)",
+        "abstract_ok": false,
+        "verdict": "FLAGGED",
+        "fail_reasons": [
+          "SOFT FLAGS ONLY \u2014 passed with warnings",
+          "Abstract has only 0 keyword hit(s): []"
+        ]
+      },
+      "drop_reasons": []
     }
   ],
-  "rejected": [],
   "status": "VERIFIED"
 }

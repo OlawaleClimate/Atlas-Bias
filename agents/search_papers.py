@@ -107,7 +107,7 @@ REQUEST_DELAY   = 1.5   # seconds between OpenAlex calls
 REQUEST_TIMEOUT = 20
 MIN_CITATIONS   = 10
 YEAR_MIN        = 1990
-CANDIDATES_KEEP = 7     # keep top 7 (5 primary + 2 reserve)
+CANDIDATES_KEEP = 10    # keep top 10 (5 primary + 5 reserve for upgrade/fallback)
 
 
 # ─────────────────────────────────────────────────────────────────────────────

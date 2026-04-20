@@ -33,7 +33,7 @@ DRAFTS_DIR  = REPO_ROOT / "pipeline" / "outputs" / "drafts"
 AGENTS_DIR  = REPO_ROOT / "agents"
 
 MAX_RETRIES = 3
-PASS_SCORE  = 9
+PASS_SCORE  = 10
 
 # Sentence splitter (mirrors write_draft.py)
 _SENT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z])")

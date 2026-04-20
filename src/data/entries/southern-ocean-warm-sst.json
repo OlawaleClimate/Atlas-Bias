@@ -11,14 +11,9 @@
   "persistence": "longstanding",
   "cmip_history": [
     {
-      "generation": "CMIP3",
-      "severity": "moderate",
-      "notes": "The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM."
-    },
-    {
       "generation": "CMIP5",
       "severity": "moderate",
-      "notes": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5)."
+      "notes": "The performance of GC3 is compared against GC2, the previous Met Office coupled model configuration, and against an older configuration (HadGEM2\u2010AO) which was the submission to CMIP5."
     },
     {
       "generation": "CMIP6",
@@ -57,12 +52,12 @@
       "relevance": "In addition to new radiation and aerosol parameterizations of the atmosphere, several relatively large, but partly compensating, coding errors in the model's cloud, convection, and turbulence parameterizations were corrected. To this end, a very high climate sensitivity of around 7 K caused by low-level clouds in the tropics as found in an intermediate model version was addressed, as it was not deemed possible to match observed warming otherwise. As a result, the model has a climate sensitivity to a doubling of CO<sub>2</sub> over preindustrial conditions of 2.77 K, maintaining the previously identified highly nonlinear global mean response to increasing CO<sub>2</sub> forcing, which nonetheless can be represented by a simple two-layer model. The ocean biogeochemistry now represents cyanobacteria prognostically in order to capture the response of nitrogen fixation to changing climate conditions and further includes improved detritus settling and numerous other refinements."
     },
     {
-      "authors": "Voldoire, S\u00e1nchez-G\u00f3mez, M\u00e9lia and Decharme et al.",
-      "year": 2012,
-      "title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
-      "journal": "Climate Dynamics",
-      "doi": "10.1007/s00382-011-1259-y",
-      "relevance": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM. The main improvements since CMIP3 are the following. A new radiation scheme has been introduced and the treatments of tropospheric and stratospheric aerosols have been improved."
+      "authors": "Stephens",
+      "year": 2005,
+      "title": "Cloud Feedbacks in the Climate System: A Critical Review",
+      "journal": "Journal of Climate",
+      "doi": "10.1175/jcli-3243.1",
+      "relevance": "It is also shown how perturbations to the atmospheric radiation budget that are induced by cloud changes in response to climate forcing dictate the eventual response of the global-mean hydrological cycle of the climate model to climate forcing. The paper provides a brief overview of the effects of clouds on the radiation budget of the earth\u2013atmosphere system and a review of cloud feedbacks as they have been defined in simple systems, one being a system in radiative\u2013convective equilibrium (RCE) and others relating to simple feedback ideas that regulate tropical SSTs. This suggests that cloud feedbacks are likely to control the bulk precipitation efficiency and associated responses of the planet\u2019s hydrological cycle to climate radiative forcings. Although progress in understanding the cloud feedback problem has been slow and confused by past analysis, there are legitimate reasons outlined in the paper that give hope for real progress in the future."
     },
     {
       "authors": "Seland, Bentsen, Olivi\u00e9 and Toniazzo et al.",

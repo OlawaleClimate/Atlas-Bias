@@ -7,18 +7,18 @@
   "region": "southern_ocean",
   "season": "annual",
   "affected_variables": [],
-  "description": "The Southern Ocean Shortwave Bias is one of the most documented systematic errors in coupled climate models. Along with too little radiation absorbed at lower latitudes because of clouds that are too bright, unrealistically weak poleward transports of energy by both the ocean and atmosphere are generally simulated in the Southern Hemisphere [3]. The midlevel regime is the main contributor to reflected shortwave radiation biases [4].\n\nAcross successive generations of the Coupled Model Intercomparison Project (CMIP), the bias has been tracked in multi-model assessments. A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5) [1]. The main improvements since CMIP3 are the following [1].\n\nThe physical mechanisms underlying this bias and potential pathways to its reduction have been investigated in several studies. Along with too little radiation absorbed at lower latitudes because of clouds that are too bright, unrealistically weak poleward transports of energy by both the ocean and atmosphere are generally simulated in the Southern Hemisphere [3]. The midlevel regime is the main contributor to reflected shortwave radiation biases [4].",
+  "description": "The Southern Ocean Shortwave Bias is one of the most documented systematic errors in coupled climate models. Along with too little radiation absorbed at lower latitudes because of clouds that are too bright, unrealistically weak poleward transports of energy by both the ocean and atmosphere are generally simulated in the Southern Hemisphere [3]. The midlevel regime is the main contributor to reflected shortwave radiation biases [4].\n\nAcross successive generations of the Coupled Model Intercomparison Project (CMIP), the bias has been tracked in multi-model assessments. Among other applications, GC3 is the basis of the United Kingdom's submission to the Coupled Model Intercomparison Project 6 (CMIP6) [1]. The performance of GC3 is compared against GC2, the previous Met Office coupled model configuration, and against an older configuration (HadGEM2\u2010AO) which was the submission to CMIP5 [1].\n\nThe physical mechanisms underlying this bias and potential pathways to its reduction have been investigated in several studies. Along with too little radiation absorbed at lower latitudes because of clouds that are too bright, unrealistically weak poleward transports of energy by both the ocean and atmosphere are generally simulated in the Southern Hemisphere [3]. The midlevel regime is the main contributor to reflected shortwave radiation biases [4].",
   "persistence": "longstanding",
   "cmip_history": [
     {
-      "generation": "CMIP3",
-      "severity": "moderate",
-      "notes": "The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM."
-    },
-    {
       "generation": "CMIP5",
       "severity": "moderate",
-      "notes": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5)."
+      "notes": "Origins of and feedback for tropical biases are investigated in the historical climate simulations of 18 CGCMs from phase 5 of the Coupled Model Intercomparison Project (CMIP5), together with the available Atmospheric Model Intercomparison Project (AMIP) simulations."
+    },
+    {
+      "generation": "CMIP6",
+      "severity": "moderate",
+      "notes": "Among other applications, GC3 is the basis of the United Kingdom's submission to the Coupled Model Intercomparison Project 6 (CMIP6)."
     }
   ],
   "severity_by_model": {},
@@ -28,12 +28,12 @@
   "disputed_mechanisms": [],
   "citations": [
     {
-      "authors": "Voldoire, S\u00e1nchez-G\u00f3mez, M\u00e9lia and Decharme et al.",
-      "year": 2012,
-      "title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
-      "journal": "Climate Dynamics",
-      "doi": "10.1007/s00382-011-1259-y",
-      "relevance": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM. The main improvements since CMIP3 are the following. A new radiation scheme has been introduced and the treatments of tropospheric and stratospheric aerosols have been improved."
+      "authors": "Williams, Copsey, Blockley and Bodas\u2010Salcedo et al.",
+      "year": 2017,
+      "title": "The Met Office Global Coupled Model 3.0 and 3.1 (GC3.0 and GC3.1) Configurations",
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "doi": "10.1002/2017ms001115",
+      "relevance": "A number of outstanding errors are identified including a residual asymmetric sea surface temperature bias (cool northern hemisphere, warm Southern Ocean), an overly strong global hydrological cycle and insufficient European blocking. The performance of GC3 is compared against GC2, the previous Met Office coupled model configuration, and against an older configuration (HadGEM2\u2010AO) which was the submission to CMIP5. In many respects, the performance of GC3 is comparable with GC2, however, there is a notable improvement in the Southern Ocean warm sea surface temperature bias which has been reduced by 75%, and there are improvements in cloud amount and some aspects of tropical variability. Among other applications, GC3 is the basis of the United Kingdom's submission to the Coupled Model Intercomparison Project 6 (CMIP6)."
     },
     {
       "authors": "Bentsen, Bethke, Debernard and Iversen et al.",

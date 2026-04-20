@@ -408,6 +408,35 @@ def main() -> int:
             else:
                 rejected.append(paper)
 
+    # ── Upgrade pass: try to replace FLAGGED/PARTIAL with VERIFIED from reserve ──
+    # Collect unverified reserve candidates (those not yet checked)
+    checked_dois = {p["doi"].lower() for p in verified + rejected}
+    unchecked    = [p for p in reserve if p["doi"].lower() not in checked_dois]
+
+    flagged_indices = [
+        i for i, p in enumerate(verified)
+        if p["verified"]["verdict"] in ("FLAGGED", "PARTIAL")
+    ]
+    if flagged_indices and unchecked:
+        print(f"\n  ── Upgrade pass: trying to replace "
+              f"{len(flagged_indices)} FLAGGED/PARTIAL paper(s) with VERIFIED ones ──")
+        for paper in unchecked:
+            if not flagged_indices:
+                break
+            print(f"\n  [upgrade] Checking — {paper['doi']}", flush=True)
+            v = verify_paper(paper, keywords)
+            paper["verified"] = v
+            print_result(0, paper, v)
+            if v["verdict"] == "VERIFIED":
+                idx = flagged_indices.pop(0)
+                old = verified[idx]
+                print(f"  ✓ Replaced FLAGGED [{old['authors']} ({old['year']})] "
+                      f"→ VERIFIED [{paper['authors']} ({paper['year']})]")
+                rejected.append(old)
+                verified[idx] = paper
+            else:
+                rejected.append(paper)
+
     # Summary
     print(f"\n  {'─' * 63}")
     n_clean    = sum(1 for p in verified if p["verified"]["verdict"] == "VERIFIED")
