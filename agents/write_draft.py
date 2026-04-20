@@ -299,8 +299,75 @@ def build_description(
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Assemble full schema-compliant draft (Phase 1 fields only)
+# Citation integrity check
 # ─────────────────────────────────────────────────────────────────────────────
+def check_citation_integrity(
+    description: str,
+    citations: list[dict[str, Any]],
+    papers: list[dict[str, Any]],
+) -> list[str]:
+    """Verify every [N] in the description points to a paper whose abstract
+    contains the tagged sentence.
+
+    Returns a list of warning strings (empty = all good).
+    """
+    warnings: list[str] = []
+
+    # Build a map: doi → abstract (lowercase, stripped)
+    doi_to_abstract: dict[str, str] = {}
+    for p in papers:
+        doi_to_abstract[p["doi"].lower()] = (p.get("abstract") or "").lower()
+
+    # Split description into sentences so we can find the context of each [N]
+    # We need to keep [N] markers attached to their sentence.
+    # Strategy: iterate paragraphs → sentences, collect (sentence_text, [N, ...])
+    citation_re = re.compile(r"\[(\d+)\]")
+
+    for para in description.split("\n\n"):
+        for sent in _SENT_RE.split(para):
+            sent = sent.strip()
+            if not sent:
+                continue
+            marker_nums = [int(m) for m in citation_re.findall(sent)]
+            if not marker_nums:
+                continue
+
+            # Clean the sentence text — remove [N] markers for matching
+            clean = citation_re.sub("", sent).strip().rstrip(".")
+            # Use a 12-word sliding window from the sentence as a fingerprint
+            words = clean.split()
+            fingerprint = " ".join(words[:12]).lower() if len(words) >= 5 else clean.lower()
+
+            for n in marker_nums:
+                if n < 1 or n > len(citations):
+                    warnings.append(
+                        f"[N={n}] out of range (only {len(citations)} citations)"
+                    )
+                    continue
+
+                cite = citations[n - 1]
+                abstract = doi_to_abstract.get(cite["doi"].lower(), "")
+
+                if not abstract:
+                    warnings.append(
+                        f"[{n}] {cite['authors']} ({cite['year']}) — "
+                        f"no abstract available to verify sentence: '{fingerprint}...'"
+                    )
+                    continue
+
+                # Check fingerprint appears in abstract
+                if fingerprint not in abstract:
+                    # Try a shorter 6-word match as a fallback
+                    short = " ".join(words[:6]).lower() if len(words) >= 6 else fingerprint
+                    if short not in abstract:
+                        warnings.append(
+                            f"[{n}] {cite['authors']} ({cite['year']}) — "
+                            f"sentence not found in abstract:\n"
+                            f"      Sentence : '{fingerprint}...'\n"
+                            f"      Paper DOI: {cite['doi']}"
+                        )
+
+    return warnings
 def build_draft(data: dict[str, Any]) -> dict[str, Any]:
     bias_id   = data["bias_id"]
     bias_name = data["bias_name"]
@@ -322,6 +389,7 @@ def build_draft(data: dict[str, Any]) -> dict[str, Any]:
         citations.append({
             "authors":   p["authors"],
             "year":      p["year"],
+            "title":     p.get("title", ""),
             "journal":   p["journal"],
             "doi":       p["doi"],
             "relevance": relevance,
@@ -410,6 +478,19 @@ def main() -> int:
         icon = {'VERIFIED': '✓', 'FLAGGED': '⚠', 'PARTIAL': '~'}.get(verdict, '?')
         print(f"    {icon}  {c['authors']} ({c['year']}) — {c['doi']}")
         print(f"       {c['relevance'][:120]}…")
+
+    # ── Citation integrity check ──
+    all_papers = data.get("candidates", [])
+    cite_warnings = check_citation_integrity(
+        draft["description"], draft["citations"], all_papers
+    )
+    print(f"\n  ── Citation integrity check ──")
+    if cite_warnings:
+        for w in cite_warnings:
+            print(f"  ⚠  {w}")
+        print(f"  {len(cite_warnings)} issue(s) found — review before promoting to src/data/entries/")
+    else:
+        print(f"  ✓ All inline citations verified — each [N] maps to the correct paper's abstract")
 
     print(f"\n  ✓ Draft written → {out_path.relative_to(REPO_ROOT)}\n")
     return 0

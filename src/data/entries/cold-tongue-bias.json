@@ -35,6 +35,7 @@
     {
       "authors": "Wu, Lu, Fang and Xin et al.",
       "year": 2019,
+      "title": "The Beijing Climate Center Climate System Model (BCC-CSM): the main progress from CMIP5 to CMIP6",
       "journal": "Geoscientific model development",
       "doi": "10.5194/gmd-12-1573-2019",
       "relevance": "The main advancements of the Beijing Climate Center (BCC) climate system model from phase 5 of the Coupled Model Intercomparison Project (CMIP5) to phase 6 (CMIP6) are presented, in terms of physical parameterizations and model performance. BCC-CSM1.1 and BCC-CSM1.1m are the two models involved in CMIP5, whereas BCC-CSM2-MR, BCC-CSM2-HR, and BCC-ESM1.0 are the three models configured for CMIP6. Historical simulations from 1851 to 2014 from BCC-CSM2-MR (CMIP6) and from 1851 to 2005 from BCC-CSM1.1m (CMIP5) are used for models assessment. Compared with BCC-CSM1.1m, BCC-CSM2-MR shows significant improvements in many aspects including the tropospheric air temperature and circulation at global and regional scales in East Asia and climate variability at different timescales, such as the QBO, the MJO, the diurnal cycle of precipitation, interannual variations of SST in the equatorial Pacific, and the long-term trend of surface air temperature."
@@ -42,6 +43,7 @@
     {
       "authors": "Voldoire, S\u00e1nchez-G\u00f3mez, M\u00e9lia and Decharme et al.",
       "year": 2012,
+      "title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
       "journal": "Climate Dynamics",
       "doi": "10.1007/s00382-011-1259-y",
       "relevance": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The purpose of the study is to describe its main features and to provide a preliminary assessment of its mean climatology. Horizontal resolution has been increased both in the atmosphere (from 2.8\u00b0 to 1.4\u00b0) and in the ocean (from 2\u00b0 to 1\u00b0). However, some flaws remain such as significant precipitation and radiative biases in many regions, or a pronounced drift in three dimensional salinity."
@@ -49,6 +51,7 @@
     {
       "authors": "Li and Xie",
       "year": 2013,
+      "title": "Tropical Biases in CMIP5 Multimodel Ensemble: The Excessive Equatorial Pacific Cold Tongue and Double ITCZ Problems*",
       "journal": "Journal of Climate",
       "doi": "10.1175/jcli-d-13-00337.1",
       "relevance": "Abstract Errors of coupled general circulation models (CGCMs) limit their utility for climate prediction and projection. Origins of and feedback for tropical biases are investigated in the historical climate simulations of 18 CGCMs from phase 5 of the Coupled Model Intercomparison Project (CMIP5), together with the available Atmospheric Model Intercomparison Project (AMIP) simulations. Based on an intermodel empirical orthogonal function (EOF) analysis of tropical Pacific precipitation, the excessive equatorial Pacific cold tongue and double intertropical convergence zone (ITCZ) stand out as the most prominent errors of the current generation of CGCMs. This extratropical forcing of the ITCZ displacements is mediated by tropical ocean\u2013atmosphere interaction and is consistent with recent studies of ocean\u2013atmospheric energy transport balance."
@@ -56,6 +59,7 @@
     {
       "authors": "Seland, Bentsen, Olivi\u00e9 and Toniazzo et al.",
       "year": 2020,
+      "title": "Overview of the Norwegian Earth System Model (NorESM2) and key climate response of CMIP6 DECK, historical, and scenario simulations",
       "journal": "Geoscientific model development",
       "doi": "10.5194/gmd-13-6165-2020",
       "relevance": "The second version of the coupled Norwegian Earth System Model (NorESM2) is presented and evaluated. We present results from simulations with NorESM2 that were carried out for the sixth phase of the Coupled Model Intercomparison Project (CMIP6). NorESM2 is based on the second version of the Community Earth System Model (CESM2) and shares with CESM2 the computer code infrastructure and many Earth system model components. In NorESM2-LM, an ice-free Arctic Ocean is only avoided in the SSP1-2.6 scenario."
@@ -63,6 +67,7 @@
     {
       "authors": "Timmermann, Okumura, An and Clement et al.",
       "year": 2007,
+      "title": "The Influence of a Weakening of the Atlantic Meridional Overturning Circulation on ENSO",
       "journal": "Journal of Climate",
       "doi": "10.1175/jcli4283.1",
       "relevance": "Abstract The influences of a substantial weakening of the Atlantic meridional overturning circulation (AMOC) on the tropical Pacific climate mean state, the annual cycle, and ENSO variability are studied using five different coupled general circulation models (CGCMs). In the CGCMs, a substantial weakening of the AMOC is induced by adding freshwater flux forcing in the northern North Atlantic. In response, the well-known surface temperature dipole in the low-latitude Atlantic is established, which reorganizes the large-scale tropical atmospheric circulation by increasing the northeasterly trade winds. The results may have important implications for the interpretation of global multidecadal variability and paleo-proxy data."

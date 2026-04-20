@@ -75,7 +75,10 @@ export default function BiasCard({ bias }) {
           <ol style={{ margin: 0, paddingLeft: "1.4em", display: "grid", gap: "12px" }}>
             {bias.citations.map((c, i) => (
               <li key={c.doi} id={`cite-${i + 1}`} style={{ fontSize: "13px", lineHeight: 1.6 }}>
-                <span style={{ fontWeight: 600 }}>{c.authors} ({c.year}).</span>{" "}
+                <div style={{ fontWeight: 600, marginBottom: "2px" }}>
+                  {c.title || <em style={{ color: "var(--muted)" }}>Title unavailable</em>}
+                </div>
+                <span style={{ color: "var(--muted)" }}>{c.authors} ({c.year}). </span>
                 <em>{c.journal}.</em>{" "}
                 <a
                   href={`https://doi.org/${c.doi}`}
