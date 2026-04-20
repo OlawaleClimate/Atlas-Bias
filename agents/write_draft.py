@@ -234,34 +234,47 @@ def build_description(
     bias_name: str,
     keywords: list[str],
 ) -> str:
-    """Build a 3-paragraph description from the verified paper abstracts."""
+    """Build a 3-paragraph description from the verified paper abstracts.
 
-    all_sents: list[tuple[int, str, str]] = []   # (hits, sentence, paper_ref)
-    for p in papers:
+    Sentences that come directly from an abstract are tagged with [N] where N
+    is the 1-based index into the citations list, so the UI can render them as
+    superscript inline citations.
+    """
+
+    # Build (hits, sentence, paper_1based_index) for every sentence in every abstract
+    all_sents: list[tuple[int, str, int]] = []
+    for idx, p in enumerate(papers, start=1):
         abstract = p.get("abstract", "")
-        ref = f"{p['authors'].split(',')[0].split(' ')[-1]} et al. ({p['year']})"
         for sent in split_sentences(abstract):
             hits = sum(1 for kw in keywords if kw in sent.lower())
-            all_sents.append((hits, sent, ref))
+            all_sents.append((hits, sent, idx))
 
     all_sents.sort(key=lambda x: x[0], reverse=True)
 
-    # Para 1: What is the bias — highest-hit sentences describing the bias itself
-    para1_sents = [s for h, s, r in all_sents if h >= 2][:3]
-    if not para1_sents:
-        para1_sents = [s for h, s, r in all_sents[:3]]
-    para1 = f"The {bias_name} is one of the most documented systematic errors in " \
-            f"coupled climate models. " + " ".join(para1_sents[:2])
+    def tag(sent: str, idx: int) -> str:
+        """Append citation marker to sentence (before the final period if present)."""
+        sent = sent.rstrip()
+        if sent.endswith("."):
+            return sent[:-1] + f" [{idx}]."
+        return sent + f" [{idx}]"
+
+    # Para 1: What is the bias — highest-hit sentences
+    high_hit = [(h, s, i) for h, s, i in all_sents if h >= 2][:2]
+    if not high_hit:
+        high_hit = all_sents[:2]
+    intro = f"The {bias_name} is one of the most documented systematic errors in coupled climate models."
+    para1_body = " ".join(tag(s, i) for _, s, i in high_hit)
+    para1 = intro + " " + para1_body
 
     # Para 2: History — sentences mentioning CMIP generations
-    cmip_sents = [s for h, s, r in all_sents
+    cmip_sents = [(h, s, i) for h, s, i in all_sents
                   if any(m in s.lower()
                          for gen_markers in CMIP_MARKERS.values()
-                         for m in gen_markers)][:3]
+                         for m in gen_markers)][:2]
     if cmip_sents:
-        para2 = ("Across successive generations of the Coupled Model Intercomparison Project "
-                 "(CMIP), the bias has been tracked in multi-model assessments. "
-                 + " ".join(cmip_sents[:2]))
+        intro2 = ("Across successive generations of the Coupled Model Intercomparison Project "
+                  "(CMIP), the bias has been tracked in multi-model assessments.")
+        para2 = intro2 + " " + " ".join(tag(s, i) for _, s, i in cmip_sents)
     else:
         para2 = ("The bias has persisted across multiple generations of the Coupled Model "
                  "Intercomparison Project (CMIP), from CMIP3 through CMIP6.")
@@ -272,12 +285,12 @@ def build_description(
         "cloud", "albedo", "feedback", "tuning", "correction",
         "reduces", "improved", "mitigated", "attributed",
     ]
-    mech_sents = [s for h, s, r in all_sents
-                  if any(m in s.lower() for m in mechanism_keywords)][:3]
+    mech_sents = [(h, s, i) for h, s, i in all_sents
+                  if any(m in s.lower() for m in mechanism_keywords)][:2]
     if mech_sents:
-        para3 = ("The physical mechanisms underlying this bias and potential pathways "
-                 "to its reduction have been investigated in several studies. "
-                 + " ".join(mech_sents[:2]))
+        intro3 = ("The physical mechanisms underlying this bias and potential pathways "
+                  "to its reduction have been investigated in several studies.")
+        para3 = intro3 + " " + " ".join(tag(s, i) for _, s, i in mech_sents)
     else:
         para3 = ("The mechanisms driving this bias and candidate solutions remain the "
                  "subject of ongoing research in the modelling community.")
