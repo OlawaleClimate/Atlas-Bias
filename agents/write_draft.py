@@ -75,16 +75,6 @@ def contains_number(text: str) -> bool:
     return bool(re.search(r"\d", text))
 
 
-def first_sentence(text: str) -> str:
-    sents = split_sentences(text)
-    return sents[0] if sents else text[:200]
-
-
-def last_sentence(text: str) -> str:
-    sents = split_sentences(text)
-    return sents[-1] if sents else text[-200:]
-
-
 def sentence_with_keywords(text: str, keywords: list[str]) -> str:
     """Return the sentence with the most keyword hits."""
     sents = split_sentences(text)
@@ -95,82 +85,106 @@ def sentence_with_keywords(text: str, keywords: list[str]) -> str:
     return scored[0][1]
 
 
-def sentence_with_number(text: str) -> str:
-    """Return the sentence most likely to contain quantitative results."""
-    sents = split_sentences(text)
-    number_sents = [s for s in sents if contains_number(s)]
-    if not number_sents:
-        return sents[1] if len(sents) > 1 else (sents[0] if sents else text[:200])
-    # Prefer sentences with both numbers and 'K', '%', 'Sv', 'W/m', etc.
-    rich = [s for s in number_sents
-            if re.search(r"(%|K\b|Sv|W/m|km|mm|hPa|°|\bK\b)", s)]
-    return rich[0] if rich else number_sents[0]
-
-
-def method_sentence(text: str) -> str:
-    """Return the sentence most likely to describe the method."""
-    method_keywords = [
-        "using", "analysis", "method", "model", "simulation", "data",
-        "reanalysis", "observations", "diagnosed", "evaluated", "compared",
-        "multimodel", "ensemble", "cmip", "coupled", "prescribed",
-    ]
-    sents = split_sentences(text)
-    scored = [(sum(1 for kw in method_keywords if kw in s.lower()), s)
-              for s in sents]
-    scored.sort(key=lambda x: x[0], reverse=True)
-    return scored[0][1] if scored else (sents[1] if len(sents) > 1 else text[:200])
+def _pick(sents: list[str], keywords: list[str], extra_kws: list[str],
+          seen: set[str]) -> str | None:
+    """Return the highest-scoring unseen sentence matching both bias keywords
+    and extra_kws. Falls back to highest bias-keyword score."""
+    scored = []
+    for s in sents:
+        s_low = s.lower()
+        bias_hits  = sum(1 for kw in keywords   if kw in s_low)
+        extra_hits = sum(1 for kw in extra_kws  if kw in s_low)
+        scored.append((bias_hits, extra_hits, s))
+    # Sort: bias hits desc, then extra hits desc
+    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    for bh, eh, s in scored:
+        if s[:60] not in seen:
+            return s
+    return None
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Build 4-sentence paper summary
+# Build 4-sentence paper summary — bias-focused
 # ─────────────────────────────────────────────────────────────────────────────
 def four_sentence_summary(paper: dict[str, Any], keywords: list[str]) -> str:
+    """
+    Four sentences that describe what this paper did/found *about the bias*:
+      1. What the paper studied (context/topic — bias-keyword rich)
+      2. What method or dataset was used to study the bias
+      3. Key quantitative or mechanistic result about the bias
+      4. Conclusion or implication about the bias
+    """
     abstract = paper.get("abstract", "")
     if not abstract:
-        # Fall back to title
         return (
-            f"{paper['authors']} studied {paper['title']}. "
+            f"{paper['authors']} examined {paper['title']}. "
             "No abstract was available for detailed summary extraction. "
             f"This paper was published in {paper['journal']} in {paper['year']}. "
             "It was identified as relevant through keyword and citation screening."
         )
 
-    s1 = first_sentence(abstract)
-    s2 = method_sentence(abstract)
-    s3 = sentence_with_number(abstract)
-    s4 = last_sentence(abstract)
-
-    # Deduplicate — avoid repeating the same sentence
-    seen: set[str] = set()
-    sents_out: list[str] = []
     all_sents = split_sentences(abstract)
+    if not all_sents:
+        return abstract[:500]
 
-    for candidate in [s1, s2, s3, s4]:
-        key = candidate[:60]
-        if key not in seen:
-            seen.add(key)
-            sents_out.append(candidate)
-        else:
-            # Pick a different sentence from the abstract
-            for s in all_sents:
-                k = s[:60]
-                if k not in seen and len(s) > 40:
-                    seen.add(k)
-                    sents_out.append(s)
-                    break
+    seen: set[str] = set()
+    out:  list[str] = []
 
-    # Ensure exactly 4 sentences
-    while len(sents_out) < 4 and all_sents:
-        for s in all_sents:
-            k = s[:60]
-            if k not in seen:
-                seen.add(k)
-                sents_out.append(s)
-                break
-        else:
+    # Sentence 1 — What was studied (bias context)
+    topic_kws = ["bias", "error", "investigate", "examine", "study", "assess",
+                 "document", "analyse", "analyze", "characterize"] + keywords
+    s1 = _pick(all_sents, keywords, topic_kws, seen)
+    if s1:
+        seen.add(s1[:60])
+        out.append(s1)
+
+    # Sentence 2 — Method / dataset used to study the bias
+    method_kws = ["using", "model", "simulation", "reanalysis", "observations",
+                  "ensemble", "cmip", "coupled", "diagnosed", "evaluated",
+                  "multimodel", "experiment", "compared", "prescribed"]
+    s2 = _pick(all_sents, keywords, method_kws, seen)
+    if s2:
+        seen.add(s2[:60])
+        out.append(s2)
+
+    # Sentence 3 — Quantitative or mechanistic result about the bias
+    result_kws = ["show", "find", "found", "result", "reveal", "indicate",
+                  "demonstrate", "suggest", "conclude", "attributed",
+                  "associated", "responsible", "caused"]
+    # Prefer sentences with numbers (%, K, Sv, W/m², mm/day …)
+    num_sents = [s for s in all_sents
+                 if re.search(r"(\d+\.?\d*\s*(%|K\b|Sv|W/m|mm|hPa|°C|km))", s)
+                 and s[:60] not in seen]
+    if num_sents:
+        # Among those, pick the one most relevant to bias keywords
+        scored = sorted(num_sents,
+                        key=lambda s: sum(1 for kw in keywords if kw in s.lower()),
+                        reverse=True)
+        s3 = scored[0]
+    else:
+        s3 = _pick(all_sents, keywords, result_kws, seen)
+    if s3 and s3[:60] not in seen:
+        seen.add(s3[:60])
+        out.append(s3)
+
+    # Sentence 4 — Conclusion or implication
+    concl_kws = ["conclusion", "implication", "therefore", "thus", "hence",
+                 "suggest", "indicate", "highlight", "provide", "future",
+                 "improve", "reduce", "remain", "persist"]
+    s4 = _pick(all_sents, keywords, concl_kws, seen)
+    if s4:
+        seen.add(s4[:60])
+        out.append(s4)
+
+    # Pad to 4 sentences with unseen sentences if needed
+    for s in all_sents:
+        if len(out) >= 4:
             break
+        if s[:60] not in seen:
+            seen.add(s[:60])
+            out.append(s)
 
-    return " ".join(sents_out[:4])
+    return " ".join(out[:4])
 
 
 # ─────────────────────────────────────────────────────────────────────────────
