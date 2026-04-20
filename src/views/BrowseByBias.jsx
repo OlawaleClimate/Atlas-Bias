@@ -18,7 +18,11 @@ export default function BrowseByBias() {
       <section className="card list">
         <h3 style={{ marginTop: 0 }}>Bias Entries</h3>
         {filtered.map((item) => (
-          <button key={item.id} onClick={() => setSelectedId(item.id)}>
+          <button
+            key={item.id}
+            onClick={() => setSelectedId(item.id)}
+            className={item.id === selectedId ? "list-btn selected" : "list-btn"}
+          >
             {item.name}
           </button>
         ))}

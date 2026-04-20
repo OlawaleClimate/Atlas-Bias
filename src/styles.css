@@ -116,6 +116,25 @@ textarea {
   padding: 8px 10px;
   background: #121a27;
   color: var(--ink);
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--accent);
+  background: #1a2a40;
+}
+
+.list-btn {
+  text-align: left;
+  width: 100%;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.list-btn.selected {
+  border-color: var(--accent);
+  background: #0e2540;
+  color: var(--accent);
+  font-weight: 600;
 }
 
 .feedback-actions {
