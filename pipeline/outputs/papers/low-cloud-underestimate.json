@@ -1,0 +1,718 @@
+{
+  "bias_id": "low-cloud-underestimate",
+  "bias_name": "Low Cloud Underestimate",
+  "keywords": [
+    "stratocumulus",
+    "low cloud",
+    "cloud fraction",
+    "cloud bias",
+    "cmip",
+    "radiation",
+    "boundary layer",
+    "subtropical",
+    "shortwave",
+    "cloud cover"
+  ],
+  "candidates": [
+    {
+      "doi": "10.5194/gmd-5-709-2012",
+      "title": "Toward a minimal representation of aerosols in climate models: description and evaluation in the Community Atmosphere Model CAM5",
+      "authors": "Liu, Easter, Ghan and Zaveri et al.",
+      "year": 2012,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 1114,
+      "abstract": "Abstract. A modal aerosol module (MAM) has been developed for the Community Atmosphere Model version 5 (CAM5), the atmospheric component of the Community Earth System Model version 1 (CESM1). MAM is capable of simulating the aerosol size distribution and both internal and external mixing between aerosol components, treating numerous complicated aerosol processes and aerosol physical, chemical and optical properties in a physically-based manner. Two MAM versions were developed: a more complete version with seven lognormal modes (MAM7), and a version with three lognormal modes (MAM3) for the purpose of long-term (decades to centuries) simulations. In this paper a description and evaluation of the aerosol module and its two representations are provided. Sensitivity of the aerosol lifecycle to simplifications in the representation of aerosol is discussed. Simulated sulfate and secondary organic aerosol (SOA) mass concentrations are remarkably similar between MAM3 and MAM7. Differences in primary organic matter (POM) and black carbon (BC) concentrations between MAM3 and MAM7 are also small (mostly within 10%). The mineral dust global burden differs by 10% and sea salt burden by 30\u201340% between MAM3 and MAM7, mainly due to the different size ranges for dust and sea salt modes and different standard deviations of the log-normal size distribution for sea salt modes between MAM3 and MAM7. The model is able to qualitatively capture the observed geographical and temporal variations of aerosol mass and number concentrations, size distributions, and aerosol optical properties. However, there are noticeable biases; e.g., simulated BC concentrations are significantly lower than measurements in the Arctic. There is a low bias in modeled aerosol optical depth on the global scale, especially in the developing countries. These biases in aerosol simulations clearly indicate the need for improvements of aerosol processes (e.g., emission fluxes of anthropogenic aerosols and precursor gases in developing countries, boundary layer nucleation) and properties (e.g., primary aerosol emission size, POM hygroscopicity). In addition, the critical role of cloud properties (e.g., liquid water content, cloud fraction) responsible for the wet scavenging of aerosol is highlighted.",
+      "keyword_hits": [
+        "cloud fraction",
+        "boundary layer"
+      ],
+      "score": 2228,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 200,
+        "landing_url": "https://gmd.copernicus.org/articles/5/709/2012/",
+        "crossref_title": "Toward a minimal representation of aerosols in climate models: description and evaluation in the Community Atmosphere Model CAM5",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Geoscientific Model Development",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "cloud fraction",
+          "boundary layer"
+        ],
+        "abstract_snippet": " abstract. a modal aerosol module (mam) has been developed for the community atmosphere model version 5 (cam5), the atmospheric component of the community earth system model version 1 (cesm1). mam is capable of simulating the aerosol size distribution and both internal and external mixing between ae",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1029/2019ms001892",
+      "title": "LMDZ6A: The Atmospheric Component of the IPSL Climate Model With Improved and Better Tuned Physics",
+      "authors": "Hourdin, Rio, Grandpeix and Madeleine et al.",
+      "year": 2020,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 263,
+      "abstract": "Abstract This study presents the version of the LMDZ global atmospheric model used as the atmospheric component of the Institut Pierre Simon Laplace coupled model (IPSL\u2010CM6A\u2010LR) to contribute to the 6th phase of the international Coupled Model Intercomparison Project (CMIP6). This LMDZ6A version includes original convective parameterizations that define the LMDZ \u201cNew Physics\u201d: a mass flux parameterization of the organized structures of the convective boundary layer, the \u201cthermal plume model,\u201d and a parameterization of the cold pools created by reevaporation of convective rainfall. The vertical velocity associated with thermal plumes and gust fronts of cold pools are used to control the triggering and intensity of deep convection. Because of several shortcomings, the early version 5B of this New Physics was worse than the previous \u201cStandard Physics\u201d version 5A regarding several classical climate metrics. To overcome these deficiencies, version 6A includes new developments: a stochastic triggering of deep convection, a modification of the thermal plume model that allows the representation of stratocumulus and cumulus clouds in a unified framework, an improved parameterization of very stable boundary layers, and the modification of the gravity waves scheme targeting the quasi\u2010biennal oscillation in the stratosphere. These improvements to the physical content and a more well\u2010defined tuning strategy led to major improvements in the LMDZ6A version model climatology. Beyond the presentation of this particular model version and documentation of its climatology, the present paper underlines possible methodological pathways toward model improvement that can be shared across modeling groups.",
+      "keyword_hits": [
+        "stratocumulus",
+        "cmip",
+        "boundary layer"
+      ],
+      "score": 789,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1029/2019ms001892",
+        "crossref_title": "LMDZ6A: The Atmospheric Component of the IPSL Climate Model With Improved and Better Tuned Physics",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Advances in Modeling Earth Systems",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "stratocumulus",
+          "cmip",
+          "boundary layer"
+        ],
+        "abstract_snippet": " abstract  this study presents the version of the lmdz global atmospheric model used as the atmospheric component of the institut pierre simon laplace coupled model (ipsl\u2010cm6a\u2010lr) to contribute to the 6th phase of the international coupled model intercomparison project (cmip6). this lmdz6a version i",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1175/jcli-d-14-00545.1",
+      "title": "The Dependence of Radiative Forcing and Feedback on Evolving Patterns of Surface Temperature Change in Climate Models",
+      "authors": "Andrews, Gregory and Webb",
+      "year": 2014,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 385,
+      "abstract": "Abstract Experiments with CO 2 instantaneously quadrupled and then held constant are used to show that the relationship between the global-mean net heat input to the climate system and the global-mean surface air temperature change is nonlinear in phase 5 of the Coupled Model Intercomparison Project (CMIP5) atmosphere\u2013ocean general circulation models (AOGCMs). The nonlinearity is shown to arise from a change in strength of climate feedbacks driven by an evolving pattern of surface warming. In 23 out of the 27 AOGCMs examined, the climate feedback parameter becomes significantly (95% confidence) less negative (i.e., the effective climate sensitivity increases) as time passes. Cloud feedback parameters show the largest changes. In the AOGCM mean, approximately 60% of the change in feedback parameter comes from the tropics (30\u00b0N\u201330\u00b0S). An important region involved is the tropical Pacific, where the surface warming intensifies in the east after a few decades. The dependence of climate feedbacks on an evolving pattern of surface warming is confirmed using the HadGEM2 and HadCM3 atmosphere GCMs (AGCMs). With monthly evolving sea surface temperatures and sea ice prescribed from its AOGCM counterpart, each AGCM reproduces the time-varying feedbacks, but when a fixed pattern of warming is prescribed the radiative response is linear with global temperature change or nearly so. It is also demonstrated that the regression and fixed-SST methods for evaluating effective radiative forcing are in principle different, because rapid SST adjustment when CO 2 is changed can produce a pattern of surface temperature change with zero global mean but nonzero change in net radiation at the top of the atmosphere (~\u22120.5 W m \u22122 in HadCM3).",
+      "keyword_hits": [
+        "cmip",
+        "radiation"
+      ],
+      "score": 770,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1175/jcli-d-14-00545.1",
+        "crossref_title": "The Dependence of Radiative Forcing and Feedback on Evolving Patterns of Surface Temperature Change in Climate Models",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Climate",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "cmip",
+          "radiation"
+        ],
+        "abstract_snippet": " abstract \n                   \n                    experiments with co\n                     2 \n                    instantaneously quadrupled and then held constant are used to show that the relationship between the global-mean net heat input to the climate system and the global-mean surface air tem",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1175/jcli-d-13-00169.1",
+      "title": "Origins of the Solar Radiation Biases over the Southern Ocean in CFMIP2 Models*",
+      "authors": "Bodas\u2010Salcedo, Williams, Ringer and Beau et al.",
+      "year": 2013,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 350,
+      "abstract": "Abstract Current climate models generally reflect too little solar radiation over the Southern Ocean, which may be the leading cause of the prevalent sea surface temperature biases in climate models. The authors study the role of clouds on the radiation biases in atmosphere-only simulations of the Cloud Feedback Model Intercomparison Project phase 2 (CFMIP2), as clouds have a leading role in controlling the solar radiation absorbed at those latitudes. The authors composite daily data around cyclone centers in the latitude band between 40\u00b0 and 70\u00b0S during the summer. They use cloud property estimates from satellite to classify clouds into different regimes, which allow them to relate the cloud regimes and their associated radiative biases to the meteorological conditions in which they occur. The cloud regimes are defined using cloud properties retrieved using passive sensors and may suffer from the errors associated with this type of retrievals. The authors use information from the Cloud\u2013Aerosol Lidar and Infrared Pathfinder Satellite Observations (CALIPSO) lidar to investigate in more detail the properties of the \u201cmidlevel\u201d cloud regime. Most of the model biases occur in the cold-air side of the cyclone composite, and the cyclone composite accounts for most of the climatological error in that latitudinal band. The midlevel regime is the main contributor to reflected shortwave radiation biases. CALIPSO data show that the midlevel cloud regime is dominated by two main cloud types: cloud with tops actually at midlevel and low-level cloud. Improving the simulation of these cloud types should help reduce the biases in the simulation of the solar radiation budget in the Southern Ocean in climate models.",
+      "keyword_hits": [
+        "radiation",
+        "shortwave"
+      ],
+      "score": 700,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1175/jcli-d-13-00169.1",
+        "crossref_title": "Origins of the Solar Radiation Biases over the Southern Ocean in CFMIP2 Models*",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Climate",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "radiation",
+          "shortwave"
+        ],
+        "abstract_snippet": " abstract  current climate models generally reflect too little solar radiation over the southern ocean, which may be the leading cause of the prevalent sea surface temperature biases in climate models. the authors study the role of clouds on the radiation biases in atmosphere-only simulations of the",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.5194/gmd-9-3447-2016",
+      "title": "The Radiative Forcing Model Intercomparison Project (RFMIP): experimental protocol for CMIP6",
+      "authors": "Pincus, Forster and Stevens",
+      "year": 2016,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 304,
+      "abstract": "Abstract. The phrasing of the first of three questions motivating CMIP6 \u2013 \u201cHow does the Earth system respond to forcing?\u201d \u2013 suggests that forcing is always well-known, yet the radiative forcing to which this question refers has historically been uncertain in coordinated experiments even as understanding of how best to infer radiative forcing has evolved. The Radiative Forcing Model Intercomparison Project (RFMIP) endorsed by CMIP6 seeks to provide a foundation for answering the question through three related activities: (i) accurate characterization of the effective radiative forcing relative to a near-preindustrial baseline and careful diagnosis of the components of this forcing; (ii) assessment of the absolute accuracy of clear-sky radiative transfer parameterizations against reference models on the global scales relevant for climate modeling; and (iii) identification of robust model responses to tightly specified aerosol radiative forcing from 1850 to present. Complete characterization of effective radiative forcing can be accomplished with 180 years (Tier 1) of atmosphere-only simulation using a sea-surface temperature and sea ice concentration climatology derived from the host model's preindustrial control simulation. Assessment of parameterization error requires trivial amounts of computation but the development of small amounts of infrastructure: new, spectrally detailed diagnostic output requested as two snapshots at present-day and preindustrial conditions, and results from the model's radiation code applied to specified atmospheric conditions. The search for robust responses to aerosol changes relies on the CMIP6 specification of anthropogenic aerosol properties; models using this specification can contribute to RFMIP with no additional simulation, while those using a full aerosol model are requested to perform at least one and up to four 165-year coupled ocean\u2013atmosphere simulations at Tier 1.",
+      "keyword_hits": [
+        "cmip",
+        "radiation"
+      ],
+      "score": 608,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 200,
+        "landing_url": "https://gmd.copernicus.org/articles/9/3447/2016/",
+        "crossref_title": "The Radiative Forcing Model Intercomparison Project (RFMIP): experimental protocol for CMIP6",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Geoscientific Model Development",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "cmip",
+          "radiation"
+        ],
+        "abstract_snippet": " abstract. the phrasing of the first of three questions motivating cmip6 \u2013 \u201chow does the earth system respond to forcing?\u201d \u2013 suggests that forcing is always well-known, yet the radiative forcing to which this question refers has historically been uncertain in coordinated experiments even as understa",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    }
+  ],
+  "dropped": [
+    {
+      "doi": "10.1175/jcli3761.1",
+      "title": "The Community Climate System Model Version 3 (CCSM3)",
+      "authors": "Collins, Bitz, Blackmon and Bonan et al.",
+      "year": 2006,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 2363,
+      "abstract": "Abstract The Community Climate System Model version 3 (CCSM3) has recently been developed and released to the climate community. CCSM3 is a coupled climate model with components representing the atmosphere, ocean, sea ice, and land surface connected by a flux coupler. CCSM3 is designed to produce realistic simulations over a wide range of spatial resolutions, enabling inexpensive simulations lasting several millennia or detailed studies of continental-scale dynamics, variability, and climate change. This paper will show results from the configuration used for climate-change simulations with a T85 grid for the atmosphere and land and a grid with approximately 1\u00b0 resolution for the ocean and sea ice. The new system incorporates several significant improvements in the physical parameterizations. The enhancements in the model physics are designed to reduce or eliminate several systematic biases in the mean climate produced by previous editions of CCSM. These include new treatments of cloud processes, aerosol radiative forcing, land\u2013atmosphere fluxes, ocean mixed layer processes, and sea ice dynamics. There are significant improvements in the sea ice thickness, polar radiation budgets, tropical sea surface temperatures, and cloud radiative effects. CCSM3 can produce stable climate simulations of millennial duration without ad hoc adjustments to the fluxes exchanged among the component models. Nonetheless, there are still systematic biases in the ocean\u2013atmosphere fluxes in coastal regions west of continents, the spectrum of ENSO variability, the spatial distribution of precipitation in the tropical oceans, and continental precipitation and surface air temperatures. Work is under way to extend CCSM to a more accurate and comprehensive model of the earth's climate system.",
+      "keyword_hits": [
+        "radiation"
+      ],
+      "score": 2363,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['radiation']"
+      ]
+    },
+    {
+      "doi": "10.1007/s00382-012-1636-1",
+      "title": "Climate change projections using the IPSL-CM5 Earth System Model: from CMIP3 to CMIP5",
+      "authors": "Dufresne, Foujols, Denvil and Caubel et al.",
+      "year": 2013,
+      "journal": "Climate Dynamics",
+      "journal_ok": true,
+      "cited_by": 1867,
+      "abstract": "We present the global general circulation model IPSL-CM5 developed to study the long-term response of the climate system to natural and anthropogenic forcings as part of the 5th Phase of the Coupled Model Intercomparison Project (CMIP5). This model includes an interactive carbon cycle, a representation of tropospheric and stratospheric chemistry, and a comprehensive representation of aerosols. As it represents the principal dynamical, physical, and bio-geochemical processes relevant to the climate system, it may be referred to as an Earth System Model. However, the IPSL-CM5 model may be used in a multitude of configurations associated with different boundary conditions and with a range of complexities in terms of processes and interactions. This paper presents an overview of the different model components and explains how they were coupled and used to simulate historical climate changes over the past 150 years and different scenarios of future climate change. A single version of the IPSL-CM5 model (IPSL-CM5A-LR) was used to provide climate projections associated with different socio-economic scenarios, including the different Representative Concentration Pathways considered by CMIP5 and several scenarios from the Special Report on Emission Scenarios considered by CMIP3. Results suggest that the magnitude of global warming projections primarily depends on the socio-economic scenario considered, that there is potential for an aggressive mitigation policy to limit global warming to about two degrees, and that the behavior of some components of the climate system such as the Arctic sea ice and the Atlantic Meridional Overturning Circulation may change drastically by the end of the twenty-first century in the case of a no climate policy scenario. Although the magnitude of regional temperature and precipitation changes depends fairly linearly on the magnitude of the projected global warming (and thus on the scenario considered), the geographical pattern of these changes is strikingly similar for the different scenarios. The representation of atmospheric physical processes in the model is shown to strongly influence the simulated climate variability and both the magnitude and pattern of the projected climate changes.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 1867,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1029/2019rg000660",
+      "title": "Bounding Global Aerosol Radiative Forcing of Climate Change",
+      "authors": "Bellouin, Quaas, Gryspeerdt and Kinne et al.",
+      "year": 2019,
+      "journal": "Reviews of Geophysics",
+      "journal_ok": false,
+      "cited_by": 932,
+      "abstract": "Aerosols interact with radiation and clouds. Substantial progress made over the past 40 years in observing, understanding, and modeling these processes helped quantify the imbalance in the Earth's radiation budget caused by anthropogenic aerosols, called aerosol radiative forcing, but uncertainties remain large. This review provides a new range of aerosol radiative forcing over the industrial era based on multiple, traceable, and arguable lines of evidence, including modeling approaches, theoretical considerations, and observations. Improved understanding of aerosol absorption and the causes of trends in surface radiative fluxes constrain the forcing from aerosol-radiation interactions. A robust theoretical foundation and convincing evidence constrain the forcing caused by aerosol-driven increases in liquid cloud droplet number concentration. However, the influence of anthropogenic aerosols on cloud liquid water content and cloud fraction is less clear, and the influence on mixed-phase and ice clouds remains poorly constrained. Observed changes in surface temperature and radiative fluxes provide additional constraints. These multiple lines of evidence lead to a 68% confidence interval for the total aerosol effective radiative forcing of -1.6 to -0.6 W m<sup>-2</sup>, or -2.0 to -0.4 W m<sup>-2</sup> with a 90% likelihood. Those intervals are of similar width to the last Intergovernmental Panel on Climate Change assessment but shifted toward more negative values. The uncertainty will narrow in the future by continuing to critically combine multiple lines of evidence, especially those addressing industrial-era changes in aerosol sources and aerosol effects on liquid cloud amount and on ice clouds.",
+      "keyword_hits": [
+        "cloud fraction",
+        "radiation"
+      ],
+      "score": 1864,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Reviews of Geophysics)"
+      ]
+    },
+    {
+      "doi": "10.1002/jame.20038",
+      "title": "Climate and carbon cycle changes from 1850 to 2100 in MPI\u2010ESM simulations for the Coupled Model Intercomparison Project phase 5",
+      "authors": "Giorgetta, Jungclaus, Reick and Legutke et al.",
+      "year": 2013,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 1758,
+      "abstract": "The new Max\u2010Planck\u2010Institute Earth System Model (MPI\u2010ESM) is used in the Coupled Model Intercomparison Project phase 5 (CMIP5) in a series of climate change experiments for either idealized CO 2 \u2010only forcing or forcings based on observations and the Representative Concentration Pathway (RCP) scenarios. The paper gives an overview of the model configurations, experiments related forcings, and initialization procedures and presents results for the simulated changes in climate and carbon cycle. It is found that the climate feedback depends on the global warming and possibly the forcing history. The global warming from climatological 1850 conditions to 2080\u20132100 ranges from 1.5\u00b0C under the RCP2.6 scenario to 4.4\u00b0C under the RCP8.5 scenario. Over this range, the patterns of temperature and precipitation change are nearly independent of the global warming. The model shows a tendency to reduce the ocean heat uptake efficiency toward a warmer climate, and hence acceleration in warming in the later years. The precipitation sensitivity can be as high as 2.5% K \u22121 if the CO 2 concentration is constant, or as small as 1.6% K \u22121 , if the CO 2 concentration is increasing. The oceanic uptake of anthropogenic carbon increases over time in all scenarios, being smallest in the experiment forced by RCP2.6 and largest in that for RCP8.5. The land also serves as a net carbon sink in all scenarios, predominantly in boreal regions. The strong tropical carbon sources found in the RCP2.6 and RCP8.5 experiments are almost absent in the RCP4.5 experiment, which can be explained by reforestation in the RCP4.5 scenario.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 1758,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1029/2018ms001400",
+      "title": "Developments in the MPI\u2010M Earth System Model version 1.2 (MPI\u2010ESM1.2) and Its Response to Increasing CO<sub>2</sub>",
+      "authors": "Mauritsen, Bader, Becker and Behrens et al.",
+      "year": 2019,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 1516,
+      "abstract": "A new release of the Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM1.2) is presented. The development focused on correcting errors in and improving the physical processes representation, as well as improving the computational performance, versatility, and overall user friendliness. In addition to new radiation and aerosol parameterizations of the atmosphere, several relatively large, but partly compensating, coding errors in the model's cloud, convection, and turbulence parameterizations were corrected. The representation of land processes was refined by introducing a multilayer soil hydrology scheme, extending the land biogeochemistry to include the nitrogen cycle, replacing the soil and litter decomposition model and improving the representation of wildfires. The ocean biogeochemistry now represents cyanobacteria prognostically in order to capture the response of nitrogen fixation to changing climate conditions and further includes improved detritus settling and numerous other refinements. As something new, in addition to limiting drift and minimizing certain biases, the instrumental record warming was explicitly taken into account during the tuning process. To this end, a very high climate sensitivity of around 7 K caused by low-level clouds in the tropics as found in an intermediate model version was addressed, as it was not deemed possible to match observed warming otherwise. As a result, the model has a climate sensitivity to a doubling of CO<sub>2</sub> over preindustrial conditions of 2.77 K, maintaining the previously identified highly nonlinear global mean response to increasing CO<sub>2</sub> forcing, which nonetheless can be represented by a simple two-layer model.",
+      "keyword_hits": [
+        "radiation"
+      ],
+      "score": 1516,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['radiation']"
+      ]
+    },
+    {
+      "doi": "10.17617/2.1781494",
+      "title": "The atmospheric general circulation model ECHAM-4: Model description and simulation of present-day climate",
+      "authors": "Roeckner, Arpe, Bengtsson and Christoph et al.",
+      "year": 1996,
+      "journal": "CentAUR (University of Reading)",
+      "journal_ok": false,
+      "cited_by": 1418,
+      "abstract": "A detailed description of the fourth-generation ECHAM model is presented. Compared to the previous version, ECHAM3, a number of substantial changes have been introduced in both the numerics and physics of the model. These include a semi-Lagrangian transport scheme for water vapour, cloud water and trace substances, a new radiation scheme (ECMWF) with modifications concerning the water vapour continuum, cloud optical properties and greenhouse gases, a new formulation of the vertical diffusion coefficients as functions of turbulent kinetic energy, and a new closure for deep convection based on convective instability instead of moisture convergence. Minor changes concern the parameterizations of horizontal diffusion, stratiform clouds and land surface processes. Also, a new dataset of land surface parameters have been compiled for the new model. The climatology of the model, derived from two extended AMIP simulations at T42L19 resolution, is documented and compared with ECMWF operational analyses. Some of the biases noted for the previous model version remain virtually unchanged. For example, the polar upper troposphere and lower stratosphere is much too cold, and the zonal wind errors become very large above the 200 hPa level. Furthermore, the low-frequency variability is still too small but the errors are reduced by about 50% compared to ECHAM3.",
+      "keyword_hits": [
+        "radiation"
+      ],
+      "score": 1418,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (CentAUR (University of Reading))",
+        "only 1 keyword hit(s): ['radiation']"
+      ]
+    },
+    {
+      "doi": "10.1175/2010jcli3679.1",
+      "title": "Improved Climate Simulation by MIROC5: Mean States, Variability, and Climate Sensitivity",
+      "authors": "Watanabe, Suzuki, O\u2019ishi and Komuro et al.",
+      "year": 2010,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 1388,
+      "abstract": "Abstract A new version of the atmosphere\u2013ocean general circulation model cooperatively produced by the Japanese research community, known as the Model for Interdisciplinary Research on Climate (MIROC), has recently been developed. A century-long control experiment was performed using the new version (MIROC5) with the standard resolution of the T85 atmosphere and 1\u00b0 ocean models. The climatological mean state and variability are then compared with observations and those in a previous version (MIROC3.2) with two different resolutions (medres, hires), coarser and finer than the resolution of MIROC5. A few aspects of the mean fields in MIROC5 are similar to or slightly worse than MIROC3.2, but otherwise the climatological features are considerably better. In particular, improvements are found in precipitation, zonal mean atmospheric fields, equatorial ocean subsurface fields, and the simulation of El Ni\u00f1o\u2013Southern Oscillation. The difference between MIROC5 and the previous model is larger than that between the two MIROC3.2 versions, indicating a greater effect of updating parameterization schemes on the model climate than increasing the model resolution. The mean cloud property obtained from the sophisticated prognostic schemes in MIROC5 shows good agreement with satellite measurements. MIROC5 reveals an equilibrium climate sensitivity of 2.6 K, which is lower than that in MIROC3.2 by 1 K. This is probably due to the negative feedback of low clouds to the increasing concentration of CO2, which is opposite to that in MIROC3.2.",
+      "keyword_hits": [
+        "low cloud"
+      ],
+      "score": 1388,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['low cloud']"
+      ]
+    },
+    {
+      "doi": "10.5194/gmd-12-4823-2019",
+      "title": "The Canadian Earth System Model version 5 (CanESM5.0.3)",
+      "authors": "Swart, Cole, Kharin and Lazare et al.",
+      "year": 2019,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 1271,
+      "abstract": "Abstract. The Canadian Earth System Model version 5 (CanESM5) is a global model developed to simulate historical climate change and variability, to make centennial-scale projections of future climate, and to produce initialized seasonal and decadal predictions. This paper describes the model components and their coupling, as well as various aspects of model development, including tuning, optimization, and a reproducibility strategy. We also document the stability of the model using a long control simulation, quantify the model's ability to reproduce large-scale features of the historical climate, and evaluate the response of the model to external forcing. CanESM5 is comprised of three-dimensional atmosphere (T63 spectral resolution equivalent roughly to 2.8\u2218) and ocean (nominally 1\u2218) general circulation models, a sea-ice model, a land surface scheme, and explicit land and ocean carbon cycle models. The model features relatively coarse resolution and high throughput, which facilitates the production of large ensembles. CanESM5 has a notably higher equilibrium climate sensitivity (5.6 K) than its predecessor, CanESM2 (3.7 K), which we briefly discuss, along with simulated changes over the historical period. CanESM5 simulations contribute to the Coupled Model Intercomparison Project phase 6 (CMIP6) and will be employed for climate science and service applications in Canada.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 1271,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.5194/gmd-12-1573-2019",
+      "title": "The Beijing Climate Center Climate System Model (BCC-CSM): the main progress from CMIP5 to CMIP6",
+      "authors": "Wu, Lu, Fang and Xin et al.",
+      "year": 2019,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 949,
+      "abstract": "Abstract. The main advancements of the Beijing Climate Center (BCC) climate system model from phase 5 of the Coupled Model Intercomparison Project (CMIP5) to phase 6 (CMIP6) are presented, in terms of physical parameterizations and model performance. BCC-CSM1.1 and BCC-CSM1.1m are the two models involved in CMIP5, whereas BCC-CSM2-MR, BCC-CSM2-HR, and BCC-ESM1.0 are the three models configured for CMIP6. Historical simulations from 1851 to 2014 from BCC-CSM2-MR (CMIP6) and from 1851 to 2005 from BCC-CSM1.1m (CMIP5) are used for models assessment. The evaluation matrices include the following: (a) the energy budget at top-of-atmosphere; (b) surface air temperature, precipitation, and atmospheric circulation for the global and East Asia regions; (c) the sea surface temperature (SST) in the tropical Pacific; (d) sea-ice extent and thickness and Atlantic Meridional Overturning Circulation (AMOC); and (e) climate variations at different timescales, such as the global warming trend in the 20th century, the stratospheric quasi-biennial oscillation (QBO), the Madden\u2013Julian Oscillation (MJO), and the diurnal cycle of precipitation. Compared with BCC-CSM1.1m, BCC-CSM2-MR shows significant improvements in many aspects including the tropospheric air temperature and circulation at global and regional scales in East Asia and climate variability at different timescales, such as the QBO, the MJO, the diurnal cycle of precipitation, interannual variations of SST in the equatorial Pacific, and the long-term trend of surface air temperature.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 949,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1002/wcc.465",
+      "title": "Cloud feedback mechanisms and their representation in global climate models",
+      "authors": "Ceppi, Brient, Zelinka and Hartmann",
+      "year": 2017,
+      "journal": "Wiley Interdisciplinary Reviews Climate Change",
+      "journal_ok": false,
+      "cited_by": 428,
+      "abstract": "Cloud feedback\u2014the change in top\u2010of\u2010atmosphere radiative flux resulting from the cloud response to warming\u2014constitutes by far the largest source of uncertainty in the climate response to CO 2 forcing simulated by global climate models ( GCMs ). We review the main mechanisms for cloud feedbacks, and discuss their representation in climate models and the sources of intermodel spread. Global\u2010mean cloud feedback in GCMs results from three main effects: (1) rising free\u2010tropospheric clouds (a positive longwave effect); (2) decreasing tropical low cloud amount (a positive shortwave [ SW ] effect); (3) increasing high\u2010latitude low cloud optical depth (a negative SW effect). These cloud responses simulated by GCMs are qualitatively supported by theory, high\u2010resolution modeling, and observations. Rising high clouds are consistent with the fixed anvil temperature ( FAT ) hypothesis, whereby enhanced upper\u2010tropospheric radiative cooling causes anvil cloud tops to remain at a nearly fixed temperature as the atmosphere warms. Tropical low cloud amount decreases are driven by a delicate balance between the effects of vertical turbulent fluxes, radiative cooling, large\u2010scale subsidence, and lower\u2010tropospheric stability on the boundary\u2010layer moisture budget. High\u2010latitude low cloud optical depth increases are dominated by phase changes in mixed\u2010phase clouds. The causes of intermodel spread in cloud feedback are discussed, focusing particularly on the role of unresolved parameterized processes such as cloud microphysics, turbulence, and convection. WIREs Clim Change 2017, 8:e465. doi: 10.1002/wcc.465 This article is categorized under: Climate Models and Modeling &gt; Model Components",
+      "keyword_hits": [
+        "low cloud",
+        "shortwave"
+      ],
+      "score": 856,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Wiley Interdisciplinary Reviews Climate Change)"
+      ]
+    },
+    {
+      "doi": "10.1002/2017ms001115",
+      "title": "The Met Office Global Coupled Model 3.0 and 3.1 (GC3.0 and GC3.1) Configurations",
+      "authors": "Williams, Copsey, Blockley and Bodas\u2010Salcedo et al.",
+      "year": 2017,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 787,
+      "abstract": "Abstract The Global Coupled 3 (GC3) configuration of the Met Office Unified Model is presented. Among other applications, GC3 is the basis of the United Kingdom's submission to the Coupled Model Intercomparison Project 6 (CMIP6). This paper documents the model components that make up the configuration (although the scientific descriptions of these components are in companion papers) and details the coupling between them. The performance of GC3 is assessed in terms of mean biases and variability in long climate simulations using present\u2010day forcing. The suitability of the configuration for predictability on shorter time scales (weather and seasonal forecasting) is also briefly discussed. The performance of GC3 is compared against GC2, the previous Met Office coupled model configuration, and against an older configuration (HadGEM2\u2010AO) which was the submission to CMIP5. In many respects, the performance of GC3 is comparable with GC2, however, there is a notable improvement in the Southern Ocean warm sea surface temperature bias which has been reduced by 75%, and there are improvements in cloud amount and some aspects of tropical variability. Relative to HadGEM2\u2010AO, many aspects of the present\u2010day climate are improved in GC3 including tropospheric and stratospheric temperature structure, most aspects of tropical and extratropical variability and top\u2010of\u2010atmosphere and surface fluxes. A number of outstanding errors are identified including a residual asymmetric sea surface temperature bias (cool northern hemisphere, warm Southern Ocean), an overly strong global hydrological cycle and insufficient European blocking.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 787,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.5194/gmd-10-359-2017",
+      "title": "The Cloud Feedback Model Intercomparison Project (CFMIP) contribution to CMIP6",
+      "authors": "Webb, Andrews, Bodas\u2010Salcedo and Bony et al.",
+      "year": 2017,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 316,
+      "abstract": "Abstract. The primary objective of CFMIP is to inform future assessments of cloud feedbacks through improved understanding of cloud\u2013climate feedback mechanisms and better evaluation of cloud processes and cloud feedbacks in climate models. However, the CFMIP approach is also increasingly being used to understand other aspects of climate change, and so a second objective has now been introduced, to improve understanding of circulation, regional-scale precipitation, and non-linear changes. CFMIP is supporting ongoing model inter-comparison activities by coordinating a hierarchy of targeted experiments for CMIP6, along with a set of cloud-related output diagnostics. CFMIP contributes primarily to addressing the CMIP6 questions How does the Earth system respond to forcing? and What are the origins and consequences of systematic model biases? and supports the activities of the WCRP Grand Challenge on Clouds, Circulation and Climate Sensitivity.A compact set of Tier 1 experiments is proposed for CMIP6 to address this question: (1) what are the physical mechanisms underlying the range of cloud feedbacks and cloud adjustments predicted by climate models, and which models have the most credible cloud feedbacks? Additional Tier 2 experiments are proposed to address the following questions. (2) Are cloud feedbacks consistent for climate cooling and warming, and if not, why? (3) How do cloud-radiative effects impact the structure, the strength and the variability of the general atmospheric circulation in present and future climates? (4) How do responses in the climate system due to changes in solar forcing differ from changes due to CO2, and is the response sensitive to the sign of the forcing? (5) To what extent is regional climate change per CO2 doubling state-dependent (non-linear), and why? (6) Are climate feedbacks during the 20th century different to those acting on long-term climate change and climate sensitivity? (7) How do regional climate responses (e.g. in precipitation) and their uncertainties in coupled models arise from the combination of different aspects of CO2 forcing and sea surface warming?CFMIP also proposes a number of additional model outputs in the CMIP DECK, CMIP6 Historical and CMIP6 CFMIP experiments, including COSP simulator outputs and process diagnostics to address the following questions. How well do clouds and other relevant variables simulated by models agree with observations?What physical processes and mechanisms are important for a credible simulation of clouds, cloud feedbacks and cloud adjustments in climate models?Which models have the most credible representations of processes relevant to the simulation of clouds?How do clouds and their changes interact with other elements of the climate system?",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 316,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1175/jcli-d-15-0564.1",
+      "title": "Large Contribution of Supercooled Liquid Clouds to the Solar Radiation Budget of the Southern Ocean",
+      "authors": "Bodas\u2010Salcedo, Hill, Furtado and Williams et al.",
+      "year": 2016,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 266,
+      "abstract": "Abstract The Southern Ocean is a critical region for global climate, yet large cloud and solar radiation biases over the Southern Ocean are a long-standing problem in climate models and are poorly understood, leading to biases in simulated sea surface temperatures. This study shows that supercooled liquid clouds are central to understanding and simulating the Southern Ocean environment. A combination of satellite observational data and detailed radiative transfer calculations is used to quantify the impact of cloud phase and cloud vertical structure on the reflected solar radiation in the Southern Hemisphere summer. It is found that clouds with supercooled liquid tops dominate the population of liquid clouds. The observations show that clouds with supercooled liquid tops contribute between 27% and 38% to the total reflected solar radiation between 40\u00b0 and 70\u00b0S, and climate models are found to poorly simulate these clouds. The results quantify the importance of supercooled liquid clouds in the Southern Ocean environment and highlight the need to improve understanding of the physical processes that control these clouds in order to improve their simulation in numerical models. This is not only important for improving the simulation of present-day climate and climate variability, but also relevant for increasing confidence in climate feedback processes and future climate projections.",
+      "keyword_hits": [
+        "radiation"
+      ],
+      "score": 266,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['radiation']"
+      ]
+    },
+    {
+      "doi": "10.1175/jcli-d-14-00656.1",
+      "title": "Rethinking the Lower Bound on Aerosol Radiative Forcing",
+      "authors": "Stevens",
+      "year": 2015,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 254,
+      "abstract": "Abstract Based on research showing that in the case of a strong aerosol forcing, this forcing establishes itself early in the historical record, a simple model is constructed to explore the implications of a strongly negative aerosol forcing on the early (pre-1950) part of the instrumental record. This model, which contains terms representing both aerosol\u2013radiation and aerosol\u2013cloud interactions, well represents the known time history of aerosol radiative forcing as well as the effect of the natural state on the strength of aerosol forcing. Model parameters, randomly drawn to represent uncertainty in understanding, demonstrate that a forcing more negative than \u22121.0 W m\u22122 is implausible, as it implies that none of the approximately 0.3-K temperature rise between 1850 and 1950 can be attributed to Northern Hemisphere forcing. The individual terms of the model are interpreted in light of comprehensive modeling, constraints from observations, and physical understanding to provide further support for the less negative (\u22121.0 W m\u22122) lower bound. These findings suggest that aerosol radiative forcing is less negative and more certain than is commonly believed.",
+      "keyword_hits": [
+        "radiation"
+      ],
+      "score": 254,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['radiation']"
+      ]
+    },
+    {
+      "doi": "10.1038/s41558-021-01039-0",
+      "title": "Observational constraints on low cloud feedback reduce uncertainty of climate sensitivity",
+      "authors": "Myers, Scott, Zelinka and Klein et al.",
+      "year": 2021,
+      "journal": "Nature Climate Change",
+      "journal_ok": true,
+      "cited_by": 252,
+      "abstract": "",
+      "keyword_hits": [
+        "low cloud"
+      ],
+      "score": 252,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['low cloud']"
+      ]
+    },
+    {
+      "doi": "10.1002/2017ms001064",
+      "title": "Single\u2010Column Model Simulations of Subtropical Marine Boundary\u2010Layer Cloud Transitions Under Weakening Inversions",
+      "authors": "Neggers, Ackerman, Angevine and Bazile et al.",
+      "year": 2017,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 57,
+      "abstract": "Abstract Results are presented of the GASS/EUCLIPSE single\u2010column model intercomparison study on the subtropical marine low\u2010level cloud transition. A central goal is to establish the performance of state\u2010of\u2010the\u2010art boundary\u2010layer schemes for weather and climate models for this cloud regime, using large\u2010eddy simulations of the same scenes as a reference. A novelty is that the comparison covers four different cases instead of one, in order to broaden the covered parameter space. Three cases are situated in the North\u2010Eastern Pacific, while one reflects conditions in the North\u2010Eastern Atlantic. A set of variables is considered that reflects key aspects of the transition process, making use of simple metrics to establish the model performance. Using this method, some longstanding problems in low\u2010level cloud representation are identified. Considerable spread exists among models concerning the cloud amount, its vertical structure, and the associated impact on radiative transfer. The sign and amplitude of these biases differ somewhat per case, depending on how far the transition has progressed. After cloud breakup the ensemble median exhibits the well\u2010known \u201ctoo few too bright\u201d problem. The boundary\u2010layer deepening rate and its state of decoupling are both underestimated, while the representation of the thin capping cloud layer appears complicated by a lack of vertical resolution. Encouragingly, some models are successful in representing the full set of variables, in particular, the vertical structure and diurnal cycle of the cloud layer in transition. An intriguing result is that the median of the model ensemble performs best, inspiring a new approach in subgrid parameterization.",
+      "keyword_hits": [
+        "subtropical"
+      ],
+      "score": 57,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['subtropical']"
+      ]
+    },
+    {
+      "doi": "10.1175/jcli3819.1",
+      "title": "How Well Do We Understand and Evaluate Climate Change Feedback Processes?",
+      "authors": "Bony, Colman, Kattsov and Allan et al.",
+      "year": 2006,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 1076,
+      "abstract": "Abstract Processes in the climate system that can either amplify or dampen the climate response to an external perturbation are referred to as climate feedbacks. Climate sensitivity estimates depend critically on radiative feedbacks associated with water vapor, lapse rate, clouds, snow, and sea ice, and global estimates of these feedbacks differ among general circulation models. By reviewing recent observational, numerical, and theoretical studies, this paper shows that there has been progress since the Third Assessment Report of the Intergovernmental Panel on Climate Change in (i) the understanding of the physical mechanisms involved in these feedbacks, (ii) the interpretation of intermodel differences in global estimates of these feedbacks, and (iii) the development of methodologies of evaluation of these feedbacks (or of some components) using observations. This suggests that continuing developments in climate feedback research will progressively help make it possible to constrain the GCMs\u2019 range of climate feedbacks and climate sensitivity through an ensemble of diagnostics based on physical understanding and observations.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1002/2014rg000475",
+      "title": "A review on regional convection\u2010permitting climate modeling: Demonstrations, prospects, and challenges",
+      "authors": "Prein, Langhans, Fosser and Ferrone et al.",
+      "year": 2015,
+      "journal": "Reviews of Geophysics",
+      "journal_ok": false,
+      "cited_by": 1421,
+      "abstract": "Regional climate modeling using convection-permitting models (CPMs; horizontal grid spacing <4 km) emerges as a promising framework to provide more reliable climate information on regional to local scales compared to traditionally used large-scale models (LSMs; horizontal grid spacing >10 km). CPMs no longer rely on convection parameterization schemes, which had been identified as a major source of errors and uncertainties in LSMs. Moreover, CPMs allow for a more accurate representation of surface and orography fields. The drawback of CPMs is the high demand on computational resources. For this reason, first CPM climate simulations only appeared a decade ago. In this study, we aim to provide a common basis for CPM climate simulations by giving a holistic review of the topic. The most important components in CPMs such as physical parameterizations and dynamical formulations are discussed critically. An overview of weaknesses and an outlook on required future developments is provided. Most importantly, this review presents the consolidated outcome of studies that addressed the added value of CPM climate simulations compared to LSMs. Improvements are evident mostly for climate statistics related to deep convection, mountainous regions, or extreme events. The climate change signals of CPM simulations suggest an increase in flash floods, changes in hail storm characteristics, and reductions in the snowpack over mountains. In conclusion, CPMs are a very promising tool for future climate research. However, coordinated modeling programs are crucially needed to advance parameterizations of unresolved physics and to assess the full potential of CPMs.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Reviews of Geophysics)",
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1002/2017ms001209",
+      "title": "The GFDL Global Atmosphere and Land Model AM4.0/LM4.0: 2. Model Description, Sensitivity Studies, and Tuning Strategies",
+      "authors": "Zhao, Golaz, Held and Guo et al.",
+      "year": 2018,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 371,
+      "abstract": "Abstract In Part 2 of this two\u2010part paper, documentation is provided of key aspects of a version of the AM4.0/LM4.0 atmosphere/land model that will serve as a base for a new set of climate and Earth system models (CM4 and ESM4) under development at NOAA's Geophysical Fluid Dynamics Laboratory (GFDL). The quality of the simulation in AMIP (Atmospheric Model Intercomparison Project) mode has been provided in Part 1. Part 2 provides documentation of key components and some sensitivities to choices of model formulation and values of parameters, highlighting the convection parameterization and orographic gravity wave drag. The approach taken to tune the model's clouds to observations is a particular focal point. Care is taken to describe the extent to which aerosol effective forcing and Cess sensitivity have been tuned through the model development process, both of which are relevant to the ability of the model to simulate the evolution of temperatures over the last century when coupled to an ocean model.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1175/1525-7541(2003)004<1147:tvgpcp>2.0.co;2",
+      "title": "The Version-2 Global Precipitation Climatology Project (GPCP) Monthly Precipitation Analysis (1979\u2013Present)",
+      "authors": "Adler, Huffman, Chang and Ferraro et al.",
+      "year": 2003,
+      "journal": "Journal of Hydrometeorology",
+      "journal_ok": false,
+      "cited_by": 5511,
+      "abstract": "The Global Precipitation Climatology Project (GPCP) Version-2 Monthly Precipitation Analysis is described. This globally complete, monthly analysis of surface precipitation at 2.5 latitude 2.5 longitude resolution is available from January 1979 to the present. It is a merged analysis that incorporates precipitation estimates from low-orbit satellite microwave data, geosynchronous-orbit satellite infrared data, and surface rain gauge observations. The merging approach utilizes the higher accuracy of the low-orbit microwave observations to calibrate, or adjust, the more frequent geosynchronous infrared observations. The dataset is extended back into the premicrowave era (before mid-1987) by using infrared-only observations calibrated to the microwave-based analysis of the later years. The combined satellite-based product is adjusted by the rain gauge analysis. The dataset archive also contains the individual input fields, a combined satellite estimate, and error estimates for each field. This monthly analysis is the foundation for the GPCP suite of products, including those at finer temporal resolution. The 23-yr GPCP climatology is characterized, along with time and space variations of precipitation.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Journal of Hydrometeorology)",
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.3354/cr00953",
+      "title": "Changes in precipitation with climate change",
+      "authors": "Trenberth",
+      "year": 2010,
+      "journal": "Climate Research",
+      "journal_ok": false,
+      "cited_by": 3721,
+      "abstract": "There is a direct influence of global warming on precipitation. Increased heating leads to greater evaporation and thus surface drying, thereby increasing the intensity and duration of drought. However, the water holding capacity of air increases by about 7% per 1C warming, which leads to increased water vapor in the atmosphere. Hence, storms, whether individual thunderstorms, extratropical rain or snow storms, or tropical cyclones, supplied with increased moisture, produce more intense precipitation events. Such events are observed to be widely occurring, even where total precipitation is decreasing: 'it never rains but it pours!' This increases the risk of flooding. The atmospheric and surface energy budget plays a critical role in the hydrological cycle, and also in the slower rate of change that occurs in total precipitation than total column water vapor. With modest changes in winds, patterns of precipitation do not change much, but result in dry areas becoming drier (generally throughout the subtropics) and wet areas becoming wetter, especially in the mid-to high latitudes: the 'rich get richer and the poor get poorer'. This pattern is simulated by climate models and is projected to continue into the future. Because, with warming, more precipitation occurs as rain instead of snow and snow melts earlier, there is increased runoff and risk of flooding in early spring, but increased risk of drought in summer, especially over continental areas. However, with more precipitation per unit of upward motion in the atmosphere, i.e. 'more bang for the buck', atmospheric circulation weakens, causing monsoons to falter. In the tropics and subtropics, precipitation patterns are dominated by shifts as sea surface temperatures change, with El Nio a good example. The volcanic eruption of Mount Pinatubo in 1991 led to an unprecedented drop in land precipitation and runoff, and to widespread drought, as precipitation shifted from land to oceans and evaporation faltered, providing lessons for possible geoengineering. Most models simulate precipitation that occurs prematurely and too often, and with insufficient intensity, resulting in recycling that is too large and a lifetime of moisture in the atmosphere that is too short, which affects runoff and soil moisture.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Climate Research)",
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1017/s0033822200034202",
+      "title": "IntCal09 and Marine09 Radiocarbon Age Calibration Curves, 0\u201350,000 Years cal BP",
+      "authors": "Reimer, Baillie, Bard and Bayliss et al.",
+      "year": 2009,
+      "journal": "Radiocarbon",
+      "journal_ok": false,
+      "cited_by": 4315,
+      "abstract": "The IntCal04 and Marine04 radiocarbon calibration curves have been updated from 12 cal kBP (cal kBP is here defined as thousands of calibrated years before AD 1950), and extended to 50 cal kBP, utilizing newly available data sets that meet the IntCal Working Group criteria for pristine corals and other carbonates and for quantification of uncertainty in both the 14 C and calendar timescales as established in 2002. No change was made to the curves from 0\u201312 cal kBP. The curves were constructed using a Markov chain Monte Carlo (MCMC) implementation of the random walk model used for IntCal04 and Marine04. The new curves were ratified at the 20th International Radiocarbon Conference in June 2009 and are available in the Supplemental Material at www.radiocarbon.org .",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Radiocarbon)",
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.59327/ipcc/ar5-9789291691432",
+      "title": "Climate Change 2014 - Synthesis Report",
+      "authors": "Change",
+      "year": 2015,
+      "journal": "unknown journal",
+      "journal_ok": false,
+      "cited_by": 5304,
+      "abstract": "The Synthesis Report (SYR) distils and integrates the findings of the three Working Group contributions to the Fifth Assessment Report (AR5) of the Intergovernmental Panel on Climate Change (IPCC), the most comprehensive assessment of climate change undertaken thus far by the IPCC: Climate Change 2013: The Physical Science Basis; Climate Change 2014: Impacts, Adaptation, and Vulnerability; and Climate Change 2014: Mitigation of Climate Change. The SYR also incorporates the findings of two Special Reports on Renewable Energy Sources and Climate Change Mitigation (2011) and on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (2011).",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (unknown journal)",
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1126/science.aai9214",
+      "title": "Biodiversity redistribution under climate change: Impacts on ecosystems and human well-being",
+      "authors": "Pecl, Ara\u00fajo, Bell and Blanchard et al.",
+      "year": 2017,
+      "journal": "Science",
+      "journal_ok": false,
+      "cited_by": 3477,
+      "abstract": "Distributions of Earth's species are changing at accelerating rates, increasingly driven by human-mediated climate change. Such changes are already altering the composition of ecological communities, but beyond conservation of natural systems, how and why does this matter? We review evidence that climate-driven species redistribution at regional to global scales affects ecosystem functioning, human well-being, and the dynamics of climate change itself. Production of natural resources required for food security, patterns of disease transmission, and processes of carbon sequestration are all altered by changes in species distribution. Consideration of these effects of biodiversity redistribution is critical yet lacking in most mitigation and adaptation strategies, including the United Nation's Sustainable Development Goals.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Science)",
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.5194/cp-3-261-2007",
+      "title": "Results of PMIP2 coupled simulations of the Mid-Holocene and Last Glacial Maximum \u2013 Part 1: experiments and large-scale features",
+      "authors": "Braconnot, Otto\u2010Bliesner, Harrison and Joussaume et al.",
+      "year": 2007,
+      "journal": "Climate of the past",
+      "journal_ok": false,
+      "cited_by": 1288,
+      "abstract": "Abstract. A set of coupled ocean-atmosphere simulations using state of the art climate models is now available for the Last Glacial Maximum and the Mid-Holocene through the second phase of the Paleoclimate Modeling Intercomparison Project (PMIP2). This study presents the large-scale features of the simulated climates and compares the new model results to those of the atmospheric models from the first phase of the PMIP, for which sea surface temperature was prescribed or computed using simple slab ocean formulations. We consider the large-scale features of the climate change, pointing out some of the major differences between the different sets of experiments. We show in particular that systematic differences between PMIP1 and PMIP2 simulations are due to the interactive ocean, such as the amplification of the African monsoon at the Mid-Holocene or the change in precipitation in mid-latitudes at the LGM. Also the PMIP2 simulations are in general in better agreement with data than PMIP1 simulations.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Climate of the past)",
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1029/2009rg000282",
+      "title": "SOLAR INFLUENCES ON CLIMATE",
+      "authors": "Gray, Beer, Geller and Haigh et al.",
+      "year": 2010,
+      "journal": "Reviews of Geophysics",
+      "journal_ok": false,
+      "cited_by": 1373,
+      "abstract": "Understanding the influence of solar variability on the Earth's climate requires knowledge of solar variability, solar-terrestrial interactions, and the mechanisms determining the response of the Earth's climate system. We provide a summary of our current understanding in each of these three areas. Observations and mechanisms for the Sun's variability are described, including solar irradiance variations on both decadal and centennial time scales and their relation to galactic cosmic rays. Corresponding observations of variations of the Earth's climate on associated time scales are described, including variations in ozone, temperatures, winds, clouds, precipitation, and regional modes of variability such as the monsoons and the North Atlantic Oscillation. A discussion of the available solar and climate proxies is provided. Mechanisms proposed to explain these climate observations are described, including the effects of variations in solar irradiance and of charged particles. Finally, the contributions of solar variations to recent observations of global climate change are discussed.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Reviews of Geophysics)",
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1175/jcli-d-11-00560.1",
+      "title": "GFDL\u2019s ESM2 Global Coupled Climate\u2013Carbon Earth System Models. Part I: Physical Formulation and Baseline Simulation Characteristics",
+      "authors": "Dunne, John, Adcroft and Griffies et al.",
+      "year": 2012,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 1410,
+      "abstract": "Abstract The physical climate formulation and simulation characteristics of two new global coupled carbon\u2013climate Earth System Models, ESM2M and ESM2G, are described. These models demonstrate similar climate fidelity as the Geophysical Fluid Dynamics Laboratory\u2019s previous Climate Model version 2.1 (CM2.1) while incorporating explicit and consistent carbon dynamics. The two models differ exclusively in the physical ocean component; ESM2M uses Modular Ocean Model version 4p1 with vertical pressure layers while ESM2G uses Generalized Ocean Layer Dynamics with a bulk mixed layer and interior isopycnal layers. Differences in the ocean mean state include the thermocline depth being relatively deep in ESM2M and relatively shallow in ESM2G compared to observations. The crucial role of ocean dynamics on climate variability is highlighted in El Ni\u00f1o\u2013Southern Oscillation being overly strong in ESM2M and overly weak in ESM2G relative to observations. Thus, while ESM2G might better represent climate changes relating to total heat content variability given its lack of long-term drift, gyre circulation, and ventilation in the North Pacific, tropical Atlantic, and Indian Oceans, and depth structure in the overturning and abyssal flows, ESM2M might better represent climate changes relating to surface circulation given its superior surface temperature, salinity, and height patterns, tropical Pacific circulation and variability, and Southern Ocean dynamics. The overall assessment is that neither model is fundamentally superior to the other, and that both models achieve sufficient fidelity to allow meaningful climate and earth system modeling applications. This affords the ability to assess the role of ocean configuration on earth system interactions in the context of two state-of-the-art coupled carbon\u2013climate models.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.5194/acp-5-1125-2005",
+      "title": "The aerosol-climate model ECHAM5-HAM",
+      "authors": "Stier, Feichter, Kinne and Kloster et al.",
+      "year": 2005,
+      "journal": "Atmospheric chemistry and physics",
+      "journal_ok": true,
+      "cited_by": 1244,
+      "abstract": "Abstract. The aerosol-climate modelling system ECHAM5-HAM is introduced. It is based on a flexible microphysical approach and, as the number of externally imposed parameters is minimised, allows the application in a wide range of climate regimes. ECHAM5-HAM predicts the evolution of an ensemble of microphysically interacting internally- and externally-mixed aerosol populations as well as their size-distribution and composition. The size-distribution is represented by a superposition of log-normal modes. In the current setup, the major global aerosol compounds sulfate (SU), black carbon (BC), particulate organic matter (POM), sea salt (SS), and mineral dust (DU) are included. The simulated global annual mean aerosol burdens (lifetimes) for the year 2000 are for SU: 0.80 Tg(S) (3.9 days), for BC: 0.11 Tg (5.4 days), for POM: 0.99 Tg (5.4 days), for SS: 10.5 Tg (0.8 days), and for DU: 8.28 Tg (4.6 days). An extensive evaluation with in-situ and remote sensing measurements underscores that the model results are generally in good agreement with observations of the global aerosol system. The simulated global annual mean aerosol optical depth (AOD) is with 0.14 in excellent agreement with an estimate derived from AERONET measurements (0.14) and a composite derived from MODIS-MISR satellite retrievals (0.16). Regionally, the deviations are not negligible. However, the main patterns of AOD attributable to anthropogenic activity are reproduced.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1175/jcli3824.1",
+      "title": "Sensitivity of Simulated Climate to Horizontal and Vertical Resolution in the ECHAM5 Atmosphere Model",
+      "authors": "Roeckner, Brokopf, Esch and Giorgetta et al.",
+      "year": 2006,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 1435,
+      "abstract": "Abstract The most recent version of the Max Planck Institute for Meteorology atmospheric general circulation model, ECHAM5, is used to study the impact of changes in horizontal and vertical resolution on seasonal mean climate. In a series of Atmospheric Model Intercomparison Project (AMIP)-style experiments with resolutions ranging between T21L19 and T159L31, the systematic errors and convergence properties are assessed for two vertical resolutions. At low vertical resolution (L19) there is no evidence for convergence to a more realistic climate state for horizontal resolutions higher than T42. At higher vertical resolution (L31), on the other hand, the root-mean-square errors decrease monotonically with increasing horizontal resolution. Furthermore, except for T42, the L31 versions are superior to their L19 counterparts, and the improvements become more evident at increasingly higher horizontal resolutions. This applies, in particular, to the zonal mean climate state and to the stationary wave patterns in boreal winter. As in previous studies, increasing horizontal resolution leads to a warming of the troposphere, most prominently at midlatitudes, and to a poleward shift and intensification of the midlatitude westerlies. Increasing the vertical resolution has the opposite effect, almost independent of horizontal resolution. Whereas the atmosphere is colder at low and middle latitudes, it is warmer at high latitudes and close to the surface. In addition, increased vertical resolution results in a pronounced warming in the polar upper troposphere and lower stratosphere, where the cold bias is reduced by up to 50% compared to L19 simulations. Consistent with these temperature changes is a decrease and equatorward shift of the midlatitude westerlies. The substantial benefits in refining both horizontal and vertical resolution give some support to scaling arguments deduced from quasigeostrophic theory implying that horizontal and vertical resolution ought to be chosen consistently.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1002/2017rg000574",
+      "title": "A Review of Global Precipitation Data Sets: Data Sources, Estimation, and Intercomparisons",
+      "authors": "Sun, Miao, Duan and Ashouri et al.",
+      "year": 2017,
+      "journal": "Reviews of Geophysics",
+      "journal_ok": false,
+      "cited_by": 1845,
+      "abstract": "Abstract In this paper, we present a comprehensive review of the data sources and estimation methods of 30 currently available global precipitation data sets, including gauge\u2010based, satellite\u2010related, and reanalysis data sets. We analyzed the discrepancies between the data sets from daily to annual timescales and found large differences in both the magnitude and the variability of precipitation estimates. The magnitude of annual precipitation estimates over global land deviated by as much as 300 mm/yr among the products. Reanalysis data sets had a larger degree of variability than the other types of data sets. The degree of variability in precipitation estimates also varied by region. Large differences in annual and seasonal estimates were found in tropical oceans, complex mountain areas, northern Africa, and some high\u2010latitude regions. Overall, the variability associated with extreme precipitation estimates was slightly greater at lower latitudes than at higher latitudes. The reliability of precipitation data sets is mainly limited by the number and spatial coverage of surface stations, the satellite algorithms, and the data assimilation models. The inconsistencies described limit the capability of the products for climate monitoring, attribution, and model validation.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Reviews of Geophysics)",
+        "only 0 keyword hit(s): []"
+      ]
+    }
+  ],
+  "rejected": [],
+  "status": "VERIFIED"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "southern-ocean-warm-sst",
+  "name": "Southern Ocean Warm SST Bias",
+  "version": "1.0",
+  "last_updated": "2026-04-20",
+  "category": "temperature",
+  "region": "southern_ocean",
+  "season": "annual",
+  "affected_variables": [],
+  "description": "The Southern Ocean Warm SST Bias is one of the most documented systematic errors in coupled climate models. In many respects, the performance of GC3 is comparable with GC2, however, there is a notable improvement in the Southern Ocean warm sea surface temperature bias which has been reduced by 75%, and there are improvements in cloud amount and some aspects of tropical variability. A number of outstanding errors are identified including a residual asymmetric sea surface temperature bias (cool northern hemisphere, warm Southern Ocean), an overly strong global hydrological cycle and insufficient European blocking.\n\nAcross successive generations of the Coupled Model Intercomparison Project (CMIP), the bias has been tracked in multi-model assessments. Among other applications, GC3 is the basis of the United Kingdom's submission to the Coupled Model Intercomparison Project 6 (CMIP6). The performance of GC3 is compared against GC2, the previous Met Office coupled model configuration, and against an older configuration (HadGEM2\u2010AO) which was the submission to CMIP5.\n\nThe physical mechanisms underlying this bias and potential pathways to its reduction have been investigated in several studies. In many respects, the performance of GC3 is comparable with GC2, however, there is a notable improvement in the Southern Ocean warm sea surface temperature bias which has been reduced by 75%, and there are improvements in cloud amount and some aspects of tropical variability. The NorESM family of models are based on the Community Climate System Model version 4 (CCSM4) of the University Corporation for Atmospheric Research, but differs from the latter by, in particular, an isopycnic coordinate ocean model and advanced chemistry\u2013aerosol\u2013cloud\u2013radiation interaction schemes.",
+  "persistence": "longstanding",
+  "cmip_history": [
+    {
+      "generation": "CMIP3",
+      "severity": "moderate",
+      "notes": "The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM."
+    },
+    {
+      "generation": "CMIP5",
+      "severity": "moderate",
+      "notes": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5)."
+    },
+    {
+      "generation": "CMIP6",
+      "severity": "moderate",
+      "notes": "The stability of the pre-industrial climate and the sensitivity of the model to abrupt and gradual quadrupling of CO2 are assessed, along with the ability of the model to simulate the historical climate under the CMIP6 forcings."
+    }
+  ],
+  "severity_by_model": {},
+  "implicated_params": [],
+  "fix_attempts": [],
+  "cascade_links": [],
+  "disputed_mechanisms": [],
+  "citations": [
+    {
+      "authors": "Williams, Copsey, Blockley and Bodas\u2010Salcedo et al.",
+      "year": 2017,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "doi": "10.1002/2017ms001115",
+      "relevance": "Abstract The Global Coupled 3 (GC3) configuration of the Met Office Unified Model is presented. The performance of GC3 is compared against GC2, the previous Met Office coupled model configuration, and against an older configuration (HadGEM2\u2010AO) which was the submission to CMIP5. In many respects, the performance of GC3 is comparable with GC2, however, there is a notable improvement in the Southern Ocean warm sea surface temperature bias which has been reduced by 75%, and there are improvements in cloud amount and some aspects of tropical variability. A number of outstanding errors are identified including a residual asymmetric sea surface temperature bias (cool northern hemisphere, warm Southern Ocean), an overly strong global hydrological cycle and insufficient European blocking."
+    },
+    {
+      "authors": "Bentsen, Bethke, Debernard and Iversen et al.",
+      "year": 2013,
+      "journal": "Geoscientific model development",
+      "doi": "10.5194/gmd-6-687-2013",
+      "relevance": "The core version of the Norwegian Climate Center's Earth System Model, named NorESM1-M, is presented. Here, a first-order assessment of the model stability, the mean model state and the internal variability based on the model experiments made available to CMIP5 are presented. The NorESM family of models are based on the Community Climate System Model version 4 (CCSM4) of the University Corporation for Atmospheric Research, but differs from the latter by, in particular, an isopycnic coordinate ocean model and advanced chemistry\u2013aerosol\u2013cloud\u2013radiation interaction schemes. Further analysis of the model performance is provided in an accompanying paper (Iversen et al., 2013), presenting the corresponding climate response and scenario projections made with NorESM1-M."
+    },
+    {
+      "authors": "Mauritsen, Bader, Becker and Behrens et al.",
+      "year": 2019,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "doi": "10.1029/2018ms001400",
+      "relevance": "A new release of the Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM1.2) is presented. The development focused on correcting errors in and improving the physical processes representation, as well as improving the computational performance, versatility, and overall user friendliness. To this end, a very high climate sensitivity of around 7 K caused by low-level clouds in the tropics as found in an intermediate model version was addressed, as it was not deemed possible to match observed warming otherwise. As a result, the model has a climate sensitivity to a doubling of CO<sub>2</sub> over preindustrial conditions of 2.77 K, maintaining the previously identified highly nonlinear global mean response to increasing CO<sub>2</sub> forcing, which nonetheless can be represented by a simple two-layer model."
+    },
+    {
+      "authors": "Voldoire, S\u00e1nchez-G\u00f3mez, M\u00e9lia and Decharme et al.",
+      "year": 2012,
+      "journal": "Climate Dynamics",
+      "doi": "10.1007/s00382-011-1259-y",
+      "relevance": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The purpose of the study is to describe its main features and to provide a preliminary assessment of its mean climatology. Horizontal resolution has been increased both in the atmosphere (from 2.8\u00b0 to 1.4\u00b0) and in the ocean (from 2\u00b0 to 1\u00b0). However, some flaws remain such as significant precipitation and radiative biases in many regions, or a pronounced drift in three dimensional salinity."
+    },
+    {
+      "authors": "Seland, Bentsen, Olivi\u00e9 and Toniazzo et al.",
+      "year": 2020,
+      "journal": "Geoscientific model development",
+      "doi": "10.5194/gmd-13-6165-2020",
+      "relevance": "The second version of the coupled Norwegian Earth System Model (NorESM2) is presented and evaluated. We present results from simulations with NorESM2 that were carried out for the sixth phase of the Coupled Model Intercomparison Project (CMIP6). NorESM2 is based on the second version of the Community Earth System Model (CESM2) and shares with CESM2 the computer code infrastructure and many Earth system model components. In NorESM2-LM, an ice-free Arctic Ocean is only avoided in the SSP1-2.6 scenario."
+    }
+  ],
+  "feedback_history": [],
+  "changelog": []
+}

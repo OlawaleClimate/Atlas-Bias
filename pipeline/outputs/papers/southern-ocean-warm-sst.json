@@ -1,0 +1,197 @@
+{
+  "bias_id": "southern-ocean-warm-sst",
+  "bias_name": "Southern Ocean Warm SST Bias",
+  "keywords": [
+    "southern ocean",
+    "sst bias",
+    "warm bias",
+    "sea surface temperature",
+    "cmip",
+    "shortwave",
+    "cloud",
+    "radiation"
+  ],
+  "candidates": [
+    {
+      "doi": "10.1002/2017ms001115",
+      "title": "The Met Office Global Coupled Model 3.0 and 3.1 (GC3.0 and GC3.1) Configurations",
+      "authors": "Williams, Copsey, Blockley and Bodas\u2010Salcedo et al.",
+      "year": 2017,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 787,
+      "abstract": "Abstract The Global Coupled 3 (GC3) configuration of the Met Office Unified Model is presented. Among other applications, GC3 is the basis of the United Kingdom's submission to the Coupled Model Intercomparison Project 6 (CMIP6). This paper documents the model components that make up the configuration (although the scientific descriptions of these components are in companion papers) and details the coupling between them. The performance of GC3 is assessed in terms of mean biases and variability in long climate simulations using present\u2010day forcing. The suitability of the configuration for predictability on shorter time scales (weather and seasonal forecasting) is also briefly discussed. The performance of GC3 is compared against GC2, the previous Met Office coupled model configuration, and against an older configuration (HadGEM2\u2010AO) which was the submission to CMIP5. In many respects, the performance of GC3 is comparable with GC2, however, there is a notable improvement in the Southern Ocean warm sea surface temperature bias which has been reduced by 75%, and there are improvements in cloud amount and some aspects of tropical variability. Relative to HadGEM2\u2010AO, many aspects of the present\u2010day climate are improved in GC3 including tropospheric and stratospheric temperature structure, most aspects of tropical and extratropical variability and top\u2010of\u2010atmosphere and surface fluxes. A number of outstanding errors are identified including a residual asymmetric sea surface temperature bias (cool northern hemisphere, warm Southern Ocean), an overly strong global hydrological cycle and insufficient European blocking.",
+      "keyword_hits": [
+        "southern ocean",
+        "sea surface temperature",
+        "cmip",
+        "cloud"
+      ],
+      "score": 3148,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1002/2017ms001115",
+        "crossref_title": "The Met Office Global Coupled Model 3.0 and 3.1 (GC3.0 and GC3.1) Configurations",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Advances in Modeling Earth Systems",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "southern ocean",
+          "sea surface temperature",
+          "cmip",
+          "cloud"
+        ],
+        "abstract_snippet": " abstract  the global coupled 3 (gc3) configuration of the met office unified model is presented. among other applications, gc3 is the basis of the united kingdom's submission to the coupled model intercomparison project 6 (cmip6). this paper documents the model components that make up the configura",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.5194/gmd-6-687-2013",
+      "title": "The Norwegian Earth System Model, NorESM1-M \u2013 Part 1: Description and basic evaluation of the physical climate",
+      "authors": "Bentsen, Bethke, Debernard and Iversen et al.",
+      "year": 2013,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 1044,
+      "abstract": "Abstract. The core version of the Norwegian Climate Center's Earth System Model, named NorESM1-M, is presented. The NorESM family of models are based on the Community Climate System Model version 4 (CCSM4) of the University Corporation for Atmospheric Research, but differs from the latter by, in particular, an isopycnic coordinate ocean model and advanced chemistry\u2013aerosol\u2013cloud\u2013radiation interaction schemes. NorESM1-M has a horizontal resolution of approximately 2\u00b0 for the atmosphere and land components and 1\u00b0 for the ocean and ice components. NorESM is also available in a lower resolution version (NorESM1-L) and a version that includes prognostic biogeochemical cycling (NorESM1-ME). The latter two model configurations are not part of this paper. Here, a first-order assessment of the model stability, the mean model state and the internal variability based on the model experiments made available to CMIP5 are presented. Further analysis of the model performance is provided in an accompanying paper (Iversen et al., 2013), presenting the corresponding climate response and scenario projections made with NorESM1-M.",
+      "keyword_hits": [
+        "cmip",
+        "cloud",
+        "radiation"
+      ],
+      "score": 3132,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 200,
+        "landing_url": "https://gmd.copernicus.org/articles/6/687/2013/",
+        "crossref_title": "The Norwegian Earth System Model, NorESM1-M \u2013 Part 1: Description and basic evaluation of the physical climate",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Geoscientific Model Development",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "cmip",
+          "cloud",
+          "radiation"
+        ],
+        "abstract_snippet": " abstract. the core version of the norwegian climate center's earth system model, named noresm1-m, is presented. the noresm family of models are based on the community climate system model version 4 (ccsm4) of the university corporation for atmospheric research, but differs from the latter by, in pa",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1029/2018ms001400",
+      "title": "Developments in the MPI\u2010M Earth System Model version 1.2 (MPI\u2010ESM1.2) and Its Response to Increasing CO<sub>2</sub>",
+      "authors": "Mauritsen, Bader, Becker and Behrens et al.",
+      "year": 2019,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 1516,
+      "abstract": "A new release of the Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM1.2) is presented. The development focused on correcting errors in and improving the physical processes representation, as well as improving the computational performance, versatility, and overall user friendliness. In addition to new radiation and aerosol parameterizations of the atmosphere, several relatively large, but partly compensating, coding errors in the model's cloud, convection, and turbulence parameterizations were corrected. The representation of land processes was refined by introducing a multilayer soil hydrology scheme, extending the land biogeochemistry to include the nitrogen cycle, replacing the soil and litter decomposition model and improving the representation of wildfires. The ocean biogeochemistry now represents cyanobacteria prognostically in order to capture the response of nitrogen fixation to changing climate conditions and further includes improved detritus settling and numerous other refinements. As something new, in addition to limiting drift and minimizing certain biases, the instrumental record warming was explicitly taken into account during the tuning process. To this end, a very high climate sensitivity of around 7 K caused by low-level clouds in the tropics as found in an intermediate model version was addressed, as it was not deemed possible to match observed warming otherwise. As a result, the model has a climate sensitivity to a doubling of CO<sub>2</sub> over preindustrial conditions of 2.77 K, maintaining the previously identified highly nonlinear global mean response to increasing CO<sub>2</sub> forcing, which nonetheless can be represented by a simple two-layer model.",
+      "keyword_hits": [
+        "cloud",
+        "radiation"
+      ],
+      "score": 3032,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1029/2018ms001400",
+        "crossref_title": "Developments in the MPI\u2010M Earth System Model version 1.2 (MPI\u2010ESM1.2) and Its Response to Increasing CO<sub>2</sub>",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Advances in Modeling Earth Systems",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "cloud",
+          "radiation"
+        ],
+        "abstract_snippet": " abstract  a new release of the max planck institute for meteorology earth system model version 1.2 (mpi\u2010esm1.2) is presented. the development focused on correcting errors in and improving the physical processes representation, as well as improving the computational performance, versatility, and ove",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1007/s00382-011-1259-y",
+      "title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
+      "authors": "Voldoire, S\u00e1nchez-G\u00f3mez, M\u00e9lia and Decharme et al.",
+      "year": 2012,
+      "journal": "Climate Dynamics",
+      "journal_ok": true,
+      "cited_by": 1386,
+      "abstract": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The purpose of the study is to describe its main features and to provide a preliminary assessment of its mean climatology. CNRM-CM5.1 includes the atmospheric model ARPEGE-Climat (v5.2), the ocean model NEMO (v3.2), the land surface scheme ISBA and the sea ice model GELATO (v5) coupled through the OASIS (v3) system. The main improvements since CMIP3 are the following. Horizontal resolution has been increased both in the atmosphere (from 2.8\u00b0 to 1.4\u00b0) and in the ocean (from 2\u00b0 to 1\u00b0). The dynamical core of the atmospheric component has been revised. A new radiation scheme has been introduced and the treatments of tropospheric and stratospheric aerosols have been improved. Particular care has been devoted to ensure mass/water conservation in the atmospheric component. The land surface scheme ISBA has been externalised from the atmospheric model through the SURFEX platform and includes new developments such as a parameterization of sub-grid hydrology, a new freezing scheme and a new bulk parameterisation for ocean surface fluxes. The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM. Finally, the coupling between the different components through OASIS has also received a particular attention to avoid energy loss and spurious drifts. These developments generally lead to a more realistic representation of the mean recent climate and to a reduction of drifts in a preindustrial integration. The large-scale dynamics is generally improved both in the atmosphere and in the ocean, and the bias in mean surface temperature is clearly reduced. However, some flaws remain such as significant precipitation and radiative biases in many regions, or a pronounced drift in three dimensional salinity.",
+      "keyword_hits": [
+        "cmip",
+        "radiation"
+      ],
+      "score": 2772,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 200,
+        "landing_url": "https://link.springer.com/article/10.1007/s00382-011-1259-y",
+        "crossref_title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Climate Dynamics",
+        "journal_match_ok": true,
+        "abstract_hits": [],
+        "abstract_snippet": "(title-only check \u2014 no Crossref abstract)",
+        "abstract_ok": false,
+        "verdict": "FLAGGED",
+        "fail_reasons": [
+          "SOFT FLAGS ONLY \u2014 passed with warnings",
+          "Abstract has only 0 keyword hit(s): []"
+        ]
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.5194/gmd-13-6165-2020",
+      "title": "Overview of the Norwegian Earth System Model (NorESM2) and key climate response of CMIP6 DECK, historical, and scenario simulations",
+      "authors": "Seland, Bentsen, Olivi\u00e9 and Toniazzo et al.",
+      "year": 2020,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 866,
+      "abstract": "Abstract. The second version of the coupled Norwegian Earth System Model (NorESM2) is presented and evaluated. NorESM2 is based on the second version of the Community Earth System Model (CESM2) and shares with CESM2 the computer code infrastructure and many Earth system model components. However, NorESM2 employs entirely different ocean and ocean biogeochemistry models. The atmosphere component of NorESM2 (CAM-Nor) includes a different module for aerosol physics and chemistry, including interactions with cloud and radiation; additionally, CAM-Nor includes improvements in the formulation of local dry and moist energy conservation, in local and global angular momentum conservation, and in the computations for deep convection and air\u2013sea fluxes. The surface components of NorESM2 have minor changes in the albedo calculations and to land and sea-ice models. We present results from simulations with NorESM2 that were carried out for the sixth phase of the Coupled Model Intercomparison Project (CMIP6). Two versions of the model are used: one with lower (\u223c 2\u2218) atmosphere\u2013land resolution and one with medium (\u223c 1\u2218) atmosphere\u2013land resolution. The stability of the pre-industrial climate and the sensitivity of the model to abrupt and gradual quadrupling of CO2 are assessed, along with the ability of the model to simulate the historical climate under the CMIP6 forcings. Compared to observations and reanalyses, NorESM2 represents an improvement over previous versions of NorESM in most aspects. NorESM2 appears less sensitive to greenhouse gas forcing than its predecessors, with an estimated equilibrium climate sensitivity of 2.5 K in both resolutions on a 150-year time frame; however, this estimate increases with the time window and the climate sensitivity at equilibration is much higher. We also consider the model response to future scenarios as defined by selected Shared Socioeconomic Pathways (SSPs) from the Scenario Model Intercomparison Project defined under CMIP6. Under the four scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5), the warming in the period 2090\u20132099 compared to 1850\u20131879 reaches 1.3, 2.2, 3.0, and 3.9 K in NorESM2-LM, and 1.3, 2.1, 3.1, and 3.9 K in NorESM-MM, robustly similar in both resolutions. NorESM2-LM shows a rather satisfactory evolution of recent sea-ice area. In NorESM2-LM, an ice-free Arctic Ocean is only avoided in the SSP1-2.6 scenario.",
+      "keyword_hits": [
+        "cmip",
+        "cloud",
+        "radiation"
+      ],
+      "score": 2598,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 200,
+        "landing_url": "https://gmd.copernicus.org/articles/13/6165/2020/",
+        "crossref_title": "Overview of the Norwegian Earth System Model (NorESM2) and key climate response of CMIP6 DECK, historical, and scenario simulations",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Geoscientific Model Development",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "cmip",
+          "cloud",
+          "radiation"
+        ],
+        "abstract_snippet": " abstract. the second version of the coupled norwegian earth system model (noresm2) is presented and evaluated. noresm2 is based on the second version of the community earth system model (cesm2) and shares with cesm2 the computer code infrastructure and many earth system model components. however, n",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    }
+  ],
+  "dropped": [],
+  "rejected": [],
+  "status": "VERIFIED"
+}

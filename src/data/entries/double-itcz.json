@@ -1,0 +1,73 @@
+{
+  "id": "double-itcz",
+  "name": "Double ITCZ",
+  "version": "1.0",
+  "last_updated": "2026-04-20",
+  "category": "precipitation",
+  "region": "tropical_pacific",
+  "season": "annual",
+  "affected_variables": [],
+  "description": "The Double ITCZ is one of the most documented systematic errors in coupled climate models. Based on an intermodel empirical orthogonal function (EOF) analysis of tropical Pacific precipitation, the excessive equatorial Pacific cold tongue and double intertropical convergence zone (ITCZ) stand out as the most prominent errors of the current generation of CGCMs. For the double ITCZ problem, excessive precipitation south of the equator correlates well with excessive downward solar radiation in the Southern Hemisphere (SH) midlatitudes, an error traced back to atmospheric model simulations of cloud during austral spring and summer.\n\nAcross successive generations of the Coupled Model Intercomparison Project (CMIP), the bias has been tracked in multi-model assessments. Here, the annual double\u2010ITCZ bias and the associated precipitation bias in the latest climate models for Coupled Model Intercomparison Project (CMIP) Phase 6 (CMIP6) are examined in comparison to their previous generations (CMIP Phase 3 [CMIP3] and CMIP Phase 5 [CMIP5]). Based on several tropical precipitation bias indices, the double\u2010ITCZ bias is slightly reduced from CMIP3 or CMIP5 to CMIP6.\n\nThe physical mechanisms underlying this bias and potential pathways to its reduction have been investigated in several studies. For the double ITCZ problem, excessive precipitation south of the equator correlates well with excessive downward solar radiation in the Southern Hemisphere (SH) midlatitudes, an error traced back to atmospheric model simulations of cloud during austral spring and summer. Origins of and feedback for tropical biases are investigated in the historical climate simulations of 18 CGCMs from phase 5 of the Coupled Model Intercomparison Project (CMIP5), together with the available Atmospheric Model Intercomparison Project (AMIP) simulations.",
+  "persistence": "longstanding",
+  "cmip_history": [
+    {
+      "generation": "CMIP3",
+      "severity": "moderate",
+      "notes": "Here, the annual double\u2010ITCZ bias and the associated precipitation bias in the latest climate models for Coupled Model Intercomparison Project (CMIP) Phase 6 (CMIP6) are examined in comparison to their previous generations (CMIP Phase 3 [CMIP3] and CMIP Phase 5 [CMIP5])."
+    },
+    {
+      "generation": "CMIP5",
+      "severity": "moderate",
+      "notes": "This study investigates future changes of Global Monsoon (GM) under anthropogenic global warming using 20 coupled models that participated in the phase five of Coupled Model Intercomparison Project (CMIP5) by comparing two runs: the historical run for 1850\u20132005 and the Representative Concentration Pathway (RCP) 4.5 run for 2006\u20132100."
+    },
+    {
+      "generation": "CMIP6",
+      "severity": "moderate",
+      "notes": "Here, the annual double\u2010ITCZ bias and the associated precipitation bias in the latest climate models for Coupled Model Intercomparison Project (CMIP) Phase 6 (CMIP6) are examined in comparison to their previous generations (CMIP Phase 3 [CMIP3] and CMIP Phase 5 [CMIP5])."
+    }
+  ],
+  "severity_by_model": {},
+  "implicated_params": [],
+  "fix_attempts": [],
+  "cascade_links": [],
+  "disputed_mechanisms": [],
+  "citations": [
+    {
+      "authors": "Li and Xie",
+      "year": 2013,
+      "journal": "Journal of Climate",
+      "doi": "10.1175/jcli-d-13-00337.1",
+      "relevance": "Abstract Errors of coupled general circulation models (CGCMs) limit their utility for climate prediction and projection. Origins of and feedback for tropical biases are investigated in the historical climate simulations of 18 CGCMs from phase 5 of the Coupled Model Intercomparison Project (CMIP5), together with the available Atmospheric Model Intercomparison Project (AMIP) simulations. Based on an intermodel empirical orthogonal function (EOF) analysis of tropical Pacific precipitation, the excessive equatorial Pacific cold tongue and double intertropical convergence zone (ITCZ) stand out as the most prominent errors of the current generation of CGCMs. This extratropical forcing of the ITCZ displacements is mediated by tropical ocean\u2013atmosphere interaction and is consistent with recent studies of ocean\u2013atmospheric energy transport balance."
+    },
+    {
+      "authors": "Tian and Dong",
+      "year": 2020,
+      "journal": "Geophysical Research Letters",
+      "doi": "10.1029/2020gl087232",
+      "relevance": "Abstract The double\u2010intertropical convergence zone (ITCZ) bias is one of the most outstanding errors in all previous generations of climate models. Here, the annual double\u2010ITCZ bias and the associated precipitation bias in the latest climate models for Coupled Model Intercomparison Project (CMIP) Phase 6 (CMIP6) are examined in comparison to their previous generations (CMIP Phase 3 [CMIP3] and CMIP Phase 5 [CMIP5]). All three generations of CMIP models share similar systematic annual multi\u2010model ensemble mean precipitation errors in the tropics. In addition, the annual equatorial Pacific cold tongue persists in all three generations of CMIP models, but its inter\u2010model spread is reduced from CMIP3 to CMIP5 and from CMIP5 to CMIP6."
+    },
+    {
+      "authors": "Lee and Wang",
+      "year": 2012,
+      "journal": "Climate Dynamics",
+      "doi": "10.1007/s00382-012-1564-0",
+      "relevance": "This study investigates future changes of Global Monsoon (GM) under anthropogenic global warming using 20 coupled models that participated in the phase five of Coupled Model Intercomparison Project (CMIP5) by comparing two runs: the historical run for 1850\u20132005 and the Representative Concentration Pathway (RCP) 4.5 run for 2006\u20132100. A metrics for evaluation of models\u2019 performance on GM is designed to document performance for 1980\u20132005 and best four models are selected. The four best models\u2019 multi-model ensemble (B4MME) projects the following changes in the twenty-first century under the RCP4.5 scenario. (1) Monsoon domain will not change appreciably but land monsoon domain over Asia tends to expand westward by 10.6 %. (2) The annual mean and range of GM precipitation and the percentage of local summer rainfall will all amplify at a significant level over most of the global region, both over land and over ocean. (3) There will be a more prominent northern-southern hemispheric asymmetry and eastern-western hemispheric asymmetry. (4) Northern Hemisphere (NH) monsoon onset will be advanced and withdrawal will be delayed. (5) Changes in monsoon precipitation exhibits huge differences between the NH and the Southern hemisphere (SH). There are important differences between the CMIP 3 and CMIP5 results which are discussed in detail."
+    },
+    {
+      "authors": "Donohoe, Marshall, Ferreira and McGee",
+      "year": 2012,
+      "journal": "Journal of Climate",
+      "doi": "10.1175/jcli-d-12-00467.1",
+      "relevance": "Abstract The authors quantify the relationship between the location of the intertropical convergence zone (ITCZ) and the atmospheric heat transport across the equator (AHTEQ) in climate models and in observations. Seasonal variations in the ITCZ location and AHTEQ are highly anticorrelated in the observations and in a suite of state-of-the-art coupled climate models with regression coefficients of \u22122.7\u00b0 and \u22122.4\u00b0 PW\u22121 respectively. The observed zonal mean ITCZ location varies from 5.3\u00b0S in the boreal winter to 7.2\u00b0N in the boreal summer with an annual mean position of 1.65\u00b0N while the AHTEQ varies from 2.1 PW northward in the boreal winter to 2.3 PW southward in the boreal summer with an annual mean of 0.1 PW southward. The shift in the annual average ITCZ location is also strongly anticorrelated with the change in annual mean AHTEQ with a regression coefficient of \u22123.2\u00b0 PW\u22121, similar to that found over the seasonal cycle."
+    },
+    {
+      "authors": "Garfinkel, White, Gerber and Jucker",
+      "year": 2020,
+      "journal": "Journal of Climate",
+      "doi": "10.1175/jcli-d-20-0195.1",
+      "relevance": "Abstract Climate models in phase 5 of the Coupled Model Intercomparison Project (CMIP5) vary significantly in their ability to simulate the phase and amplitude of atmospheric stationary waves in the midlatitude Southern Hemisphere. These models also suffer from a double intertropical convergence zone (ITCZ), with excessive precipitation in the tropical eastern South Pacific, and many also suffer from a biased simulation of the dynamics of the Agulhas Current around the tip of South Africa. Similarly, an overly diffuse sea surface temperature gradient associated with a weak Agulhas Return Current leads to an equatorward shift of the Southern Hemisphere jet by more than 3\u00b0 and weak stationary wave activity in the austral hemisphere. Hence, rectification of the double-ITCZ bias and a better representation of the Agulhas Current should be expected to lead to an improved model representation of the austral hemisphere."
+    }
+  ],
+  "feedback_history": [],
+  "changelog": []
+}

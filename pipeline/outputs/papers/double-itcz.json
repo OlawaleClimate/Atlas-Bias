@@ -1,0 +1,623 @@
+{
+  "bias_id": "double-itcz",
+  "bias_name": "Double ITCZ",
+  "keywords": [
+    "double itcz",
+    "intertropical convergence zone",
+    "southern hemisphere",
+    "precipitation bias",
+    "cmip",
+    "tropical pacific",
+    "itcz"
+  ],
+  "candidates": [
+    {
+      "doi": "10.1175/jcli-d-13-00337.1",
+      "title": "Tropical Biases in CMIP5 Multimodel Ensemble: The Excessive Equatorial Pacific Cold Tongue and Double ITCZ Problems*",
+      "authors": "Li and Xie",
+      "year": 2013,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 543,
+      "abstract": "Abstract Errors of coupled general circulation models (CGCMs) limit their utility for climate prediction and projection. Origins of and feedback for tropical biases are investigated in the historical climate simulations of 18 CGCMs from phase 5 of the Coupled Model Intercomparison Project (CMIP5), together with the available Atmospheric Model Intercomparison Project (AMIP) simulations. Based on an intermodel empirical orthogonal function (EOF) analysis of tropical Pacific precipitation, the excessive equatorial Pacific cold tongue and double intertropical convergence zone (ITCZ) stand out as the most prominent errors of the current generation of CGCMs. The comparison of CMIP\u2013AMIP pairs enables us to identify whether a given type of errors originates from atmospheric models. The equatorial Pacific cold tongue bias is associated with deficient precipitation and surface easterly wind biases in the western half of the basin in CGCMs, but these errors are absent in atmosphere-only models, indicating that the errors arise from the interaction with the ocean via Bjerknes feedback. For the double ITCZ problem, excessive precipitation south of the equator correlates well with excessive downward solar radiation in the Southern Hemisphere (SH) midlatitudes, an error traced back to atmospheric model simulations of cloud during austral spring and summer. This extratropical forcing of the ITCZ displacements is mediated by tropical ocean\u2013atmosphere interaction and is consistent with recent studies of ocean\u2013atmospheric energy transport balance.",
+      "keyword_hits": [
+        "double itcz",
+        "intertropical convergence zone",
+        "southern hemisphere",
+        "cmip",
+        "tropical pacific",
+        "itcz"
+      ],
+      "score": 3258,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1175/jcli-d-13-00337.1",
+        "crossref_title": "Tropical Biases in CMIP5 Multimodel Ensemble: The Excessive Equatorial Pacific Cold Tongue and Double ITCZ Problems*",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Climate",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "double itcz",
+          "intertropical convergence zone",
+          "southern hemisphere",
+          "cmip",
+          "tropical pacific",
+          "itcz"
+        ],
+        "abstract_snippet": " abstract \n                errors of coupled general circulation models (cgcms) limit their utility for climate prediction and projection. origins of and feedback for tropical biases are investigated in the historical climate simulations of 18 cgcms from phase 5 of the coupled model intercomparison ",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1029/2020gl087232",
+      "title": "The Double\u2010ITCZ Bias in CMIP3, CMIP5, and CMIP6 Models Based on Annual Mean Precipitation",
+      "authors": "Tian and Dong",
+      "year": 2020,
+      "journal": "Geophysical Research Letters",
+      "journal_ok": true,
+      "cited_by": 359,
+      "abstract": "Abstract The double\u2010intertropical convergence zone (ITCZ) bias is one of the most outstanding errors in all previous generations of climate models. Here, the annual double\u2010ITCZ bias and the associated precipitation bias in the latest climate models for Coupled Model Intercomparison Project (CMIP) Phase 6 (CMIP6) are examined in comparison to their previous generations (CMIP Phase 3 [CMIP3] and CMIP Phase 5 [CMIP5]). All three generations of CMIP models share similar systematic annual multi\u2010model ensemble mean precipitation errors in the tropics. The notorious double\u2010ITCZ bias and its big inter\u2010model spread persist in CMIP3, CMIP5, and CMIP6 models. Based on several tropical precipitation bias indices, the double\u2010ITCZ bias is slightly reduced from CMIP3 or CMIP5 to CMIP6. In addition, the annual equatorial Pacific cold tongue persists in all three generations of CMIP models, but its inter\u2010model spread is reduced from CMIP3 to CMIP5 and from CMIP5 to CMIP6.",
+      "keyword_hits": [
+        "intertropical convergence zone",
+        "precipitation bias",
+        "cmip",
+        "itcz"
+      ],
+      "score": 1436,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1029/2020gl087232",
+        "crossref_title": "The Double\u2010ITCZ Bias in CMIP3, CMIP5, and CMIP6 Models Based on Annual Mean Precipitation",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Geophysical Research Letters",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "intertropical convergence zone",
+          "precipitation bias",
+          "cmip",
+          "itcz"
+        ],
+        "abstract_snippet": " abstract  the double\u2010intertropical convergence zone (itcz) bias is one of the most outstanding errors in all previous generations of climate models. here, the annual double\u2010itcz bias and the associated precipitation bias in the latest climate models for coupled model intercomparison project (cmip) ",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1007/s00382-012-1564-0",
+      "title": "Future change of global monsoon in the CMIP5",
+      "authors": "Lee and Wang",
+      "year": 2012,
+      "journal": "Climate Dynamics",
+      "journal_ok": true,
+      "cited_by": 475,
+      "abstract": "This study investigates future changes of Global Monsoon (GM) under anthropogenic global warming using 20 coupled models that participated in the phase five of Coupled Model Intercomparison Project (CMIP5) by comparing two runs: the historical run for 1850\u20132005 and the Representative Concentration Pathway (RCP) 4.5 run for 2006\u20132100. A metrics for evaluation of models\u2019 performance on GM is designed to document performance for 1980\u20132005 and best four models are selected. The four best models\u2019 multi-model ensemble (B4MME) projects the following changes in the twenty-first century under the RCP4.5 scenario. (1) Monsoon domain will not change appreciably but land monsoon domain over Asia tends to expand westward by 10.6 %. (2) The annual mean and range of GM precipitation and the percentage of local summer rainfall will all amplify at a significant level over most of the global region, both over land and over ocean. (3) There will be a more prominent northern-southern hemispheric asymmetry and eastern-western hemispheric asymmetry. (4) Northern Hemisphere (NH) monsoon onset will be advanced and withdrawal will be delayed. (5) Changes in monsoon precipitation exhibits huge differences between the NH and the Southern hemisphere (SH). The NH monsoon precipitation will increase significantly due to increase in temperature difference between the NH and SH, significant enhancement of the Hadley circulation, and atmospheric moistening, against stabilization of troposphere. There is a slight decrease of the Walker circulation but not significant against the inter-model spread. There are important differences between the CMIP 3 and CMIP5 results which are discussed in detail.",
+      "keyword_hits": [
+        "southern hemisphere",
+        "cmip"
+      ],
+      "score": 950,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 200,
+        "landing_url": "https://link.springer.com/article/10.1007/s00382-012-1564-0",
+        "crossref_title": "Future change of global monsoon in the CMIP5",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Climate Dynamics",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "cmip"
+        ],
+        "abstract_snippet": "(title-only check \u2014 no Crossref abstract)",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1175/jcli-d-12-00467.1",
+      "title": "The Relationship between ITCZ Location and Cross-Equatorial Atmospheric Heat Transport: From the Seasonal Cycle to the Last Glacial Maximum",
+      "authors": "Donohoe, Marshall, Ferreira and McGee",
+      "year": 2012,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 407,
+      "abstract": "Abstract The authors quantify the relationship between the location of the intertropical convergence zone (ITCZ) and the atmospheric heat transport across the equator (AHTEQ) in climate models and in observations. The observed zonal mean ITCZ location varies from 5.3\u00b0S in the boreal winter to 7.2\u00b0N in the boreal summer with an annual mean position of 1.65\u00b0N while the AHTEQ varies from 2.1 PW northward in the boreal winter to 2.3 PW southward in the boreal summer with an annual mean of 0.1 PW southward. Seasonal variations in the ITCZ location and AHTEQ are highly anticorrelated in the observations and in a suite of state-of-the-art coupled climate models with regression coefficients of \u22122.7\u00b0 and \u22122.4\u00b0 PW\u22121 respectively. It is also found that seasonal variations in ITCZ location and AHTEQ are well correlated in a suite of slab ocean aquaplanet simulations with varying ocean mixed layer depths. However, the regression coefficient between ITCZ location and AHTEQ decreases with decreasing mixed layer depth as a consequence of the asymmetry that develops between the winter and summer Hadley cells as the ITCZ moves farther off the equator. The authors go on to analyze the annual mean change in ITCZ location and AHTEQ in an ensemble of climate perturbation experiments including the response to CO2 doubling, simulations of the Last Glacial Maximum, and simulations of the mid-Holocene. The shift in the annual average ITCZ location is also strongly anticorrelated with the change in annual mean AHTEQ with a regression coefficient of \u22123.2\u00b0 PW\u22121, similar to that found over the seasonal cycle.",
+      "keyword_hits": [
+        "intertropical convergence zone",
+        "itcz"
+      ],
+      "score": 814,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1175/jcli-d-12-00467.1",
+        "crossref_title": "The Relationship between ITCZ Location and Cross-Equatorial Atmospheric Heat Transport: From the Seasonal Cycle to the Last Glacial Maximum",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Climate",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "intertropical convergence zone",
+          "itcz"
+        ],
+        "abstract_snippet": " abstract \n                the authors quantify the relationship between the location of the intertropical convergence zone (itcz) and the atmospheric heat transport across the equator (ahteq) in climate models and in observations. the observed zonal mean itcz location varies from 5.3\u00b0s in the borea",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1175/jcli-d-20-0195.1",
+      "title": "The Impact of SST Biases in the Tropical East Pacific and Agulhas Current Region on Atmospheric Stationary Waves in the Southern Hemisphere",
+      "authors": "Garfinkel, White, Gerber and Jucker",
+      "year": 2020,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 20,
+      "abstract": "Abstract Climate models in phase 5 of the Coupled Model Intercomparison Project (CMIP5) vary significantly in their ability to simulate the phase and amplitude of atmospheric stationary waves in the midlatitude Southern Hemisphere. These models also suffer from a double intertropical convergence zone (ITCZ), with excessive precipitation in the tropical eastern South Pacific, and many also suffer from a biased simulation of the dynamics of the Agulhas Current around the tip of South Africa. The intermodel spread in the strength and phasing of SH midlatitude stationary waves in the CMIP archive is shown to be significantly correlated with the double-ITCZ bias and biases in the Agulhas Return Current. An idealized general circulation model (GCM) is used to demonstrate the causality of these links by prescribing an oceanic heat flux out of the tropical east Pacific and near the Agulhas Current. A warm bias in tropical east Pacific SSTs associated with an erroneous double ITCZ leads to a biased representation of midlatitude stationary waves in the austral hemisphere, capturing the response evident in CMIP models. Similarly, an overly diffuse sea surface temperature gradient associated with a weak Agulhas Return Current leads to an equatorward shift of the Southern Hemisphere jet by more than 3\u00b0 and weak stationary wave activity in the austral hemisphere. Hence, rectification of the double-ITCZ bias and a better representation of the Agulhas Current should be expected to lead to an improved model representation of the austral hemisphere.",
+      "keyword_hits": [
+        "double itcz",
+        "intertropical convergence zone",
+        "southern hemisphere",
+        "cmip",
+        "itcz"
+      ],
+      "score": 100,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1175/jcli-d-20-0195.1",
+        "crossref_title": "The Impact of SST Biases in the Tropical East Pacific and Agulhas Current Region on Atmospheric Stationary Waves in the Southern Hemisphere",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Climate",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "double itcz",
+          "intertropical convergence zone",
+          "southern hemisphere",
+          "cmip",
+          "itcz"
+        ],
+        "abstract_snippet": " abstract  climate models in phase 5 of the coupled model intercomparison project (cmip5) vary significantly in their ability to simulate the phase and amplitude of atmospheric stationary waves in the midlatitude southern hemisphere. these models also suffer from a double intertropical convergence z",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    }
+  ],
+  "dropped": [
+    {
+      "doi": "10.1007/s00382-012-1636-1",
+      "title": "Climate change projections using the IPSL-CM5 Earth System Model: from CMIP3 to CMIP5",
+      "authors": "Dufresne, Foujols, Denvil and Caubel et al.",
+      "year": 2013,
+      "journal": "Climate Dynamics",
+      "journal_ok": true,
+      "cited_by": 1867,
+      "abstract": "We present the global general circulation model IPSL-CM5 developed to study the long-term response of the climate system to natural and anthropogenic forcings as part of the 5th Phase of the Coupled Model Intercomparison Project (CMIP5). This model includes an interactive carbon cycle, a representation of tropospheric and stratospheric chemistry, and a comprehensive representation of aerosols. As it represents the principal dynamical, physical, and bio-geochemical processes relevant to the climate system, it may be referred to as an Earth System Model. However, the IPSL-CM5 model may be used in a multitude of configurations associated with different boundary conditions and with a range of complexities in terms of processes and interactions. This paper presents an overview of the different model components and explains how they were coupled and used to simulate historical climate changes over the past 150 years and different scenarios of future climate change. A single version of the IPSL-CM5 model (IPSL-CM5A-LR) was used to provide climate projections associated with different socio-economic scenarios, including the different Representative Concentration Pathways considered by CMIP5 and several scenarios from the Special Report on Emission Scenarios considered by CMIP3. Results suggest that the magnitude of global warming projections primarily depends on the socio-economic scenario considered, that there is potential for an aggressive mitigation policy to limit global warming to about two degrees, and that the behavior of some components of the climate system such as the Arctic sea ice and the Atlantic Meridional Overturning Circulation may change drastically by the end of the twenty-first century in the case of a no climate policy scenario. Although the magnitude of regional temperature and precipitation changes depends fairly linearly on the magnitude of the projected global warming (and thus on the scenario considered), the geographical pattern of these changes is strikingly similar for the different scenarios. The representation of atmospheric physical processes in the model is shown to strongly influence the simulated climate variability and both the magnitude and pattern of the projected climate changes.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 1867,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1007/s00382-011-1259-y",
+      "title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
+      "authors": "Voldoire, S\u00e1nchez-G\u00f3mez, M\u00e9lia and Decharme et al.",
+      "year": 2012,
+      "journal": "Climate Dynamics",
+      "journal_ok": true,
+      "cited_by": 1386,
+      "abstract": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The purpose of the study is to describe its main features and to provide a preliminary assessment of its mean climatology. CNRM-CM5.1 includes the atmospheric model ARPEGE-Climat (v5.2), the ocean model NEMO (v3.2), the land surface scheme ISBA and the sea ice model GELATO (v5) coupled through the OASIS (v3) system. The main improvements since CMIP3 are the following. Horizontal resolution has been increased both in the atmosphere (from 2.8\u00b0 to 1.4\u00b0) and in the ocean (from 2\u00b0 to 1\u00b0). The dynamical core of the atmospheric component has been revised. A new radiation scheme has been introduced and the treatments of tropospheric and stratospheric aerosols have been improved. Particular care has been devoted to ensure mass/water conservation in the atmospheric component. The land surface scheme ISBA has been externalised from the atmospheric model through the SURFEX platform and includes new developments such as a parameterization of sub-grid hydrology, a new freezing scheme and a new bulk parameterisation for ocean surface fluxes. The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM. Finally, the coupling between the different components through OASIS has also received a particular attention to avoid energy loss and spurious drifts. These developments generally lead to a more realistic representation of the mean recent climate and to a reduction of drifts in a preindustrial integration. The large-scale dynamics is generally improved both in the atmosphere and in the ocean, and the bias in mean surface temperature is clearly reduced. However, some flaws remain such as significant precipitation and radiative biases in many regions, or a pronounced drift in three dimensional salinity.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 1386,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.5194/gmd-9-4185-2016",
+      "title": "High Resolution Model Intercomparison Project (HighResMIP\u00a0v1.0) for CMIP6",
+      "authors": "Haarsma, Roberts, Vidale and Senior et al.",
+      "year": 2016,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 1186,
+      "abstract": "Abstract. Robust projections and predictions of climate variability and change, particularly at regional scales, rely on the driving processes being represented with fidelity in model simulations. The role of enhanced horizontal resolution in improved process representation in all components of the climate system is of growing interest, particularly as some recent simulations suggest both the possibility of significant changes in large-scale aspects of circulation as well as improvements in small-scale processes and extremes. However, such high-resolution global simulations at climate timescales, with resolutions of at least 50 km in the atmosphere and 0.25\u00b0 in the ocean, have been performed at relatively few research centres and generally without overall coordination, primarily due to their computational cost. Assessing the robustness of the response of simulated climate to model resolution requires a large multi-model ensemble using a coordinated set of experiments. The Coupled Model Intercomparison Project 6 (CMIP6) is the ideal framework within which to conduct such a study, due to the strong link to models being developed for the CMIP DECK experiments and other model intercomparison projects (MIPs). Increases in high-performance computing (HPC) resources, as well as the revised experimental design for CMIP6, now enable a detailed investigation of the impact of increased resolution up to synoptic weather scales on the simulated mean climate and its variability. The High Resolution Model Intercomparison Project (HighResMIP) presented in this paper applies, for the first time, a multi-model approach to the systematic investigation of the impact of horizontal resolution. A coordinated set of experiments has been designed to assess both a standard and an enhanced horizontal-resolution simulation in the atmosphere and ocean. The set of HighResMIP experiments is divided into three tiers consisting of atmosphere-only and coupled runs and spanning the period 1950\u20132050, with the possibility of extending to 2100, together with some additional targeted experiments. This paper describes the experimental set-up of HighResMIP, the analysis plan, the connection with the other CMIP6 endorsed MIPs, as well as the DECK and CMIP6 historical simulations. HighResMIP thereby focuses on one of the CMIP6 broad questions, \u201cwhat are the origins and consequences of systematic model biases?\u201d, but we also discuss how it addresses the World Climate Research Program (WCRP) grand challenges.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 1186,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.5194/gmd-6-687-2013",
+      "title": "The Norwegian Earth System Model, NorESM1-M \u2013 Part 1: Description and basic evaluation of the physical climate",
+      "authors": "Bentsen, Bethke, Debernard and Iversen et al.",
+      "year": 2013,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 1044,
+      "abstract": "Abstract. The core version of the Norwegian Climate Center's Earth System Model, named NorESM1-M, is presented. The NorESM family of models are based on the Community Climate System Model version 4 (CCSM4) of the University Corporation for Atmospheric Research, but differs from the latter by, in particular, an isopycnic coordinate ocean model and advanced chemistry\u2013aerosol\u2013cloud\u2013radiation interaction schemes. NorESM1-M has a horizontal resolution of approximately 2\u00b0 for the atmosphere and land components and 1\u00b0 for the ocean and ice components. NorESM is also available in a lower resolution version (NorESM1-L) and a version that includes prognostic biogeochemical cycling (NorESM1-ME). The latter two model configurations are not part of this paper. Here, a first-order assessment of the model stability, the mean model state and the internal variability based on the model experiments made available to CMIP5 are presented. Further analysis of the model performance is provided in an accompanying paper (Iversen et al., 2013), presenting the corresponding climate response and scenario projections made with NorESM1-M.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 1044,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.5194/gmd-13-6165-2020",
+      "title": "Overview of the Norwegian Earth System Model (NorESM2) and key climate response of CMIP6 DECK, historical, and scenario simulations",
+      "authors": "Seland, Bentsen, Olivi\u00e9 and Toniazzo et al.",
+      "year": 2020,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 866,
+      "abstract": "Abstract. The second version of the coupled Norwegian Earth System Model (NorESM2) is presented and evaluated. NorESM2 is based on the second version of the Community Earth System Model (CESM2) and shares with CESM2 the computer code infrastructure and many Earth system model components. However, NorESM2 employs entirely different ocean and ocean biogeochemistry models. The atmosphere component of NorESM2 (CAM-Nor) includes a different module for aerosol physics and chemistry, including interactions with cloud and radiation; additionally, CAM-Nor includes improvements in the formulation of local dry and moist energy conservation, in local and global angular momentum conservation, and in the computations for deep convection and air\u2013sea fluxes. The surface components of NorESM2 have minor changes in the albedo calculations and to land and sea-ice models. We present results from simulations with NorESM2 that were carried out for the sixth phase of the Coupled Model Intercomparison Project (CMIP6). Two versions of the model are used: one with lower (\u223c 2\u2218) atmosphere\u2013land resolution and one with medium (\u223c 1\u2218) atmosphere\u2013land resolution. The stability of the pre-industrial climate and the sensitivity of the model to abrupt and gradual quadrupling of CO2 are assessed, along with the ability of the model to simulate the historical climate under the CMIP6 forcings. Compared to observations and reanalyses, NorESM2 represents an improvement over previous versions of NorESM in most aspects. NorESM2 appears less sensitive to greenhouse gas forcing than its predecessors, with an estimated equilibrium climate sensitivity of 2.5 K in both resolutions on a 150-year time frame; however, this estimate increases with the time window and the climate sensitivity at equilibration is much higher. We also consider the model response to future scenarios as defined by selected Shared Socioeconomic Pathways (SSPs) from the Scenario Model Intercomparison Project defined under CMIP6. Under the four scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5), the warming in the period 2090\u20132099 compared to 1850\u20131879 reaches 1.3, 2.2, 3.0, and 3.9 K in NorESM2-LM, and 1.3, 2.1, 3.1, and 3.9 K in NorESM-MM, robustly similar in both resolutions. NorESM2-LM shows a rather satisfactory evolution of recent sea-ice area. In NorESM2-LM, an ice-free Arctic Ocean is only avoided in the SSP1-2.6 scenario.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 866,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1002/2017ms001115",
+      "title": "The Met Office Global Coupled Model 3.0 and 3.1 (GC3.0 and GC3.1) Configurations",
+      "authors": "Williams, Copsey, Blockley and Bodas\u2010Salcedo et al.",
+      "year": 2017,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 787,
+      "abstract": "Abstract The Global Coupled 3 (GC3) configuration of the Met Office Unified Model is presented. Among other applications, GC3 is the basis of the United Kingdom's submission to the Coupled Model Intercomparison Project 6 (CMIP6). This paper documents the model components that make up the configuration (although the scientific descriptions of these components are in companion papers) and details the coupling between them. The performance of GC3 is assessed in terms of mean biases and variability in long climate simulations using present\u2010day forcing. The suitability of the configuration for predictability on shorter time scales (weather and seasonal forecasting) is also briefly discussed. The performance of GC3 is compared against GC2, the previous Met Office coupled model configuration, and against an older configuration (HadGEM2\u2010AO) which was the submission to CMIP5. In many respects, the performance of GC3 is comparable with GC2, however, there is a notable improvement in the Southern Ocean warm sea surface temperature bias which has been reduced by 75%, and there are improvements in cloud amount and some aspects of tropical variability. Relative to HadGEM2\u2010AO, many aspects of the present\u2010day climate are improved in GC3 including tropospheric and stratospheric temperature structure, most aspects of tropical and extratropical variability and top\u2010of\u2010atmosphere and surface fluxes. A number of outstanding errors are identified including a residual asymmetric sea surface temperature bias (cool northern hemisphere, warm Southern Ocean), an overly strong global hydrological cycle and insufficient European blocking.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 787,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1038/s41467-021-22314-w",
+      "title": "Evidence of anthropogenic impacts on global drought frequency, duration, and intensity",
+      "authors": "Chiang, Mazdiyasni and AghaKouchak",
+      "year": 2021,
+      "journal": "Nature Communications",
+      "journal_ok": false,
+      "cited_by": 624,
+      "abstract": "Most climate change detection and attribution studies have focused on mean or extreme temperature or precipitation, neglecting to explore long-term changes in drought characteristics. Here we provide evidence that anthropogenic forcing has impacted interrelated meteorological drought characteristics. Using SPI and SPEI indices generated from an ensemble of 9 CMIP6 models (using 3 realizations per model), we show that the presence of anthropogenic forcing has increased the drought frequency, maximum drought duration, and maximum drought intensity experienced in large parts of the Americas, Africa, and Asia. Using individual greenhouse gas and anthropogenic aerosol forcings, we also highlight that regional balances between the two major forcings have contributed to the drying patterns detected in our results. Overall, we provide a comprehensive characterization of the influence of anthropogenic forcing on drought characteristics, providing important perspectives on the role of forcings in driving changes in drought events.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 624,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Nature Communications)",
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1071/es19035",
+      "title": "The Australian Earth System Model: ACCESS-ESM1.5",
+      "authors": "Ziehn, Chamberlain, Law and Lenton et al.",
+      "year": 2020,
+      "journal": "Journal of Southern Hemisphere Earth System Science",
+      "journal_ok": false,
+      "cited_by": 607,
+      "abstract": "The Australian Community Climate and Earth System Simulator (ACCESS) has been extended to include land and ocean carbon cycle components to form an Earth System Model (ESM). The current version, ACCESS-ESM1.5, has been mainly developed to enable Australia to participate in the Coupled Model Intercomparison Project Phase 6 (CMIP6) with an ESM version. Here we describe the model components and changes to the previous version, ACCESS-ESM1. We use the 500-year pre-industrial control run to highlight the stability of the physical climate and the carbon cycle. The long spin-up, negligible drift in temperature and small pre-industrial net carbon fluxes (0.02 and 0.08 PgC year\u22121 for land and ocean respectively) highlight the suitability of ACCESS-ESM1.5 to explore modes of variability in the climate system and coupling to the carbon cycle. The physical climate and carbon cycle for the present day have been evaluated using the CMIP6 historical simulation by comparing against observations and ACCESS-ESM1. Although there is generally little change in the climate simulation from the earlier model, many aspects of the carbon simulation are improved. An assessment of the climate response to CO2 forcing indicates that ACCESS-ESM1.5 has an equilibrium climate sensitivity of 3.87\u00b0C.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 607,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Journal of Southern Hemisphere Earth System Science)",
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1029/2019ms001829",
+      "title": "Structure and Performance of GFDL's CM4.0 Climate Model",
+      "authors": "Held, Guo, Adcroft and Dunne et al.",
+      "year": 2019,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 595,
+      "abstract": "Abstract We describe the Geophysical Fluid Dynamics Laboratory's CM4.0 physical climate model, with emphasis on those aspects that may be of particular importance to users of this model and its simulations. The model is built with the AM4.0/LM4.0 atmosphere/land model and OM4.0 ocean model. Topics include the rationale for key choices made in the model formulation, the stability as well as drift of the preindustrial control simulation, and comparison of key aspects of the historical simulations with observations from recent decades. Notable achievements include the relatively small biases in seasonal spatial patterns of top\u2010of\u2010atmosphere fluxes, surface temperature, and precipitation; reduced double Intertropical Convergence Zone bias; dramatically improved representation of ocean boundary currents; a high\u2010quality simulation of climatological Arctic sea ice extent and its recent decline; and excellent simulation of the El Ni\u00f1o\u2010Southern Oscillation spectrum and structure. Areas of concern include inadequate deep convection in the Nordic Seas; an inaccurate Antarctic sea ice simulation; precipitation and wind composites still affected by the equatorial cold tongue bias; muted variability in the Atlantic Meridional Overturning Circulation; strong 100 year quasiperiodicity in Southern Ocean ventilation; and a lack of historical warming before 1990 and too rapid warming thereafter due to high climate sensitivity and strong aerosol forcing, in contrast to the observational record. Overall, CM4.0 scores very well in its fidelity against observations compared to the Coupled Model Intercomparison Project Phase 5 generation in terms of both mean state and modes of variability and should prove a valuable new addition for analysis across a broad array of applications.",
+      "keyword_hits": [
+        "intertropical convergence zone"
+      ],
+      "score": 595,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['intertropical convergence zone']"
+      ]
+    },
+    {
+      "doi": "10.1002/2017rg000568",
+      "title": "ENSO Atmospheric Teleconnections and Their Response to Greenhouse Gas Forcing",
+      "authors": "Yeh, Cai, Min and McPhaden et al.",
+      "year": 2018,
+      "journal": "Reviews of Geophysics",
+      "journal_ok": false,
+      "cited_by": 546,
+      "abstract": "Abstract El Ni\u00f1o and Southern Oscillation (ENSO) is the most prominent year\u2010to\u2010year climate fluctuation on Earth, alternating between anomalously warm (El Ni\u00f1o) and cold (La Ni\u00f1a) sea surface temperature (SST) conditions in the tropical Pacific. ENSO exerts its impacts on remote regions of the globe through atmospheric teleconnections, affecting extreme weather events worldwide. However, these teleconnections are inherently nonlinear and sensitive to ENSO SST anomaly patterns and amplitudes. In addition, teleconnections are modulated by variability in the oceanic and atmopsheric mean state outside the tropics and by land and sea ice extent. The character of ENSO as well as the ocean mean state have changed since the 1990s, which might be due to either natural variability or anthropogenic forcing, or their combined influences. This has resulted in changes in ENSO atmospheric teleconnections in terms of precipitation and temperature in various parts of the globe. In addition, changes in ENSO teleconnection patterns have affected their predictability and the statistics of extreme events. However, the short observational record does not allow us to clearly distinguish which changes are robust and which are not. Climate models suggest that ENSO teleconnections will change because the mean atmospheric circulation will change due to anthropogenic forcing in the 21st century, which is independent of whether ENSO properties change or not. However, future ENSO teleconnection changes do not currently show strong intermodel agreement from region to region, highlighting the importance of identifying factors that affect uncertainty in future model projections.",
+      "keyword_hits": [
+        "tropical pacific"
+      ],
+      "score": 546,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Reviews of Geophysics)",
+        "only 1 keyword hit(s): ['tropical pacific']"
+      ]
+    },
+    {
+      "doi": "10.1175/2009jcli3152.1",
+      "title": "Simulation of Present-Day and Twenty-First-Century Energy Budgets of the Southern Oceans",
+      "authors": "Trenberth and Fasullo",
+      "year": 2009,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 487,
+      "abstract": "Abstract The energy budget of the modern-day Southern Hemisphere is poorly simulated in both state-of-the-art reanalyses and coupled global climate models. The ocean-dominated Southern Hemisphere has low surface reflectivity and therefore its albedo is particularly sensitive to cloud cover. In modern-day climates, mainly because of systematic deficiencies in cloud and albedo at mid- and high latitudes, too much solar radiation enters the ocean. Along with too little radiation absorbed at lower latitudes because of clouds that are too bright, unrealistically weak poleward transports of energy by both the ocean and atmosphere are generally simulated in the Southern Hemisphere. This implies too little baroclinic eddy development and deficient activity in storm tracks. However, projections into the future by coupled climate models indicate that the Southern Ocean features a robust and unique increase in albedo, related to clouds, in association with an intensification and poleward shift in storm tracks that is not observed at any other latitude. Such an increase in cloud may be untenable in nature, as it is likely precluded by the present-day ubiquitous cloud cover that models fail to capture. There is also a remarkably strong relationship between the projected changes in clouds and the simulated current-day cloud errors. The model equilibrium climate sensitivity is also significantly negatively correlated with the Southern Hemisphere energy errors, and only the more sensitive models are in the range of observations. As a result, questions loom large about how the Southern Hemisphere will actually change as global warming progresses, and a better simulation of the modern-day climate is an essential first step.",
+      "keyword_hits": [
+        "southern hemisphere"
+      ],
+      "score": 487,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['southern hemisphere']"
+      ]
+    },
+    {
+      "doi": "10.1175/jcli3631.1",
+      "title": "GFDL's CM2 Global Coupled Climate Models. Part III: Tropical Pacific Climate and ENSO",
+      "authors": "Wittenberg, Rosati, Lau and Ploshay",
+      "year": 2006,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 368,
+      "abstract": "Abstract Multicentury integrations from two global coupled ocean\u2013atmosphere\u2013land\u2013ice models [Climate Model versions 2.0 (CM2.0) and 2.1 (CM2.1), developed at the Geophysical Fluid Dynamics Laboratory] are described in terms of their tropical Pacific climate and El Ni\u00f1o\u2013Southern Oscillation (ENSO). The integrations are run without flux adjustments and provide generally realistic simulations of tropical Pacific climate. The observed annual-mean trade winds and precipitation, sea surface temperature, surface heat fluxes, surface currents, Equatorial Undercurrent, and subsurface thermal structure are well captured by the models. Some biases are evident, including a cold SST bias along the equator, a warm bias along the coast of South America, and a westward extension of the trade winds relative to observations. Along the equator, the models exhibit a robust, westward-propagating annual cycle of SST and zonal winds. During boreal spring, excessive rainfall south of the equator is linked to an unrealistic reversal of the simulated meridional winds in the east, and a stronger-than-observed semiannual signal is evident in the zonal winds and Equatorial Undercurrent. Both CM2.0 and CM2.1 have a robust ENSO with multidecadal fluctuations in amplitude, an irregular period between 2 and 5 yr, and a distribution of SST anomalies that is skewed toward warm events as observed. The evolution of subsurface temperature and current anomalies is also quite realistic. However, the simulated SST anomalies are too strong, too weakly damped by surface heat fluxes, and not as clearly phase locked to the end of the calendar year as in observations. The simulated patterns of tropical Pacific SST, wind stress, and precipitation variability are displaced 20\u00b0\u201330\u00b0 west of the observed patterns, as are the simulated ENSO teleconnections to wintertime 200-hPa heights over Canada and the northeastern Pacific Ocean. Despite this, the impacts of ENSO on summertime and wintertime precipitation outside the tropical Pacific appear to be well simulated. Impacts of the annual-mean biases on the simulated variability are discussed.",
+      "keyword_hits": [
+        "tropical pacific"
+      ],
+      "score": 368,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['tropical pacific']"
+      ]
+    },
+    {
+      "doi": "10.1175/bams-d-15-00013.1",
+      "title": "CMIP5 Scientific Gaps and Recommendations for CMIP6",
+      "authors": "Stouffer, Eyring, Meehl and Bony et al.",
+      "year": 2016,
+      "journal": "Bulletin of the American Meteorological Society",
+      "journal_ok": true,
+      "cited_by": 328,
+      "abstract": "Abstract The Coupled Model Intercomparison Project (CMIP) is an ongoing coordinated international activity of numerical experimentation of unprecedented scope and impact on climate science. Its most recent phase, the fifth phase (CMIP5), has created nearly 2 PB of output from dozens of experiments performed by dozens of comprehensive climate models available to the climate science research community. In so doing, it has greatly advanced climate science. While CMIP5 has given answers to important science questions, with the help of a community survey we identify and motivate three broad topics here that guided the scientific framework of the next phase of CMIP, that is, CMIP6:How does the Earth system respond to changes in forcing?What are the origins and consequences of systematic model biases?How can we assess future climate changes given internal climate variability, predictability, and uncertainties in scenarios? CMIP has demonstrated the power of idealized experiments to better understand how the climate system works. We expect that these idealized approaches will continue to contribute to CMIP6. The quantification of radiative forcings and responses was poor, and thus it requires new methods and experiments to address this gap. There are a number of systematic model biases that appear in all phases of CMIP that remain a major climate modeling challenge. These biases need increased attention to better understand their origins and consequences through targeted experiments. Improving understanding of the mechanisms\u2019 underlying internal climate variability for more skillful decadal climate predictions and long-term projections remains another challenge for CMIP6.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 328,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1002/grl.50502",
+      "title": "Anthropogenic sulfate aerosol and the southward shift of tropical precipitation in the late 20th century",
+      "authors": "Hwang, Frierson and Kang",
+      "year": 2013,
+      "journal": "Geophysical Research Letters",
+      "journal_ok": true,
+      "cited_by": 282,
+      "abstract": "In this paper, we demonstrate a global scale southward shift of the tropical rain belt during the latter half of the 20th century in observations and global climate models (GCMs). In rain gauge data, the southward shift maximizes in the 1980s and is associated with signals in Africa, Asia, and South America. A southward shift exists at a similar time in nearly all CMIP3 and CMIP5 historical simulations, and occurs on both land and ocean, although in most models the shifts are significantly less than in observations. Utilizing a theoretical framework based on atmospheric energetics, we perform an attribution of the zonal mean southward shift of precipitation across a large suite of CMIP3 and CMIP5 GCMs. Our results suggest that anthropogenic aerosol cooling of the Northern Hemisphere is the primary cause of the consistent southward shift across GCMs, although other processes affecting the atmospheric energy budget also contribute to the model\u2010to\u2010model spread.",
+      "keyword_hits": [
+        "cmip"
+      ],
+      "score": 282,
+      "verified": null,
+      "drop_reasons": [
+        "only 1 keyword hit(s): ['cmip']"
+      ]
+    },
+    {
+      "doi": "10.1002/2014rg000475",
+      "title": "A review on regional convection\u2010permitting climate modeling: Demonstrations, prospects, and challenges",
+      "authors": "Prein, Langhans, Fosser and Ferrone et al.",
+      "year": 2015,
+      "journal": "Reviews of Geophysics",
+      "journal_ok": false,
+      "cited_by": 1421,
+      "abstract": "Regional climate modeling using convection-permitting models (CPMs; horizontal grid spacing <4 km) emerges as a promising framework to provide more reliable climate information on regional to local scales compared to traditionally used large-scale models (LSMs; horizontal grid spacing >10 km). CPMs no longer rely on convection parameterization schemes, which had been identified as a major source of errors and uncertainties in LSMs. Moreover, CPMs allow for a more accurate representation of surface and orography fields. The drawback of CPMs is the high demand on computational resources. For this reason, first CPM climate simulations only appeared a decade ago. In this study, we aim to provide a common basis for CPM climate simulations by giving a holistic review of the topic. The most important components in CPMs such as physical parameterizations and dynamical formulations are discussed critically. An overview of weaknesses and an outlook on required future developments is provided. Most importantly, this review presents the consolidated outcome of studies that addressed the added value of CPM climate simulations compared to LSMs. Improvements are evident mostly for climate statistics related to deep convection, mountainous regions, or extreme events. The climate change signals of CPM simulations suggest an increase in flash floods, changes in hail storm characteristics, and reductions in the snowpack over mountains. In conclusion, CPMs are a very promising tool for future climate research. However, coordinated modeling programs are crucially needed to advance parameterizations of unresolved physics and to assess the full potential of CPMs.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Reviews of Geophysics)",
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1175/2010jcli3679.1",
+      "title": "Improved Climate Simulation by MIROC5: Mean States, Variability, and Climate Sensitivity",
+      "authors": "Watanabe, Suzuki, O\u2019ishi and Komuro et al.",
+      "year": 2010,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 1388,
+      "abstract": "Abstract A new version of the atmosphere\u2013ocean general circulation model cooperatively produced by the Japanese research community, known as the Model for Interdisciplinary Research on Climate (MIROC), has recently been developed. A century-long control experiment was performed using the new version (MIROC5) with the standard resolution of the T85 atmosphere and 1\u00b0 ocean models. The climatological mean state and variability are then compared with observations and those in a previous version (MIROC3.2) with two different resolutions (medres, hires), coarser and finer than the resolution of MIROC5. A few aspects of the mean fields in MIROC5 are similar to or slightly worse than MIROC3.2, but otherwise the climatological features are considerably better. In particular, improvements are found in precipitation, zonal mean atmospheric fields, equatorial ocean subsurface fields, and the simulation of El Ni\u00f1o\u2013Southern Oscillation. The difference between MIROC5 and the previous model is larger than that between the two MIROC3.2 versions, indicating a greater effect of updating parameterization schemes on the model climate than increasing the model resolution. The mean cloud property obtained from the sophisticated prognostic schemes in MIROC5 shows good agreement with satellite measurements. MIROC5 reveals an equilibrium climate sensitivity of 2.6 K, which is lower than that in MIROC3.2 by 1 K. This is probably due to the negative feedback of low clouds to the increasing concentration of CO2, which is opposite to that in MIROC3.2.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1038/s41558-018-0355-y",
+      "title": "Taking climate model evaluation to the next level",
+      "authors": "Eyring, Cox, Flato and Gleckler et al.",
+      "year": 2019,
+      "journal": "Nature Climate Change",
+      "journal_ok": true,
+      "cited_by": 748,
+      "abstract": "",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1029/2018ms001369",
+      "title": "Global Mean Climate and Main Patterns of Variability in the CMCC\u2010CM2 Coupled Model",
+      "authors": "Cherchi, Fogli, Lovato and Peano et al.",
+      "year": 2018,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 626,
+      "abstract": "Abstract Euro\u2010Mediterranean Centre on Climate Change coupled climate model (CMCC\u2010CM2) represents the new family of the global coupled climate models developed and used at CMCC. It is based on the atmospheric, land and sea ice components from the Community Earth System Model coupled with the global ocean model Nucleus for European Modeling of the Ocean. This study documents the model components, the coupling strategy, particularly for the oceanic, atmospheric, and sea ice components, and the overall model ability in reproducing the observed mean climate and main patterns of interannual variability. As a first step toward a more comprehensive, process\u2010oriented, validation of the model, this work analyzes a 200\u2010year simulation performed under constant forcing corresponding to present\u2010day climate conditions. In terms of mean climate, the model is able to realistically reproduce the main patterns of temperature, precipitation, and winds. Specifically, we report improvements in the representation of the sea surface temperature with respect to the previous version of the model. In terms of mean atmospheric circulation features, we notice a realistic simulation of upper tropospheric winds and midtroposphere geopotential eddies. The oceanic heat transport and the Atlantic meridional overturning circulation satisfactorily compare with present\u2010day observations and estimates from global ocean reanalyses. The sea ice patterns and associated seasonal variations are realistically reproduced in both hemispheres, with a better skill in winter. Main weaknesses of the simulated climate are related with the precipitation patterns, specifically in the tropical regions with large dry biases over the Amazon basin. Similarly, the seasonal precipitation associated with the monsoons, mostly over Asia, is weaker than observed. The main patterns of interannual variability in terms of dominant empirical orthogonal functions are faithfully reproduced, mostly in the Northern Hemisphere winter. In the tropics the main teleconnection patterns associated with El Ni\u00f1o\u2013Southern Oscillation and with the Indian Ocean Dipole are also in good agreement with observations.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1175/jcli3735.1",
+      "title": "Tropical Intraseasonal Variability in 14 IPCC AR4 Climate Models. Part I: Convective Signals",
+      "authors": "Lin, Kiladis, Mapes and Weickmann et al.",
+      "year": 2006,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 750,
+      "abstract": "Abstract This study evaluates the tropical intraseasonal variability, especially the fidelity of Madden\u2013Julian oscillation (MJO) simulations, in 14 coupled general circulation models (GCMs) participating in the Intergovernmental Panel on Climate Change (IPCC) Fourth Assessment Report (AR4). Eight years of daily precipitation from each model\u2019s twentieth-century climate simulation are analyzed and compared with daily satellite-retrieved precipitation. Space\u2013time spectral analysis is used to obtain the variance and phase speed of dominant convectively coupled equatorial waves, including the MJO, Kelvin, equatorial Rossby (ER), mixed Rossby\u2013gravity (MRG), and eastward inertio\u2013gravity (EIG) and westward inertio\u2013gravity (WIG) waves. The variance and propagation of the MJO, defined as the eastward wavenumbers 1\u20136, 30\u201370-day mode, are examined in detail. The results show that current state-of-the-art GCMs still have significant problems and display a wide range of skill in simulating the tropical intraseasonal variability. The total intraseasonal (2\u2013128 day) variance of precipitation is too weak in most of the models. About half of the models have signals of convectively coupled equatorial waves, with Kelvin and MRG\u2013EIG waves especially prominent. However, the variances are generally too weak for all wave modes except the EIG wave, and the phase speeds are generally too fast, being scaled to excessively deep equivalent depths. An interesting result is that this scaling is consistent within a given model across modes, in that both the symmetric and antisymmetric modes scale similarly to a certain equivalent depth. Excessively deep equivalent depths suggest that these models may not have a large enough reduction in their \u201ceffective static stability\u201d by diabatic heating. The MJO variance approaches the observed value in only 2 of the 14 models, but is less than half of the observed value in the other 12 models. The ratio between the eastward MJO variance and the variance of its westward counterpart is too small in most of the models, which is consistent with the lack of highly coherent eastward propagation of the MJO in many models. Moreover, the MJO variance in 13 of the 14 models does not come from a pronounced spectral peak, but usually comes from part of an overreddened spectrum, which in turn is associated with too strong persistence of equatorial precipitation. The two models that arguably do best at simulating the MJO are the only ones having convective closures/triggers linked in some way to moisture convergence.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1175/2008bams2387.1",
+      "title": "Understanding El Ni\u00f1o in Ocean\u2013Atmosphere General Circulation Models: Progress and Challenges",
+      "authors": "Guilyardi, Wittenberg, Fedorov and Collins et al.",
+      "year": 2008,
+      "journal": "Bulletin of the American Meteorological Society",
+      "journal_ok": true,
+      "cited_by": 532,
+      "abstract": "Determining how El Ni\u00f1o and its impacts may change over the next 10 to 100 years remains a difficult scientific challenge. Ocean-atmosphere coupled general circulation models (CGCMs) are routinely used both to analyze El Ni\u00f1o mechanisms and teleconnections and to predict its evolution on a broad range of time scales, from seasonal to centennial. The ability to simulate El Ni\u00f1o as an emergent property of these models has largely improved over the last few years. Nevertheless, the diversity of model simulations of present-day El Ni\u00f1o indicates current limitations in our ability to model this climate phenomenon and to anticipate changes in its characteristics. A review of the several factors that contribute to this diversity, as well as potential means to improve the simulation of El Ni\u00f1o, is presented.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1029/2018ms001400",
+      "title": "Developments in the MPI\u2010M Earth System Model version 1.2 (MPI\u2010ESM1.2) and Its Response to Increasing CO<sub>2</sub>",
+      "authors": "Mauritsen, Bader, Becker and Behrens et al.",
+      "year": 2019,
+      "journal": "Journal of Advances in Modeling Earth Systems",
+      "journal_ok": true,
+      "cited_by": 1516,
+      "abstract": "A new release of the Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM1.2) is presented. The development focused on correcting errors in and improving the physical processes representation, as well as improving the computational performance, versatility, and overall user friendliness. In addition to new radiation and aerosol parameterizations of the atmosphere, several relatively large, but partly compensating, coding errors in the model's cloud, convection, and turbulence parameterizations were corrected. The representation of land processes was refined by introducing a multilayer soil hydrology scheme, extending the land biogeochemistry to include the nitrogen cycle, replacing the soil and litter decomposition model and improving the representation of wildfires. The ocean biogeochemistry now represents cyanobacteria prognostically in order to capture the response of nitrogen fixation to changing climate conditions and further includes improved detritus settling and numerous other refinements. As something new, in addition to limiting drift and minimizing certain biases, the instrumental record warming was explicitly taken into account during the tuning process. To this end, a very high climate sensitivity of around 7 K caused by low-level clouds in the tropics as found in an intermediate model version was addressed, as it was not deemed possible to match observed warming otherwise. As a result, the model has a climate sensitivity to a doubling of CO<sub>2</sub> over preindustrial conditions of 2.77 K, maintaining the previously identified highly nonlinear global mean response to increasing CO<sub>2</sub> forcing, which nonetheless can be represented by a simple two-layer model.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1111/nyas.14337",
+      "title": "Advances in understanding large\u2010scale responses of the water cycle to climate change",
+      "authors": "Allan, Barlow, Byrne and Cherchi et al.",
+      "year": 2020,
+      "journal": "Annals of the New York Academy of Sciences",
+      "journal_ok": false,
+      "cited_by": 616,
+      "abstract": "Globally, thermodynamics explains an increase in atmospheric water vapor with warming of around 7%/\u00b0C near to the surface. In contrast, global precipitation and evaporation are constrained by the Earth's energy balance to increase at \u223c2-3%/\u00b0C. However, this rate of increase is suppressed by rapid atmospheric adjustments in response to greenhouse gases and absorbing aerosols that directly alter the atmospheric energy budget. Rapid adjustments to forcings, cooling effects from scattering aerosol, and observational uncertainty can explain why observed global precipitation responses are currently difficult to detect but are expected to emerge and accelerate as warming increases and aerosol forcing diminishes. Precipitation increases with warming are expected to be smaller over land than ocean due to limitations on moisture convergence, exacerbated by feedbacks and affected by rapid adjustments. Thermodynamic increases in atmospheric moisture fluxes amplify wet and dry events, driving an intensification of precipitation extremes. The rate of intensification can deviate from a simple thermodynamic response due to in-storm and larger-scale feedback processes, while changes in large-scale dynamics and catchment characteristics further modulate the frequency of flooding in response to precipitation increases. Changes in atmospheric circulation in response to radiative forcing and evolving surface temperature patterns are capable of dominating water cycle changes in some regions. Moreover, the direct impact of human activities on the water cycle through water abstraction, irrigation, and land use change is already a significant component of regional water cycle change and is expected to further increase in importance as water demand grows with global population.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "journal not whitelisted (Annals of the New York Academy of Sciences)",
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.1038/s41558-019-0436-6",
+      "title": "Progressing emergent constraints on future climate change",
+      "authors": "Hall, Cox, Huntingford and Klein",
+      "year": 2019,
+      "journal": "Nature Climate Change",
+      "journal_ok": true,
+      "cited_by": 445,
+      "abstract": "",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    },
+    {
+      "doi": "10.5194/acp-16-3761-2016",
+      "title": "Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2 \u00b0C global warming could be dangerous",
+      "authors": "Hansen, Sato, Hearty and R\u00fcedy et al.",
+      "year": 2016,
+      "journal": "Atmospheric chemistry and physics",
+      "journal_ok": true,
+      "cited_by": 588,
+      "abstract": "Abstract. We use numerical climate simulations, paleoclimate data, and modern observations to study the effect of growing ice melt from Antarctica and Greenland. Meltwater tends to stabilize the ocean column, inducing amplifying feedbacks that increase subsurface ocean warming and ice shelf melting. Cold meltwater and induced dynamical effects cause ocean surface cooling in the Southern Ocean and North Atlantic, thus increasing Earth's energy imbalance and heat flux into most of the global ocean's surface. Southern Ocean surface cooling, while lower latitudes are warming, increases precipitation on the Southern Ocean, increasing ocean stratification, slowing deepwater formation, and increasing ice sheet mass loss. These feedbacks make ice sheets in contact with the ocean vulnerable to accelerating disintegration. We hypothesize that ice mass loss from the most vulnerable ice, sufficient to raise sea level several meters, is better approximated as exponential than by a more linear response. Doubling times of 10, 20 or 40 years yield multi-meter sea level rise in about 50, 100 or 200 years. Recent ice melt doubling times are near the lower end of the 10\u201340-year range, but the record is too short to confirm the nature of the response. The feedbacks, including subsurface ocean warming, help explain paleoclimate data and point to a dominant Southern Ocean role in controlling atmospheric CO2, which in turn exercised tight control on global temperature and sea level. The millennial (500\u20132000-year) timescale of deep-ocean ventilation affects the timescale for natural CO2 change and thus the timescale for paleo-global climate, ice sheet, and sea level changes, but this paleo-millennial timescale should not be misinterpreted as the timescale for ice sheet response to a rapid, large, human-made climate forcing. These climate feedbacks aid interpretation of events late in the prior interglacial, when sea level rose to +6\u20139 m with evidence of extreme storms while Earth was less than 1 \u00b0C warmer than today. Ice melt cooling of the North Atlantic and Southern oceans increases atmospheric temperature gradients, eddy kinetic energy and baroclinicity, thus driving more powerful storms. The modeling, paleoclimate evidence, and ongoing observations together imply that 2 \u00b0C global warming above the preindustrial level could be dangerous. Continued high fossil fuel emissions this century are predicted to yield (1) cooling of the Southern Ocean, especially in the Western Hemisphere; (2) slowing of the Southern Ocean overturning circulation, warming of the ice shelves, and growing ice sheet mass loss; (3) slowdown and eventual shutdown of the Atlantic overturning circulation with cooling of the North Atlantic region; (4) increasingly powerful storms; and (5) nonlinearly growing sea level rise, reaching several meters over a timescale of 50\u2013150 years. These predictions, especially the cooling in the Southern Ocean and North Atlantic with markedly reduced warming or even cooling in Europe, differ fundamentally from existing climate change assessments. We discuss observations and modeling studies needed to refute or clarify these assertions.",
+      "keyword_hits": [],
+      "score": 0,
+      "verified": null,
+      "drop_reasons": [
+        "only 0 keyword hit(s): []"
+      ]
+    }
+  ],
+  "rejected": [],
+  "status": "VERIFIED"
+}

@@ -1,0 +1,201 @@
+{
+  "bias_id": "southern-ocean-shortwave",
+  "bias_name": "Southern Ocean Shortwave Bias",
+  "keywords": [
+    "southern ocean",
+    "shortwave",
+    "cloud bias",
+    "radiation",
+    "cmip",
+    "reflected",
+    "absorbed",
+    "southern hemisphere"
+  ],
+  "candidates": [
+    {
+      "doi": "10.1007/s00382-011-1259-y",
+      "title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
+      "authors": "Voldoire, S\u00e1nchez-G\u00f3mez, M\u00e9lia and Decharme et al.",
+      "year": 2012,
+      "journal": "Climate Dynamics",
+      "journal_ok": true,
+      "cited_by": 1386,
+      "abstract": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The purpose of the study is to describe its main features and to provide a preliminary assessment of its mean climatology. CNRM-CM5.1 includes the atmospheric model ARPEGE-Climat (v5.2), the ocean model NEMO (v3.2), the land surface scheme ISBA and the sea ice model GELATO (v5) coupled through the OASIS (v3) system. The main improvements since CMIP3 are the following. Horizontal resolution has been increased both in the atmosphere (from 2.8\u00b0 to 1.4\u00b0) and in the ocean (from 2\u00b0 to 1\u00b0). The dynamical core of the atmospheric component has been revised. A new radiation scheme has been introduced and the treatments of tropospheric and stratospheric aerosols have been improved. Particular care has been devoted to ensure mass/water conservation in the atmospheric component. The land surface scheme ISBA has been externalised from the atmospheric model through the SURFEX platform and includes new developments such as a parameterization of sub-grid hydrology, a new freezing scheme and a new bulk parameterisation for ocean surface fluxes. The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM. Finally, the coupling between the different components through OASIS has also received a particular attention to avoid energy loss and spurious drifts. These developments generally lead to a more realistic representation of the mean recent climate and to a reduction of drifts in a preindustrial integration. The large-scale dynamics is generally improved both in the atmosphere and in the ocean, and the bias in mean surface temperature is clearly reduced. However, some flaws remain such as significant precipitation and radiative biases in many regions, or a pronounced drift in three dimensional salinity.",
+      "keyword_hits": [
+        "radiation",
+        "cmip"
+      ],
+      "score": 2772,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 200,
+        "landing_url": "https://link.springer.com/article/10.1007/s00382-011-1259-y",
+        "crossref_title": "The CNRM-CM5.1 global climate model: description and basic evaluation",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Climate Dynamics",
+        "journal_match_ok": true,
+        "abstract_hits": [],
+        "abstract_snippet": "(title-only check \u2014 no Crossref abstract)",
+        "abstract_ok": false,
+        "verdict": "FLAGGED",
+        "fail_reasons": [
+          "SOFT FLAGS ONLY \u2014 passed with warnings",
+          "Abstract has only 0 keyword hit(s): []"
+        ]
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.5194/gmd-6-687-2013",
+      "title": "The Norwegian Earth System Model, NorESM1-M \u2013 Part 1: Description and basic evaluation of the physical climate",
+      "authors": "Bentsen, Bethke, Debernard and Iversen et al.",
+      "year": 2013,
+      "journal": "Geoscientific model development",
+      "journal_ok": true,
+      "cited_by": 1044,
+      "abstract": "Abstract. The core version of the Norwegian Climate Center's Earth System Model, named NorESM1-M, is presented. The NorESM family of models are based on the Community Climate System Model version 4 (CCSM4) of the University Corporation for Atmospheric Research, but differs from the latter by, in particular, an isopycnic coordinate ocean model and advanced chemistry\u2013aerosol\u2013cloud\u2013radiation interaction schemes. NorESM1-M has a horizontal resolution of approximately 2\u00b0 for the atmosphere and land components and 1\u00b0 for the ocean and ice components. NorESM is also available in a lower resolution version (NorESM1-L) and a version that includes prognostic biogeochemical cycling (NorESM1-ME). The latter two model configurations are not part of this paper. Here, a first-order assessment of the model stability, the mean model state and the internal variability based on the model experiments made available to CMIP5 are presented. Further analysis of the model performance is provided in an accompanying paper (Iversen et al., 2013), presenting the corresponding climate response and scenario projections made with NorESM1-M.",
+      "keyword_hits": [
+        "radiation",
+        "cmip"
+      ],
+      "score": 2088,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 200,
+        "landing_url": "https://gmd.copernicus.org/articles/6/687/2013/",
+        "crossref_title": "The Norwegian Earth System Model, NorESM1-M \u2013 Part 1: Description and basic evaluation of the physical climate",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Geoscientific Model Development",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "radiation",
+          "cmip"
+        ],
+        "abstract_snippet": " abstract. the core version of the norwegian climate center's earth system model, named noresm1-m, is presented. the noresm family of models are based on the community climate system model version 4 (ccsm4) of the university corporation for atmospheric research, but differs from the latter by, in pa",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1175/2009jcli3152.1",
+      "title": "Simulation of Present-Day and Twenty-First-Century Energy Budgets of the Southern Oceans",
+      "authors": "Trenberth and Fasullo",
+      "year": 2009,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 487,
+      "abstract": "Abstract The energy budget of the modern-day Southern Hemisphere is poorly simulated in both state-of-the-art reanalyses and coupled global climate models. The ocean-dominated Southern Hemisphere has low surface reflectivity and therefore its albedo is particularly sensitive to cloud cover. In modern-day climates, mainly because of systematic deficiencies in cloud and albedo at mid- and high latitudes, too much solar radiation enters the ocean. Along with too little radiation absorbed at lower latitudes because of clouds that are too bright, unrealistically weak poleward transports of energy by both the ocean and atmosphere are generally simulated in the Southern Hemisphere. This implies too little baroclinic eddy development and deficient activity in storm tracks. However, projections into the future by coupled climate models indicate that the Southern Ocean features a robust and unique increase in albedo, related to clouds, in association with an intensification and poleward shift in storm tracks that is not observed at any other latitude. Such an increase in cloud may be untenable in nature, as it is likely precluded by the present-day ubiquitous cloud cover that models fail to capture. There is also a remarkably strong relationship between the projected changes in clouds and the simulated current-day cloud errors. The model equilibrium climate sensitivity is also significantly negatively correlated with the Southern Hemisphere energy errors, and only the more sensitive models are in the range of observations. As a result, questions loom large about how the Southern Hemisphere will actually change as global warming progresses, and a better simulation of the modern-day climate is an essential first step.",
+      "keyword_hits": [
+        "southern ocean",
+        "radiation",
+        "absorbed",
+        "southern hemisphere"
+      ],
+      "score": 1948,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1175/2009jcli3152.1",
+        "crossref_title": "Simulation of Present-Day and Twenty-First-Century Energy Budgets of the Southern Oceans",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Climate",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "southern ocean",
+          "radiation",
+          "absorbed",
+          "southern hemisphere"
+        ],
+        "abstract_snippet": " abstract \n                the energy budget of the modern-day southern hemisphere is poorly simulated in both state-of-the-art reanalyses and coupled global climate models. the ocean-dominated southern hemisphere has low surface reflectivity and therefore its albedo is particularly sensitive to clo",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1175/jcli-d-13-00169.1",
+      "title": "Origins of the Solar Radiation Biases over the Southern Ocean in CFMIP2 Models*",
+      "authors": "Bodas\u2010Salcedo, Williams, Ringer and Beau et al.",
+      "year": 2013,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 350,
+      "abstract": "Abstract Current climate models generally reflect too little solar radiation over the Southern Ocean, which may be the leading cause of the prevalent sea surface temperature biases in climate models. The authors study the role of clouds on the radiation biases in atmosphere-only simulations of the Cloud Feedback Model Intercomparison Project phase 2 (CFMIP2), as clouds have a leading role in controlling the solar radiation absorbed at those latitudes. The authors composite daily data around cyclone centers in the latitude band between 40\u00b0 and 70\u00b0S during the summer. They use cloud property estimates from satellite to classify clouds into different regimes, which allow them to relate the cloud regimes and their associated radiative biases to the meteorological conditions in which they occur. The cloud regimes are defined using cloud properties retrieved using passive sensors and may suffer from the errors associated with this type of retrievals. The authors use information from the Cloud\u2013Aerosol Lidar and Infrared Pathfinder Satellite Observations (CALIPSO) lidar to investigate in more detail the properties of the \u201cmidlevel\u201d cloud regime. Most of the model biases occur in the cold-air side of the cyclone composite, and the cyclone composite accounts for most of the climatological error in that latitudinal band. The midlevel regime is the main contributor to reflected shortwave radiation biases. CALIPSO data show that the midlevel cloud regime is dominated by two main cloud types: cloud with tops actually at midlevel and low-level cloud. Improving the simulation of these cloud types should help reduce the biases in the simulation of the solar radiation budget in the Southern Ocean in climate models.",
+      "keyword_hits": [
+        "southern ocean",
+        "shortwave",
+        "radiation",
+        "reflected",
+        "absorbed"
+      ],
+      "score": 1750,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1175/jcli-d-13-00169.1",
+        "crossref_title": "Origins of the Solar Radiation Biases over the Southern Ocean in CFMIP2 Models*",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Climate",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "southern ocean",
+          "shortwave",
+          "radiation",
+          "reflected",
+          "absorbed"
+        ],
+        "abstract_snippet": " abstract  current climate models generally reflect too little solar radiation over the southern ocean, which may be the leading cause of the prevalent sea surface temperature biases in climate models. the authors study the role of clouds on the radiation biases in atmosphere-only simulations of the",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    },
+    {
+      "doi": "10.1175/jcli-d-13-00337.1",
+      "title": "Tropical Biases in CMIP5 Multimodel Ensemble: The Excessive Equatorial Pacific Cold Tongue and Double ITCZ Problems*",
+      "authors": "Li and Xie",
+      "year": 2013,
+      "journal": "Journal of Climate",
+      "journal_ok": true,
+      "cited_by": 543,
+      "abstract": "Abstract Errors of coupled general circulation models (CGCMs) limit their utility for climate prediction and projection. Origins of and feedback for tropical biases are investigated in the historical climate simulations of 18 CGCMs from phase 5 of the Coupled Model Intercomparison Project (CMIP5), together with the available Atmospheric Model Intercomparison Project (AMIP) simulations. Based on an intermodel empirical orthogonal function (EOF) analysis of tropical Pacific precipitation, the excessive equatorial Pacific cold tongue and double intertropical convergence zone (ITCZ) stand out as the most prominent errors of the current generation of CGCMs. The comparison of CMIP\u2013AMIP pairs enables us to identify whether a given type of errors originates from atmospheric models. The equatorial Pacific cold tongue bias is associated with deficient precipitation and surface easterly wind biases in the western half of the basin in CGCMs, but these errors are absent in atmosphere-only models, indicating that the errors arise from the interaction with the ocean via Bjerknes feedback. For the double ITCZ problem, excessive precipitation south of the equator correlates well with excessive downward solar radiation in the Southern Hemisphere (SH) midlatitudes, an error traced back to atmospheric model simulations of cloud during austral spring and summer. This extratropical forcing of the ITCZ displacements is mediated by tropical ocean\u2013atmosphere interaction and is consistent with recent studies of ocean\u2013atmospheric energy transport balance.",
+      "keyword_hits": [
+        "radiation",
+        "cmip",
+        "southern hemisphere"
+      ],
+      "score": 1629,
+      "verified": {
+        "doi_resolves": true,
+        "http_status": 403,
+        "landing_url": "https://doi.org/10.1175/jcli-d-13-00337.1",
+        "crossref_title": "Tropical Biases in CMIP5 Multimodel Ensemble: The Excessive Equatorial Pacific Cold Tongue and Double ITCZ Problems*",
+        "title_match_score": 1.0,
+        "title_match_ok": true,
+        "crossref_journal": "Journal of Climate",
+        "journal_match_ok": true,
+        "abstract_hits": [
+          "radiation",
+          "cmip",
+          "southern hemisphere"
+        ],
+        "abstract_snippet": " abstract \n                errors of coupled general circulation models (cgcms) limit their utility for climate prediction and projection. origins of and feedback for tropical biases are investigated in the historical climate simulations of 18 cgcms from phase 5 of the coupled model intercomparison ",
+        "abstract_ok": true,
+        "verdict": "VERIFIED",
+        "fail_reasons": []
+      },
+      "drop_reasons": []
+    }
+  ],
+  "dropped": [],
+  "rejected": [],
+  "status": "VERIFIED"
+}

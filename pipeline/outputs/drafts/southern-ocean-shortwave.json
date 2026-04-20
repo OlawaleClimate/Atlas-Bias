@@ -1,0 +1,68 @@
+{
+  "id": "southern-ocean-shortwave",
+  "name": "Southern Ocean Shortwave Bias",
+  "version": "1.0",
+  "last_updated": "2026-04-20",
+  "category": "clouds",
+  "region": "southern_ocean",
+  "season": "annual",
+  "affected_variables": [],
+  "description": "The Southern Ocean Shortwave Bias is one of the most documented systematic errors in coupled climate models. Along with too little radiation absorbed at lower latitudes because of clouds that are too bright, unrealistically weak poleward transports of energy by both the ocean and atmosphere are generally simulated in the Southern Hemisphere. The midlevel regime is the main contributor to reflected shortwave radiation biases.\n\nAcross successive generations of the Coupled Model Intercomparison Project (CMIP), the bias has been tracked in multi-model assessments. A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The main improvements since CMIP3 are the following.\n\nThe physical mechanisms underlying this bias and potential pathways to its reduction have been investigated in several studies. Along with too little radiation absorbed at lower latitudes because of clouds that are too bright, unrealistically weak poleward transports of energy by both the ocean and atmosphere are generally simulated in the Southern Hemisphere. The midlevel regime is the main contributor to reflected shortwave radiation biases.",
+  "persistence": "longstanding",
+  "cmip_history": [
+    {
+      "generation": "CMIP3",
+      "severity": "moderate",
+      "notes": "The ocean model is based on the state-of-the-art version of NEMO, which has greatly progressed since the OPA8.0 version used in the CMIP3 version of CNRM-CM."
+    },
+    {
+      "generation": "CMIP5",
+      "severity": "moderate",
+      "notes": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5)."
+    }
+  ],
+  "severity_by_model": {},
+  "implicated_params": [],
+  "fix_attempts": [],
+  "cascade_links": [],
+  "disputed_mechanisms": [],
+  "citations": [
+    {
+      "authors": "Voldoire, S\u00e1nchez-G\u00f3mez, M\u00e9lia and Decharme et al.",
+      "year": 2012,
+      "journal": "Climate Dynamics",
+      "doi": "10.1007/s00382-011-1259-y",
+      "relevance": "A new version of the general circulation model CNRM-CM has been developed jointly by CNRM-GAME (Centre National de Recherches M\u00e9t\u00e9orologiques\u2014Groupe d\u2019\u00e9tudes de l\u2019Atmosph\u00e8re M\u00e9t\u00e9orologique) and Cerfacs (Centre Europ\u00e9en de Recherche et de Formation Avanc\u00e9e) in order to contribute to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The purpose of the study is to describe its main features and to provide a preliminary assessment of its mean climatology. Horizontal resolution has been increased both in the atmosphere (from 2.8\u00b0 to 1.4\u00b0) and in the ocean (from 2\u00b0 to 1\u00b0). However, some flaws remain such as significant precipitation and radiative biases in many regions, or a pronounced drift in three dimensional salinity."
+    },
+    {
+      "authors": "Bentsen, Bethke, Debernard and Iversen et al.",
+      "year": 2013,
+      "journal": "Geoscientific model development",
+      "doi": "10.5194/gmd-6-687-2013",
+      "relevance": "The core version of the Norwegian Climate Center's Earth System Model, named NorESM1-M, is presented. Here, a first-order assessment of the model stability, the mean model state and the internal variability based on the model experiments made available to CMIP5 are presented. The NorESM family of models are based on the Community Climate System Model version 4 (CCSM4) of the University Corporation for Atmospheric Research, but differs from the latter by, in particular, an isopycnic coordinate ocean model and advanced chemistry\u2013aerosol\u2013cloud\u2013radiation interaction schemes. Further analysis of the model performance is provided in an accompanying paper (Iversen et al., 2013), presenting the corresponding climate response and scenario projections made with NorESM1-M."
+    },
+    {
+      "authors": "Trenberth and Fasullo",
+      "year": 2009,
+      "journal": "Journal of Climate",
+      "doi": "10.1175/2009jcli3152.1",
+      "relevance": "Abstract The energy budget of the modern-day Southern Hemisphere is poorly simulated in both state-of-the-art reanalyses and coupled global climate models. The ocean-dominated Southern Hemisphere has low surface reflectivity and therefore its albedo is particularly sensitive to cloud cover. In modern-day climates, mainly because of systematic deficiencies in cloud and albedo at mid- and high latitudes, too much solar radiation enters the ocean. As a result, questions loom large about how the Southern Hemisphere will actually change as global warming progresses, and a better simulation of the modern-day climate is an essential first step."
+    },
+    {
+      "authors": "Bodas\u2010Salcedo, Williams, Ringer and Beau et al.",
+      "year": 2013,
+      "journal": "Journal of Climate",
+      "doi": "10.1175/jcli-d-13-00169.1",
+      "relevance": "Abstract Current climate models generally reflect too little solar radiation over the Southern Ocean, which may be the leading cause of the prevalent sea surface temperature biases in climate models. The authors study the role of clouds on the radiation biases in atmosphere-only simulations of the Cloud Feedback Model Intercomparison Project phase 2 (CFMIP2), as clouds have a leading role in controlling the solar radiation absorbed at those latitudes. The authors composite daily data around cyclone centers in the latitude band between 40\u00b0 and 70\u00b0S during the summer. Improving the simulation of these cloud types should help reduce the biases in the simulation of the solar radiation budget in the Southern Ocean in climate models."
+    },
+    {
+      "authors": "Li and Xie",
+      "year": 2013,
+      "journal": "Journal of Climate",
+      "doi": "10.1175/jcli-d-13-00337.1",
+      "relevance": "Abstract Errors of coupled general circulation models (CGCMs) limit their utility for climate prediction and projection. Origins of and feedback for tropical biases are investigated in the historical climate simulations of 18 CGCMs from phase 5 of the Coupled Model Intercomparison Project (CMIP5), together with the available Atmospheric Model Intercomparison Project (AMIP) simulations. Based on an intermodel empirical orthogonal function (EOF) analysis of tropical Pacific precipitation, the excessive equatorial Pacific cold tongue and double intertropical convergence zone (ITCZ) stand out as the most prominent errors of the current generation of CGCMs. This extratropical forcing of the ITCZ displacements is mediated by tropical ocean\u2013atmosphere interaction and is consistent with recent studies of ocean\u2013atmospheric energy transport balance."
+    }
+  ],
+  "feedback_history": [],
+  "changelog": []
+}
