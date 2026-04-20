@@ -41,6 +41,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          VITE_GITHUB_REPO: ${{ github.repository }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
